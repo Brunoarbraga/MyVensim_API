@@ -1,5 +1,13 @@
 <map id="unit_model_flow_constructor" name="unit_model_flow_constructor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,214,33"/>
-<area shape="rect" id="Node000002" href="$classModel.html#a34ddcfaabed6deac52926068f4ced415" title="Flow iterator begin." alt="" coords="262,5,401,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,17,246,17,246,22,214,22"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,214,60"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ac4fae3f8be03e46d81eeb4d6b2e6c99b" title=" " alt="" coords="266,5,408,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="214,31,250,27,251,32,214,36"/>
+<area shape="rect" id="Node000004" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="262,57,412,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="214,55,246,58,246,64,214,60"/>
+<area shape="rect" id="Node000003" href="$classModel.html#a7cfac518d3f6ec84e858568175a28f20" title="add function for the model." alt="" coords="503,5,596,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,17,487,17,487,22,408,22"/>
+<area shape="rect" id="Node000005" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="460,57,639,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="412,69,444,69,444,74,412,74"/>
+<area shape="rect" id="Node000006" href="$classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f" title="Modelimpl default constructor." alt="" coords="687,57,855,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="640,69,672,69,672,74,640,74"/>
 </map>

@@ -11,8 +11,7 @@ Represents the model.
 
 
 
-Inheritance diagram for Modelimpl\+:
-\nopagebreak
+Inheritance diagram for Modelimpl\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -21,8 +20,7 @@ Inheritance diagram for Modelimpl\+:
 \end{figure}
 
 
-Collaboration diagram for Modelimpl\+:
-\nopagebreak
+Collaboration diagram for Modelimpl\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -47,6 +45,14 @@ typedef vector$<$ \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*} 
 \begin{DoxyCompactItemize}
 \item 
 \mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9}{create\+System}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}}, double value)
+\item 
+\mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classModelimpl_a50b4c9f2a6cbad539d3d239f58d94497}{create\+System}} ()
+\item 
+\mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classModelimpl_aecd5c79131fcf2ece23191842fcf1b2f}{create\+System}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}})
+\item 
+\mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classModelimpl_aa0ebd3db0c1f90e1d49675c04cf9868d}{create\+System}} (double value)
+\item 
+\mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classModelimpl_ab21dd5de16b433edccc3d7bc6c7a9a0f}{create\+System}} (\mbox{\hyperlink{classSystem}{System}} \&system)
 \item 
 \mbox{\hyperlink{classModelimpl_a04c11f4a55a7f8d29f4aa7939e146d4f}{Modelimpl}} ()
 \begin{DoxyCompactList}\small\item\em \doxylink{classModelimpl}{Modelimpl} default constructor. \end{DoxyCompactList}\item 
@@ -91,17 +97,41 @@ void \mbox{\hyperlink{classModelimpl_afcfe6ae4a7407f0c64f731d57a98a58d}{print\+M
 \item 
 {\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classModel_ac4fae3f8be03e46d81eeb4d6b2e6c99b}{create\+Flow}} (string name, double value, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}origin, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}destination)
 \item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classModel_ad8be2140b3957d14c245c09dc23f8821}{create\+Flow}} ()
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classModel_ab7272f5ea02b31907e1d4851d575468b}{create\+Flow}} (\mbox{\hyperlink{classFlow}{Flow}} \&f)
+\item 
 virtual \mbox{\hyperlink{classModel_af032d8433c87a0a3a431faf6563a1f03}{\texorpdfstring{$\sim$}{\string~}\+Model}} ()
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModelimpl_a10be44f13a078279fe45c605dc5ce599}{create\+Model}} ()
+\item 
 static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModelimpl_a22af9eed14296a74acc0ff30bed10547}{create\+Model}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}})
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModelimpl_a8b0210087faa051ca0e1c9607fe04306}{create\+Model}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}systems)
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModelimpl_a60746c0e2d31620f13f963763685983c}{create\+Model}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flows)
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModelimpl_a8b88d84c6cb10b9ffe36f136788f1046}{create\+Model}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}systems, \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flows)
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModelimpl_a5d012fac106751ee5c4b5ba1045f3150}{create\+Model}} (\mbox{\hyperlink{classModel}{Model}} \&copied\+Model)
 \end{DoxyCompactItemize}
 \doxysubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{classModel}{Model}}}
 \begin{DoxyCompactItemize}
 \item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_a51a6961eef61a054605c3b781410d753}{create\+Model}} ()
+\item 
 static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_a43bbe9ff53dbcc9fd7369ddcc0888e67}{create\+Model}} (string name)
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_a7087153499555afbcb621b9d67cb0bbd}{create\+Model}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}systems)
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_afab982dadc156090adae7b0119350d68}{create\+Model}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flows)
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_adb559e6fdef87f6138dc010c3d2eaebd}{create\+Model}} (string name, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}systems, \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flows)
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_a2b1fdba0e8140f455f9e3836884a47bd}{create\+Model}} (\mbox{\hyperlink{classModel}{Model}} \&copied\+Model)
 \end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Member Functions}
 \begin{DoxyCompactItemize}
@@ -171,7 +201,7 @@ Instances a \doxylink{classModelimpl}{Modelimpl} object with an empty string "{}
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classModelimpl_a04c11f4a55a7f8d29f4aa7939e146d4f_icgraph}
+\includegraphics[height=550pt]{classModelimpl_a04c11f4a55a7f8d29f4aa7939e146d4f_icgraph}
 \end{center}
 \end{figure}
 \Hypertarget{classModelimpl_ad10c783a3dd9e877a678ee6f452ca021}\label{classModelimpl_ad10c783a3dd9e877a678ee6f452ca021} 
@@ -307,8 +337,7 @@ reutrns a boolean value, true if the addition was successful, false otherwise. U
 
 Implements \mbox{\hyperlink{classModel_a7cfac518d3f6ec84e858568175a28f20}{Model}}.
 
-Here is the caller graph for this function\+:
-\nopagebreak
+Here is the caller graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -339,18 +368,17 @@ reutrns a boolean value, true if the addition was successful, false otherwise. U
 
 Implements \mbox{\hyperlink{classModel_a5e0e020c71a3f663705f23cfc1f3424a}{Model}}.
 
-\Hypertarget{classModelimpl_a22af9eed14296a74acc0ff30bed10547}\label{classModelimpl_a22af9eed14296a74acc0ff30bed10547} 
+\Hypertarget{classModelimpl_a10be44f13a078279fe45c605dc5ce599}\label{classModelimpl_a10be44f13a078279fe45c605dc5ce599} 
 \index{Modelimpl@{Modelimpl}!createModel@{createModel}}
 \index{createModel@{createModel}!Modelimpl@{Modelimpl}}
-\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
 
-Here is the call graph for this function\+:
-\nopagebreak
+Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classModelimpl_a22af9eed14296a74acc0ff30bed10547_cgraph}
+\includegraphics[width=350pt]{classModelimpl_a10be44f13a078279fe45c605dc5ce599_cgraph}
 \end{center}
 \end{figure}
 Here is the caller graph for this function\+:
@@ -358,25 +386,157 @@ Here is the caller graph for this function\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classModelimpl_a22af9eed14296a74acc0ff30bed10547_icgraph}
+\includegraphics[height=550pt]{classModelimpl_a10be44f13a078279fe45c605dc5ce599_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a60746c0e2d31620f13f963763685983c}\label{classModelimpl_a60746c0e2d31620f13f963763685983c} 
+\index{Modelimpl@{Modelimpl}!createModel@{createModel}}
+\index{createModel@{createModel}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flows }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a60746c0e2d31620f13f963763685983c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a5d012fac106751ee5c4b5ba1045f3150}\label{classModelimpl_a5d012fac106751ee5c4b5ba1045f3150} 
+\index{Modelimpl@{Modelimpl}!createModel@{createModel}}
+\index{createModel@{createModel}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classModel}{Model}} \&}]{copied\+Model }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a5d012fac106751ee5c4b5ba1045f3150_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a22af9eed14296a74acc0ff30bed10547}\label{classModelimpl_a22af9eed14296a74acc0ff30bed10547} 
+\index{Modelimpl@{Modelimpl}!createModel@{createModel}}
+\index{createModel@{createModel}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a22af9eed14296a74acc0ff30bed10547_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a8b88d84c6cb10b9ffe36f136788f1046}\label{classModelimpl_a8b88d84c6cb10b9ffe36f136788f1046} 
+\index{Modelimpl@{Modelimpl}!createModel@{createModel}}
+\index{createModel@{createModel}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{systems,  }\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flows }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a8b88d84c6cb10b9ffe36f136788f1046_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a8b0210087faa051ca0e1c9607fe04306}\label{classModelimpl_a8b0210087faa051ca0e1c9607fe04306} 
+\index{Modelimpl@{Modelimpl}!createModel@{createModel}}
+\index{createModel@{createModel}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{systems }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a8b0210087faa051ca0e1c9607fe04306_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a50b4c9f2a6cbad539d3d239f58d94497}\label{classModelimpl_a50b4c9f2a6cbad539d3d239f58d94497} 
+\index{Modelimpl@{Modelimpl}!createSystem@{createSystem}}
+\index{createSystem@{createSystem}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createSystem()}{createSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \& Modelimpl\+::create\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_ab886e8427d90484f0afe049a13f7b9d1}{Model}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classModelimpl_a50b4c9f2a6cbad539d3d239f58d94497_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_aa0ebd3db0c1f90e1d49675c04cf9868d}\label{classModelimpl_aa0ebd3db0c1f90e1d49675c04cf9868d} 
+\index{Modelimpl@{Modelimpl}!createSystem@{createSystem}}
+\index{createSystem@{createSystem}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createSystem()}{createSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \& Modelimpl\+::create\+System (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a2871683c3f3a09b5d5c3254e5d8e045d}{Model}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classModelimpl_aa0ebd3db0c1f90e1d49675c04cf9868d_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_aecd5c79131fcf2ece23191842fcf1b2f}\label{classModelimpl_aecd5c79131fcf2ece23191842fcf1b2f} 
+\index{Modelimpl@{Modelimpl}!createSystem@{createSystem}}
+\index{createSystem@{createSystem}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createSystem()}{createSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \& Modelimpl\+::create\+System (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a58ca1f4fafa3a865face608d4870a88d}{Model}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classModelimpl_aecd5c79131fcf2ece23191842fcf1b2f_cgraph}
 \end{center}
 \end{figure}
 \Hypertarget{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9}\label{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9} 
 \index{Modelimpl@{Modelimpl}!createSystem@{createSystem}}
 \index{createSystem@{createSystem}!Modelimpl@{Modelimpl}}
-\doxysubsubsection{\texorpdfstring{createSystem()}{createSystem()}}
+\doxysubsubsection{\texorpdfstring{createSystem()}{createSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \& Modelimpl\+::create\+System (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
 
 
 
 Implements \mbox{\hyperlink{classModel_a2df458ec7720eb0e23da74db8b06ffdc}{Model}}.
 
-Here is the call graph for this function\+:
-\nopagebreak
+Here is the call graph for this function\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=349pt]{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_ab21dd5de16b433edccc3d7bc6c7a9a0f}\label{classModelimpl_ab21dd5de16b433edccc3d7bc6c7a9a0f} 
+\index{Modelimpl@{Modelimpl}!createSystem@{createSystem}}
+\index{createSystem@{createSystem}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createSystem()}{createSystem()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \& Modelimpl\+::create\+System (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \&}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a844a684e020a9891237dcdc8feec442b}{Model}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classModelimpl_ab21dd5de16b433edccc3d7bc6c7a9a0f_cgraph}
 \end{center}
 \end{figure}
 \Hypertarget{classModelimpl_a833e8e152d27043a11c0ddd37c957582}\label{classModelimpl_a833e8e152d27043a11c0ddd37c957582} 

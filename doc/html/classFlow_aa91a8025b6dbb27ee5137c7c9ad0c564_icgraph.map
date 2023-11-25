@@ -1,27 +1,24 @@
 <map id="Flow::getName" name="Flow::getName">
-<area shape="rect" id="Node000001" title="Getter function for the name." alt="" coords="549,204,669,232"/>
+<area shape="rect" id="Node000001" title="Getter function for the name." alt="" coords="549,169,669,197"/>
 <area shape="rect" id="Node000002" href="$classFlowimpl.html#adc25935a59cd3a159c8bc5b3b0ea6799" title="Copy constructor for Flowimpl." alt="" coords="328,5,477,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="595,191,581,158,561,119,533,80,500,48,476,35,479,30,503,44,537,77,565,116,586,155,600,189"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="591,157,555,101,529,72,500,48,476,36,478,31,503,44,533,69,559,98,596,154"/>
 <area shape="rect" id="Node000003" href="$classFlowimpl.html#adbc000eda5f74367dec2f13ef8afd604" title="Flowimpl&#39;s atribution operator overload." alt="" coords="325,57,480,85"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="589,193,552,145,527,121,500,100,474,88,477,83,503,96,531,117,556,141,593,189"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="581,161,545,129,500,100,470,88,472,83,503,95,548,125,585,157"/>
 <area shape="rect" id="Node000004" href="$classFlowimpl.html#ab2cd77e8a6f8ea1e348b042de25fdda0" title="Overload of equality operator for Flowimpl." alt="" coords="319,109,485,137"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="576,196,540,173,500,151,470,140,472,135,502,146,543,168,579,192"/>
-<area shape="rect" id="Node000005" href="$unit__flow_8cpp.html#ac35615a8e5d63d09d40f7904fbc94a02" title=" " alt="" coords="327,161,477,206"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="534,208,477,198,478,193,535,203"/>
-<area shape="rect" id="Node000008" href="$unit__flow_8cpp.html#aaecef37167623849e8e74a0daaf19a9b" title=" " alt="" coords="328,230,476,275"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="535,233,477,243,476,237,534,228"/>
-<area shape="rect" id="Node000009" href="$unit__flow_8cpp.html#a9970ed96e8746d56b35aa4f432bbcf18" title=" " alt="" coords="303,299,501,326"/>
-<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="579,244,543,268,502,290,472,301,470,295,500,285,540,263,576,239"/>
-<area shape="rect" id="Node000010" href="$unit__flow_8cpp.html#af37796551d03a5257f210abe20cdd818" title=" " alt="" coords="329,351,476,378"/>
-<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="593,246,556,294,531,319,503,340,477,352,474,348,500,336,527,315,552,291,589,243"/>
-<area shape="rect" id="Node000011" href="$unit__flow_8cpp.html#aed589f1c9c5ec42aecf5b20b811bacfe" title=" " alt="" coords="329,403,475,430"/>
-<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="600,247,586,280,565,320,537,359,503,392,477,406,475,401,500,388,533,355,561,317,581,278,595,245"/>
-<area shape="rect" id="Node000006" href="$unit__flow_8cpp.html#a44d8a3170a3ac12683feef3d4bcd3554" title=" " alt="" coords="108,299,255,326"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="315,215,304,220,244,261,199,300,196,296,241,257,302,216,313,210"/>
-<area shape="rect" id="Node000007" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,299,60,326"/>
-<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="92,315,60,315,60,310,92,310"/>
-<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="314,279,236,301,235,295,312,274"/>
-<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="287,315,256,315,256,310,287,310"/>
-<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="325,349,243,330,244,324,326,344"/>
-<area shape="poly" id="edge14_Node000011_Node000006" title=" " alt="" coords="321,400,302,392,244,360,199,329,202,325,247,356,304,387,323,395"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="550,167,501,151,461,140,462,135,502,146,552,161"/>
+<area shape="rect" id="Node000005" href="$unit__flow_8cpp.html#aaecef37167623849e8e74a0daaf19a9b" title=" " alt="" coords="328,161,476,206"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="534,186,477,186,477,181,534,181"/>
+<area shape="rect" id="Node000008" href="$unit__flow_8cpp.html#a9970ed96e8746d56b35aa4f432bbcf18" title=" " alt="" coords="303,229,501,257"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="552,205,502,220,462,231,461,226,501,215,550,200"/>
+<area shape="rect" id="Node000009" href="$unit__flow_8cpp.html#af37796551d03a5257f210abe20cdd818" title=" " alt="" coords="329,281,476,309"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="585,210,548,242,503,271,472,283,470,278,500,266,545,237,581,206"/>
+<area shape="rect" id="Node000010" href="$unit__flow_8cpp.html#aed589f1c9c5ec42aecf5b20b811bacfe" title=" " alt="" coords="329,333,475,361"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="596,212,559,268,533,298,503,323,477,336,475,331,500,318,529,294,555,265,591,209"/>
+<area shape="rect" id="Node000006" href="$unit__flow_8cpp.html#a44d8a3170a3ac12683feef3d4bcd3554" title=" " alt="" coords="108,256,255,284"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="321,214,304,220,216,258,214,253,302,215,319,209"/>
+<area shape="rect" id="Node000007" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,256,60,284"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="92,273,60,273,60,267,92,267"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="288,260,256,264,255,258,287,254"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="313,288,255,281,256,276,313,282"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="328,331,302,323,213,287,215,282,304,318,329,326"/>
 </map>

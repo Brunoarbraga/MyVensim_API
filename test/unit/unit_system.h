@@ -1,7 +1,6 @@
 #ifndef UNIT_SYSTEM_H
 #define UNIT_SYSTEM_H
 
-#include "../../src/systemimpl.h"
 
 void unit_system_default_constructor();
 void unit_system_copy_constructor();

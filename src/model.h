@@ -2,8 +2,8 @@
 #define MODEL_H
 
 #include <vector>
-#include "flow.h"
 #include "../test/derived_flows/derived_flows.h"
+#include "flow.h"
 
 
 
@@ -22,7 +22,13 @@ class Model {
 
     public:
 
+        static Model& createModel();
         static Model& createModel(string name);
+        static Model& createModel(System* systems);
+        static Model& createModel(Flow* flows);
+        static Model& createModel(string name, System* systems, Flow* flows);
+        static Model& createModel(Model& copiedModel);
+
         virtual System& createSystem(string name, double value) = 0;
         virtual System& createSystem() = 0;
         virtual System& createSystem(string name) = 0;

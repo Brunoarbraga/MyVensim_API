@@ -1,11 +1,23 @@
 <map id="unit_flow_complete_constructor" name="unit_flow_complete_constructor">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,76,154,120"/>
-<area shape="rect" id="Node000002" href="$classFlow.html#a7bb059cd3d2e5a17d930823ecf6d1993" title="Getter function for the flow destination." alt="" coords="202,5,357,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,73,201,43,220,36,222,41,203,48,133,77"/>
-<area shape="rect" id="Node000003" href="$classFlow.html#aa91a8025b6dbb27ee5137c7c9ad0c564" title="Getter function for the name." alt="" coords="220,57,339,85"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,85,204,78,205,84,155,91"/>
-<area shape="rect" id="Node000004" href="$classFlow.html#a34f428ea32203691a984acbe231e27ee" title="Getter function for the flow origin." alt="" coords="220,109,339,137"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="155,105,205,111,204,116,154,110"/>
-<area shape="rect" id="Node000005" href="$classFlow.html#a8acd2815f580b2c0b29f7fd703b3cdc4" title="Getter function for the value." alt="" coords="221,161,338,189"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="134,118,203,146,222,153,220,158,201,151,132,123"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,153,154,198"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ac4fae3f8be03e46d81eeb4d6b2e6c99b" title=" " alt="" coords="211,5,352,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,151,138,97,168,69,200,44,211,37,214,42,203,48,171,73,142,101,99,154"/>
+<area shape="rect" id="Node000004" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="206,57,357,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="110,150,152,122,200,95,216,89,218,93,203,100,155,127,113,155"/>
+<area shape="rect" id="Node000007" href="$classModel.html#a2df458ec7720eb0e23da74db8b06ffdc" title=" " alt="" coords="202,109,361,137"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="153,154,210,139,211,144,155,159"/>
+<area shape="rect" id="Node000008" href="$classFlow.html#a7bb059cd3d2e5a17d930823ecf6d1993" title="Getter function for the flow destination." alt="" coords="204,161,359,189"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="154,173,188,173,188,178,154,178"/>
+<area shape="rect" id="Node000009" href="$classFlow.html#aa91a8025b6dbb27ee5137c7c9ad0c564" title="Getter function for the name." alt="" coords="222,213,341,241"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="155,192,211,206,210,212,153,197"/>
+<area shape="rect" id="Node000010" href="$classFlow.html#a34f428ea32203691a984acbe231e27ee" title="Getter function for the flow origin." alt="" coords="222,265,341,293"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="113,196,155,223,203,250,218,257,216,262,200,255,152,228,110,200"/>
+<area shape="rect" id="Node000011" href="$classFlow.html#a8acd2815f580b2c0b29f7fd703b3cdc4" title="Getter function for the value." alt="" coords="223,317,340,345"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="99,196,142,249,171,278,203,302,214,308,211,313,200,307,168,282,138,253,95,200"/>
+<area shape="rect" id="Node000003" href="$classModel.html#a7cfac518d3f6ec84e858568175a28f20" title="add function for the model." alt="" coords="452,5,545,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="352,17,436,17,436,22,352,22"/>
+<area shape="rect" id="Node000005" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="409,57,588,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="357,69,394,69,394,74,357,74"/>
+<area shape="rect" id="Node000006" href="$classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f" title="Modelimpl default constructor." alt="" coords="636,57,804,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="589,69,621,69,621,74,589,74"/>
 </map>

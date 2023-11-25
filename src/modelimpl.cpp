@@ -6,6 +6,18 @@
 
 vector<Model*> Modelimpl::modelVector;
 
+Model& Model::createModel(){
+    return Modelimpl::createModel();
+}
+
+Model& Modelimpl::createModel(){
+    Model *model = new Modelimpl();
+    modelVector.push_back(model);
+    return *model;
+}
+
+
+
 Model& Model::createModel(string name){
     return Modelimpl::createModel(name);
 }
@@ -15,6 +27,55 @@ Model& Modelimpl::createModel(string name){
     modelVector.push_back(model);
     return *model;
 }
+
+
+
+Model& Model::createModel(System* systems){
+    return Modelimpl::createModel(systems);
+}
+
+Model& Modelimpl::createModel(System* systems){
+    Model *model = new Modelimpl(systems);
+    modelVector.push_back(model);
+    return *model;
+}
+
+
+
+Model& Model::createModel(Flow* flows){
+    return Modelimpl::createModel(flows);
+}
+
+Model& Modelimpl::createModel(Flow* flows){
+    Model *model = new Modelimpl(flows);
+    modelVector.push_back(model);
+    return *model;
+}
+
+
+
+Model& Model::createModel(string name, System* systems, Flow* flows){
+    return Modelimpl::createModel(name, systems,flows);
+}
+
+Model& Modelimpl::createModel(string name, System* systems, Flow* flows){
+    Model *model = new Modelimpl(name, systems, flows);
+    modelVector.push_back(model);
+    return *model;
+}
+
+
+
+Model& Model::createModel(Model& copiedModel){
+    return Modelimpl::createModel(copiedModel);
+}
+
+Model& Modelimpl::createModel(Model& copiedModel){
+    Model *model = new Modelimpl(copiedModel);
+    modelVector.push_back(model);
+    return *model;
+}
+
 
 
 

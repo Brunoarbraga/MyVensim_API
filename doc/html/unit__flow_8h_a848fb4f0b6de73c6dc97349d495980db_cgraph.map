@@ -1,5 +1,17 @@
 <map id="unit_flow_getOrigin" name="unit_flow_getOrigin">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,153,33"/>
-<area shape="rect" id="Node000002" href="$classFlow.html#a34f428ea32203691a984acbe231e27ee" title="Getter function for the flow origin." alt="" coords="201,5,320,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,17,185,17,185,22,153,22"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,153,112"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ac4fae3f8be03e46d81eeb4d6b2e6c99b" title=" " alt="" coords="210,5,351,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,81,200,43,219,36,221,41,202,48,113,86"/>
+<area shape="rect" id="Node000004" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="205,57,356,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="153,85,190,80,190,86,154,91"/>
+<area shape="rect" id="Node000007" href="$classModel.html#a2df458ec7720eb0e23da74db8b06ffdc" title=" " alt="" coords="201,109,360,137"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="154,104,185,109,185,114,153,110"/>
+<area shape="rect" id="Node000008" href="$classFlow.html#a34f428ea32203691a984acbe231e27ee" title="Getter function for the flow origin." alt="" coords="221,161,340,189"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="114,110,202,146,221,153,219,158,200,151,112,115"/>
+<area shape="rect" id="Node000003" href="$classModel.html#a7cfac518d3f6ec84e858568175a28f20" title="add function for the model." alt="" coords="451,5,544,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="351,17,435,17,435,22,351,22"/>
+<area shape="rect" id="Node000005" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="408,57,587,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="356,69,393,69,393,74,356,74"/>
+<area shape="rect" id="Node000006" href="$classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f" title="Modelimpl default constructor." alt="" coords="635,57,803,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="588,69,620,69,620,74,588,74"/>
 </map>

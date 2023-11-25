@@ -1,5 +1,13 @@
 <map id="unit_system_getName" name="unit_system_getName">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,174,33"/>
-<area shape="rect" id="Node000002" href="$classSystem.html#a25dff87b3fd15b008622ef9bd10ca1c0" title="Getter function for the name." alt="" coords="222,5,360,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,17,206,17,206,22,174,22"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,57,174,85"/>
+<area shape="rect" id="Node000002" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="226,5,377,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,54,226,35,228,40,150,59"/>
+<area shape="rect" id="Node000005" href="$classModel.html#a2df458ec7720eb0e23da74db8b06ffdc" title=" " alt="" coords="222,57,381,85"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="174,69,206,69,206,74,174,74"/>
+<area shape="rect" id="Node000006" href="$classSystem.html#a25dff87b3fd15b008622ef9bd10ca1c0" title="Getter function for the name." alt="" coords="232,109,371,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="150,83,228,102,226,108,148,88"/>
+<area shape="rect" id="Node000003" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="429,5,608,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="377,17,414,17,414,22,377,22"/>
+<area shape="rect" id="Node000004" href="$classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f" title="Modelimpl default constructor." alt="" coords="656,5,824,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="609,17,641,17,641,22,609,22"/>
 </map>
