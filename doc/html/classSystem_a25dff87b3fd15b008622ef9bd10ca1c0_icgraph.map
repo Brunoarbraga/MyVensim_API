@@ -1,0 +1,27 @@
+<map id="System::getName" name="System::getName">
+<area shape="rect" id="Node000001" title="Getter function for the name." alt="" coords="597,204,736,232"/>
+<area shape="rect" id="Node000002" href="$classSystemimpl.html#ad353aa9dab167dff84804eb8f0eb0370" title="Systemimpl&#39;s atribution operator overload." alt="" coords="350,5,523,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="652,191,636,157,613,118,584,80,548,48,522,35,525,30,551,44,587,76,617,115,640,155,656,188"/>
+<area shape="rect" id="Node000003" href="$classSystemimpl.html#ae60445ca983eed672e48a5028a836de9" title="Overload of equality operator for Systemimpl." alt="" coords="345,57,529,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="645,193,604,145,577,121,548,100,520,88,523,83,551,96,581,116,608,141,649,190"/>
+<area shape="rect" id="Node000004" href="$classSystemimpl.html#a2d0041d167b0729afb559fe5a4066eb3" title="Copy constructor for Systemimpl." alt="" coords="344,109,529,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="632,197,593,173,548,151,515,140,517,135,550,146,596,168,635,193"/>
+<area shape="rect" id="Node000005" href="$unit__system_8cpp.html#ae93bc70fbe1e3412bb4419718b247149" title=" " alt="" coords="351,161,522,206"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="581,208,522,199,523,193,582,202"/>
+<area shape="rect" id="Node000008" href="$unit__system_8cpp.html#ad800870c4c4cba015198e3ce79607942" title=" " alt="" coords="352,230,521,275"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="583,233,522,242,521,237,582,228"/>
+<area shape="rect" id="Node000009" href="$unit__system_8cpp.html#ac9d051065c245fd414c6db3318a59fdd" title=" " alt="" coords="353,299,521,326"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="635,243,596,267,550,290,517,301,515,295,548,285,593,263,632,238"/>
+<area shape="rect" id="Node000010" href="$unit__system_8cpp.html#ab13be1611156123012b14577c9dee5a9" title=" " alt="" coords="324,351,549,378"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="649,246,608,295,581,319,551,340,523,353,520,348,548,336,577,315,604,291,645,243"/>
+<area shape="rect" id="Node000011" href="$unit__system_8cpp.html#a69bbad74fc2fc1671653bbe01ec6a473" title=" " alt="" coords="353,403,520,430"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="656,247,640,281,617,320,587,359,551,392,522,407,519,402,548,388,584,356,613,317,636,279,652,245"/>
+<area shape="rect" id="Node000006" href="$unit__system_8cpp.html#afb68191bc1be68b04485884a3922d84f" title=" " alt="" coords="108,299,276,326"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="339,214,325,220,260,261,211,300,208,296,257,257,323,215,336,209"/>
+<area shape="rect" id="Node000007" href="$unit_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,299,60,326"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="92,315,60,315,60,310,92,310"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="338,279,252,301,251,295,337,274"/>
+<area shape="poly" id="edge10_Node000009_Node000006" title=" " alt="" coords="337,315,277,315,277,310,337,310"/>
+<area shape="poly" id="edge12_Node000010_Node000006" title=" " alt="" coords="352,349,260,330,261,324,354,344"/>
+<area shape="poly" id="edge14_Node000011_Node000006" title=" " alt="" coords="346,400,323,392,261,361,212,329,214,325,263,356,325,387,348,395"/>
+</map>

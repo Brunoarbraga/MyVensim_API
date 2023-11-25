@@ -1,0 +1,620 @@
+\doxysection{Modelimpl Class Reference}
+\hypertarget{classModelimpl}{}\label{classModelimpl}\index{Modelimpl@{Modelimpl}}
+
+
+Represents the model.  
+
+
+
+
+{\ttfamily \#include $<$modelimpl.\+h$>$}
+
+
+
+Inheritance diagram for Modelimpl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classModelimpl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Modelimpl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+typedef vector$<$ \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{systemit}}
+\begin{DoxyCompactList}\small\item\em Definition of the system\+Vector iterator. \end{DoxyCompactList}\item 
+typedef vector$<$ \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}{flowit}}
+\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Types inherited from \mbox{\hyperlink{classModel}{Model}}}
+\begin{DoxyCompactItemize}
+\item 
+typedef vector$<$ \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_aec9327022b2b96224e336796ce31b264}{systemit}}
+\begin{DoxyCompactList}\small\item\em Definition of the system\+Vector iterator. \end{DoxyCompactList}\item 
+typedef vector$<$ \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_af288837298a2a6ec561a7c6ee03f4440}{flowit}}
+\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9}{create\+System}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}}, double value)
+\item 
+\mbox{\hyperlink{classModelimpl_a04c11f4a55a7f8d29f4aa7939e146d4f}{Modelimpl}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classModelimpl}{Modelimpl} default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_ad10c783a3dd9e877a678ee6f452ca021}{Modelimpl}} (\mbox{\hyperlink{classModel}{Model}} \&model)
+\begin{DoxyCompactList}\small\item\em Copy constructor for \doxylink{classModelimpl}{Modelimpl}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_a2d427644712cebe9c7fe4becb5b4893b}{Modelimpl}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}})
+\begin{DoxyCompactList}\small\item\em \doxylink{classModelimpl}{Modelimpl} constructor override with name parameter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_a7c3ce8b1b624f89240d034a87c71ae2d}{Modelimpl}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}systems)
+\begin{DoxyCompactList}\small\item\em \doxylink{classModelimpl}{Modelimpl} constructor override with \doxylink{classSystem}{System} parameter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_acd77991bb1a3545e087289bf19bf4940}{Modelimpl}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flows)
+\begin{DoxyCompactList}\small\item\em \doxylink{classModelimpl}{Modelimpl} constructor override with flows parameter. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_a8fe3c1ce4a7dd2ff67d09354b4d4a183}{Modelimpl}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}systems, \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flows)
+\begin{DoxyCompactList}\small\item\em Complete \doxylink{classModelimpl}{Modelimpl} constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classModelimpl_acc90cb69f03062e203bbba4b2f474c34}{\texorpdfstring{$\sim$}{\string~}\+Modelimpl}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classModelimpl}{Modelimpl} virtual destructor. \end{DoxyCompactList}\item 
+const string \mbox{\hyperlink{classModelimpl_a0cb3f9620c78070b7f4167fde88d7a98}{get\+Name}} () const
+\item 
+bool \mbox{\hyperlink{classModelimpl_a6143a88404c19156897ebcb02568e6d0}{set\+Name}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}})
+\item 
+\mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{systemit}} \mbox{\hyperlink{classModelimpl_aad645808949f744e33f347590eeddee9}{system\+\_\+begin}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System} iterator begin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{systemit}} \mbox{\hyperlink{classModelimpl_a7a3e12f11303547f15c06b35efe15137}{system\+\_\+end}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System} iterator end. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}{flowit}} \mbox{\hyperlink{classModelimpl_a833e8e152d27043a11c0ddd37c957582}{flow\+\_\+begin}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow} iterator begin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}{flowit}} \mbox{\hyperlink{classModelimpl_a02f3f9801481a8487ab534c52516d3ea}{flow\+\_\+end}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow} iterator end. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModelimpl_a703ac2d7c4099c99863160376dbc35ff}{add}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flow)
+\begin{DoxyCompactList}\small\item\em add function for the model. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModelimpl_accdfde6fdd198c882d8bef5b0435a68e}{add}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)
+\begin{DoxyCompactList}\small\item\em add function for the model. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classModelimpl_af0b28b93ec3dab9a821311f4d1e697e1}{remove}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flow)
+\item 
+bool \mbox{\hyperlink{classModelimpl_a91d71c56b9d69f5f78233a9b074f509f}{remove}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)
+\item 
+bool \mbox{\hyperlink{classModelimpl_a23d31930be6c13379e2155423eb5ed23}{run}} (int start\+Time, int end\+Time)
+\begin{DoxyCompactList}\small\item\em Run function for the model. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classModelimpl_afcfe6ae4a7407f0c64f731d57a98a58d}{print\+Model}} ()
+\begin{DoxyCompactList}\small\item\em printing function for the \doxylink{classModelimpl}{Modelimpl} class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classModel}{Model}}}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$typename T $>$ }\\\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classModel_ac4fae3f8be03e46d81eeb4d6b2e6c99b}{create\+Flow}} (string name, double value, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}origin, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}destination)
+\item 
+virtual \mbox{\hyperlink{classModel_af032d8433c87a0a3a431faf6563a1f03}{\texorpdfstring{$\sim$}{\string~}\+Model}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModelimpl_a22af9eed14296a74acc0ff30bed10547}{create\+Model}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions inherited from \mbox{\hyperlink{classModel}{Model}}}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_a43bbe9ff53dbcc9fd7369ddcc0888e67}{create\+Model}} (string name)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classModelimpl}{Modelimpl}} \& \mbox{\hyperlink{classModelimpl_a885c1f6137082152e16f9c5e6c7a0306}{operator=}} (const \mbox{\hyperlink{classModelimpl}{Modelimpl}} \&other)
+\begin{DoxyCompactList}\small\item\em \doxylink{classModelimpl}{Modelimpl}\textquotesingle{}s atribution operator overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classModelimpl_a199b092863d6173e88a006a70d640be6}{system\+Vector}}
+\begin{DoxyCompactList}\small\item\em The model\textquotesingle{}s system vector. \end{DoxyCompactList}\item 
+vector$<$ \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classModelimpl_aa497ede6c555dc6b40d7611d42709e1a}{flow\+Vector}}
+\begin{DoxyCompactList}\small\item\em The model\textquotesingle{}s flow vector. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}}
+\begin{DoxyCompactList}\small\item\em The model\textquotesingle{}s name. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static vector$<$ \mbox{\hyperlink{classModel}{Model}} \texorpdfstring{$\ast$}{*} $>$ \mbox{\hyperlink{classModelimpl_a20f8a971bedce7ed49c665d392fd9755}{model\+Vector}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the model. 
+
+This class represents the environment in which the systems take place, storing all the systems and their interactions (flows) with each other.
+
+Can be ran to simulate real world systemic structures through the systems stored inside it, ~\newline
+ keeping track of the time and values while doing it. 
+
+\doxysubsection{Member Typedef Documentation}
+\Hypertarget{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}\label{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce} 
+\index{Modelimpl@{Modelimpl}!flowit@{flowit}}
+\index{flowit@{flowit}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{flowit}{flowit}}
+{\footnotesize\ttfamily typedef vector$<$\mbox{\hyperlink{classFlow}{Flow}}\texorpdfstring{$\ast$}{*}$>$\+::iterator \mbox{\hyperlink{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}{Modelimpl\+::flowit}}}
+
+
+
+Definition of the flow\+Vector iterator. 
+
+Its better to use iterators instead of specific data structure containers, since those are of programmers choice of implementation, meaning that if we use a vector here, and the programmer using the API decides to use another data structure, the API wont work as exprected. \Hypertarget{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}\label{classModelimpl_a69002bff6e98c3aa6cb91271c55691de} 
+\index{Modelimpl@{Modelimpl}!systemit@{systemit}}
+\index{systemit@{systemit}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{systemit}{systemit}}
+{\footnotesize\ttfamily typedef vector$<$\mbox{\hyperlink{classSystem}{System}}\texorpdfstring{$\ast$}{*}$>$\+::iterator \mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{Modelimpl\+::systemit}}}
+
+
+
+Definition of the system\+Vector iterator. 
+
+Its better to use iterators instead of specific data structure containers, since those are of programmers choice of implementation, meaning that if we use a vector here, and the programmer using the API decides to use another data structure, the API wont work as exprected. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classModelimpl_a04c11f4a55a7f8d29f4aa7939e146d4f}\label{classModelimpl_a04c11f4a55a7f8d29f4aa7939e146d4f} 
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{Modelimpl()}{Modelimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
+{\footnotesize\ttfamily Modelimpl\+::\+Modelimpl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxylink{classModelimpl}{Modelimpl} default constructor. 
+
+Instances a \doxylink{classModelimpl}{Modelimpl} object with an empty string "{}"{} name atribute if no parameter is passed. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a04c11f4a55a7f8d29f4aa7939e146d4f_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_ad10c783a3dd9e877a678ee6f452ca021}\label{classModelimpl_ad10c783a3dd9e877a678ee6f452ca021} 
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{Modelimpl()}{Modelimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
+{\footnotesize\ttfamily Modelimpl\+::\+Modelimpl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classModel}{Model}} \&}]{model }\end{DoxyParamCaption})}
+
+
+
+Copy constructor for \doxylink{classModelimpl}{Modelimpl}. 
+
+Makes a deep copy of a given \doxylink{classModelimpl}{Modelimpl}, to the method calling \doxylink{classModelimpl}{Modelimpl}. Copies every atribute, including the pointers inside the vectors.
+
+
+\begin{DoxyParams}{Parameters}
+{\em model} & \doxylink{classModelimpl}{Modelimpl} to be copied. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_ad10c783a3dd9e877a678ee6f452ca021_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a2d427644712cebe9c7fe4becb5b4893b}\label{classModelimpl_a2d427644712cebe9c7fe4becb5b4893b} 
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{Modelimpl()}{Modelimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
+{\footnotesize\ttfamily Modelimpl\+::\+Modelimpl (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
+
+
+
+\doxylink{classModelimpl}{Modelimpl} constructor override with name parameter. 
+
+Intances a \doxylink{classModelimpl}{Modelimpl} atributing the string parameter given to the \doxylink{classModelimpl}{Modelimpl} name atribute.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & string name to be atributed to the \doxylink{classModelimpl}{Modelimpl} being instanced. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classModelimpl_a7c3ce8b1b624f89240d034a87c71ae2d}\label{classModelimpl_a7c3ce8b1b624f89240d034a87c71ae2d} 
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{Modelimpl()}{Modelimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
+{\footnotesize\ttfamily Modelimpl\+::\+Modelimpl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{systems }\end{DoxyParamCaption})}
+
+
+
+\doxylink{classModelimpl}{Modelimpl} constructor override with \doxylink{classSystem}{System} parameter. 
+
+Intances a \doxylink{classModelimpl}{Modelimpl} with the systems passed as parameters. Includes those systems in the \doxylink{classModelimpl}{Modelimpl} system\+Vector.
+
+
+\begin{DoxyParams}{Parameters}
+{\em systems} & systems pointer that will be included in the vector. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classModelimpl_acd77991bb1a3545e087289bf19bf4940}\label{classModelimpl_acd77991bb1a3545e087289bf19bf4940} 
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{Modelimpl()}{Modelimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
+{\footnotesize\ttfamily Modelimpl\+::\+Modelimpl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flows }\end{DoxyParamCaption})}
+
+
+
+\doxylink{classModelimpl}{Modelimpl} constructor override with flows parameter. 
+
+Intances a \doxylink{classModelimpl}{Modelimpl} with the flows passed as parameters. Includes those floes in the \doxylink{classModelimpl}{Modelimpl} flow\+Vector.
+
+
+\begin{DoxyParams}{Parameters}
+{\em flows} & flows pointer that will be included in the vector. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classModelimpl_a8fe3c1ce4a7dd2ff67d09354b4d4a183}\label{classModelimpl_a8fe3c1ce4a7dd2ff67d09354b4d4a183} 
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\index{Modelimpl@{Modelimpl}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{Modelimpl()}{Modelimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily Modelimpl\+::\+Modelimpl (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{systems,  }\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flows }\end{DoxyParamCaption})}
+
+
+
+Complete \doxylink{classModelimpl}{Modelimpl} constructor. 
+
+Intances a \doxylink{classModelimpl}{Modelimpl} with all the atributes passed as parameters. All the atributes that the class \doxylink{classModelimpl}{Modelimpl} has are going to be "{}filled"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & string name to be atributed to the \doxylink{classModelimpl}{Modelimpl} being instanced.\\
+\hline
+{\em systems} & systems pointer that will be included in the vector.\\
+\hline
+{\em flows} & flows pointer that will be included in the vector. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classModelimpl_acc90cb69f03062e203bbba4b2f474c34}\label{classModelimpl_acc90cb69f03062e203bbba4b2f474c34} 
+\index{Modelimpl@{Modelimpl}!````~Modelimpl@{\texorpdfstring{$\sim$}{\string~}Modelimpl}}
+\index{````~Modelimpl@{\texorpdfstring{$\sim$}{\string~}Modelimpl}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Modelimpl()}{\string~Modelimpl()}}
+{\footnotesize\ttfamily Modelimpl\+::\texorpdfstring{$\sim$}{\string~}\+Modelimpl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classModelimpl}{Modelimpl} virtual destructor. 
+
+Destructs the model, freeing its memory allocation. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classModelimpl_a703ac2d7c4099c99863160376dbc35ff}\label{classModelimpl_a703ac2d7c4099c99863160376dbc35ff} 
+\index{Modelimpl@{Modelimpl}!add@{add}}
+\index{add@{add}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Modelimpl\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flow }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+add function for the model. 
+
+Overloaded function to add a \doxylink{classFlow}{Flow} to the \doxylink{classModelimpl}{Modelimpl}. Adds it to the flow\+Vector model atribute via the push\+\_\+back() method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & flow to be added to the model, can be any of the flow derived classes\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+reutrns a boolean value, true if the addition was successful, false otherwise. Used to verify the integrity of the function call before moving on with the model simulation. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classModel_a7cfac518d3f6ec84e858568175a28f20}{Model}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classModelimpl_a703ac2d7c4099c99863160376dbc35ff_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_accdfde6fdd198c882d8bef5b0435a68e}\label{classModelimpl_accdfde6fdd198c882d8bef5b0435a68e} 
+\index{Modelimpl@{Modelimpl}!add@{add}}
+\index{add@{add}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Modelimpl\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+add function for the model. 
+
+Overloaded function to add a \doxylink{classSystem}{System} to the \doxylink{classModelimpl}{Modelimpl}. Adds it to the system\+Vector model atribute via the push\+\_\+back() method.
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & \doxylink{classSystem}{System} to be added to the \doxylink{classModelimpl}{Modelimpl}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+reutrns a boolean value, true if the addition was successful, false otherwise. Used to verify the integrity of the function call before moving on with the model simulation. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classModel_a5e0e020c71a3f663705f23cfc1f3424a}{Model}}.
+
+\Hypertarget{classModelimpl_a22af9eed14296a74acc0ff30bed10547}\label{classModelimpl_a22af9eed14296a74acc0ff30bed10547} 
+\index{Modelimpl@{Modelimpl}!createModel@{createModel}}
+\index{createModel@{createModel}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createModel()}{createModel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModel}{Model}} \& Modelimpl\+::create\+Model (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a22af9eed14296a74acc0ff30bed10547_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a22af9eed14296a74acc0ff30bed10547_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9}\label{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9} 
+\index{Modelimpl@{Modelimpl}!createSystem@{createSystem}}
+\index{createSystem@{createSystem}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{createSystem()}{createSystem()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \& Modelimpl\+::create\+System (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a2df458ec7720eb0e23da74db8b06ffdc}{Model}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classModelimpl_a6b06c3f23a041e92c61bae10ba916ea9_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a833e8e152d27043a11c0ddd37c957582}\label{classModelimpl_a833e8e152d27043a11c0ddd37c957582} 
+\index{Modelimpl@{Modelimpl}!flow\_begin@{flow\_begin}}
+\index{flow\_begin@{flow\_begin}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{flow\_begin()}{flow\_begin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}{Modelimpl\+::flowit}} Modelimpl\+::flow\+\_\+begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classFlow}{Flow} iterator begin. 
+
+Begins the iterator and returns its beginning. 
+
+Implements \mbox{\hyperlink{classModel_a34ddcfaabed6deac52926068f4ced415}{Model}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a833e8e152d27043a11c0ddd37c957582_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a02f3f9801481a8487ab534c52516d3ea}\label{classModelimpl_a02f3f9801481a8487ab534c52516d3ea} 
+\index{Modelimpl@{Modelimpl}!flow\_end@{flow\_end}}
+\index{flow\_end@{flow\_end}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{flow\_end()}{flow\_end()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}{Modelimpl\+::flowit}} Modelimpl\+::flow\+\_\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classFlow}{Flow} iterator end. 
+
+end the iterator and returns its endpoint. 
+
+Implements \mbox{\hyperlink{classModel_a9e08ff136d6a2f0099dcf720146cf078}{Model}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a02f3f9801481a8487ab534c52516d3ea_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a0cb3f9620c78070b7f4167fde88d7a98}\label{classModelimpl_a0cb3f9620c78070b7f4167fde88d7a98} 
+\index{Modelimpl@{Modelimpl}!getName@{getName}}
+\index{getName@{getName}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily const string Modelimpl\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a447cb8c73eb6377246147dc64eba63ce}{Model}}.
+
+\Hypertarget{classModelimpl_a885c1f6137082152e16f9c5e6c7a0306}\label{classModelimpl_a885c1f6137082152e16f9c5e6c7a0306} 
+\index{Modelimpl@{Modelimpl}!operator=@{operator=}}
+\index{operator=@{operator=}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModelimpl}{Modelimpl}} \& Modelimpl\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classModelimpl}{Modelimpl}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+\doxylink{classModelimpl}{Modelimpl}\textquotesingle{}s atribution operator overload. 
+
+Atributes one \doxylink{classModelimpl}{Modelimpl} to another, that is, copies all of its informations and atributes them to the left-\/side model atributes.
+
+This overload is set as private to prevent illegal pointer operations possibly caused by the flows a systems vectors when making a copy. Due to same memory loaction pointing.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \doxylink{classModelimpl}{Modelimpl} to be atributed to the left-\/side of the operator \doxylink{classModelimpl}{Modelimpl} ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a \doxylink{classModelimpl}{Modelimpl} memory adress 
+\end{DoxyReturn}
+\Hypertarget{classModelimpl_afcfe6ae4a7407f0c64f731d57a98a58d}\label{classModelimpl_afcfe6ae4a7407f0c64f731d57a98a58d} 
+\index{Modelimpl@{Modelimpl}!printModel@{printModel}}
+\index{printModel@{printModel}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{printModel()}{printModel()}}
+{\footnotesize\ttfamily void Modelimpl\+::print\+Model (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+printing function for the \doxylink{classModelimpl}{Modelimpl} class. 
+
+Function that prints on terminal all the model informations, that is, all the flows and its atributes, all the systems and its atributes, and the \doxylink{classModelimpl}{Modelimpl} name.
+
+Can be used to verify if the \doxylink{classModelimpl}{Modelimpl} is looking as expected throughout the simulation, if needed. 
+
+Implements \mbox{\hyperlink{classModel_aaa3e9d78bd6271df07af271018c8eabb}{Model}}.
+
+\Hypertarget{classModelimpl_af0b28b93ec3dab9a821311f4d1e697e1}\label{classModelimpl_af0b28b93ec3dab9a821311f4d1e697e1} 
+\index{Modelimpl@{Modelimpl}!remove@{remove}}
+\index{remove@{remove}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Modelimpl\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flow }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a557c5d21498fef17011904a4dc1aeafb}{Model}}.
+
+\Hypertarget{classModelimpl_a91d71c56b9d69f5f78233a9b074f509f}\label{classModelimpl_a91d71c56b9d69f5f78233a9b074f509f} 
+\index{Modelimpl@{Modelimpl}!remove@{remove}}
+\index{remove@{remove}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{remove()}{remove()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Modelimpl\+::remove (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a731ced071d257b3c469337dec4c37656}{Model}}.
+
+\Hypertarget{classModelimpl_a23d31930be6c13379e2155423eb5ed23}\label{classModelimpl_a23d31930be6c13379e2155423eb5ed23} 
+\index{Modelimpl@{Modelimpl}!run@{run}}
+\index{run@{run}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily bool Modelimpl\+::run (\begin{DoxyParamCaption}\item[{int}]{start\+Time,  }\item[{int}]{end\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Run function for the model. 
+
+This function causes the model to run, evaluating the flow values inside it, and updating its systems values accordingly within each iteration, given the star\+Time ~\newline
+ and end\+Time of the model simulation.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+Time} & time for the model to start running\\
+\hline
+{\em end\+Time} & time for the model to stop running \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{classModel_aa2c58d924e023fe497cefbc6547dbea6}{Model}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{classModelimpl_a23d31930be6c13379e2155423eb5ed23_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a6143a88404c19156897ebcb02568e6d0}\label{classModelimpl_a6143a88404c19156897ebcb02568e6d0} 
+\index{Modelimpl@{Modelimpl}!setName@{setName}}
+\index{setName@{setName}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily bool Modelimpl\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a1f7cfcf8692da752803b0ee94df7da8e}{Model}}.
+
+\Hypertarget{classModelimpl_aad645808949f744e33f347590eeddee9}\label{classModelimpl_aad645808949f744e33f347590eeddee9} 
+\index{Modelimpl@{Modelimpl}!system\_begin@{system\_begin}}
+\index{system\_begin@{system\_begin}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{system\_begin()}{system\_begin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{Modelimpl\+::systemit}} Modelimpl\+::system\+\_\+begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classSystem}{System} iterator begin. 
+
+Begins the iterator and returns its beginning. 
+
+Implements \mbox{\hyperlink{classModel_af7ade11b6b9306b58b01fcabab9ad170}{Model}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_aad645808949f744e33f347590eeddee9_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_a7a3e12f11303547f15c06b35efe15137}\label{classModelimpl_a7a3e12f11303547f15c06b35efe15137} 
+\index{Modelimpl@{Modelimpl}!system\_end@{system\_end}}
+\index{system\_end@{system\_end}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{system\_end()}{system\_end()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{Modelimpl\+::systemit}} Modelimpl\+::system\+\_\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classSystem}{System} iterator end. 
+
+end the iterator and returns its endpoint. 
+
+Implements \mbox{\hyperlink{classModel_a97c5163b874568297620b1daeb1298ea}{Model}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a7a3e12f11303547f15c06b35efe15137_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classModelimpl_aa497ede6c555dc6b40d7611d42709e1a}\label{classModelimpl_aa497ede6c555dc6b40d7611d42709e1a} 
+\index{Modelimpl@{Modelimpl}!flowVector@{flowVector}}
+\index{flowVector@{flowVector}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{flowVector}{flowVector}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classFlow}{Flow}}\texorpdfstring{$\ast$}{*}$>$ Modelimpl\+::flow\+Vector\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The model\textquotesingle{}s flow vector. 
+
+This atribute represents all of the flows (interactions) contained insed the \doxylink{classModelimpl}{Modelimpl}. Stores the pointers to the flows. flows can be added and removed from this vector at will. \Hypertarget{classModelimpl_a20f8a971bedce7ed49c665d392fd9755}\label{classModelimpl_a20f8a971bedce7ed49c665d392fd9755} 
+\index{Modelimpl@{Modelimpl}!modelVector@{modelVector}}
+\index{modelVector@{modelVector}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{modelVector}{modelVector}}
+{\footnotesize\ttfamily vector$<$ \mbox{\hyperlink{classModel}{Model}} \texorpdfstring{$\ast$}{*} $>$ Modelimpl\+::model\+Vector\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+\Hypertarget{classModelimpl_a909d75d8b58a496beaed57433056fd2a}\label{classModelimpl_a909d75d8b58a496beaed57433056fd2a} 
+\index{Modelimpl@{Modelimpl}!name@{name}}
+\index{name@{name}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily string Modelimpl\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The model\textquotesingle{}s name. 
+
+This represents the \doxylink{classModelimpl}{Modelimpl}\textquotesingle{}s name, is set to "{}"{} by default, and can be changed at any given time by the user. \Hypertarget{classModelimpl_a199b092863d6173e88a006a70d640be6}\label{classModelimpl_a199b092863d6173e88a006a70d640be6} 
+\index{Modelimpl@{Modelimpl}!systemVector@{systemVector}}
+\index{systemVector@{systemVector}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{systemVector}{systemVector}}
+{\footnotesize\ttfamily vector$<$\mbox{\hyperlink{classSystem}{System}}\texorpdfstring{$\ast$}{*}$>$ Modelimpl\+::system\+Vector\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The model\textquotesingle{}s system vector. 
+
+This atribute represents all of the systems contained insed the \doxylink{classModelimpl}{Modelimpl}. Stores the pointers to the systems. Systems can be added and removed from this vector at will. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{modelimpl_8h}{modelimpl.\+h}}\item 
+src/\mbox{\hyperlink{modelimpl_8cpp}{modelimpl.\+cpp}}\end{DoxyCompactItemize}

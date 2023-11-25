@@ -1,0 +1,264 @@
+\doxysection{System Class Reference}
+\hypertarget{classSystem}{}\label{classSystem}\index{System@{System}}
+
+
+Represents the \doxylink{classSystem}{System}.  
+
+
+
+
+{\ttfamily \#include $<$system.\+h$>$}
+
+
+
+Inheritance diagram for System\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classSystem__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for System\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classSystem__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{classSystem_a2fc0f34023977cab9b628aa9f734d88c}{\texorpdfstring{$\sim$}{\string~}\+System}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System} virtual destructor. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{get\+Value}} () const =0
+\begin{DoxyCompactList}\small\item\em Getter function for the value. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classSystem_a9b4e310667242d2be215704a961e0ab4}{set\+Value}} (double value)=0
+\begin{DoxyCompactList}\small\item\em Setter function for the value. \end{DoxyCompactList}\item 
+virtual const string \mbox{\hyperlink{classSystem_a25dff87b3fd15b008622ef9bd10ca1c0}{get\+Name}} () const =0
+\begin{DoxyCompactList}\small\item\em Getter function for the name. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classSystem_aa10df41b213226403b10b010f726207e}{set\+Name}} (string name)=0
+\begin{DoxyCompactList}\small\item\em Setter function for the name. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classSystem_a3e0b183cab87e203155f7a54f27e6b20}{operator=}} (const \mbox{\hyperlink{classSystem}{System}} \&other)=0
+\begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System}\textquotesingle{}s atribution operator overload. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classSystem_af7414b6eb1e92763c02194b57d8bea18}{operator==}} (const \mbox{\hyperlink{classSystem}{System}} \&other) const =0
+\begin{DoxyCompactList}\small\item\em Overload of equality operator for \doxylink{classSystem}{System}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \mbox{\hyperlink{classSystem_ac5b441eba366b08b903c5a74ad333270}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{classSystem}{System}} \&system)
+\begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System} \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the \doxylink{classSystem}{System}. 
+
+This class represents the real life systems and its phenomena, storing its energy (value), that could be altered through the course of time in the simulation. e.\+g. Respiratory system, cardiovascular system.
+
+Systems can exist independently from any other structure in the simulation. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classSystem_a2fc0f34023977cab9b628aa9f734d88c}\label{classSystem_a2fc0f34023977cab9b628aa9f734d88c} 
+\index{System@{System}!````~System@{\texorpdfstring{$\sim$}{\string~}System}}
+\index{````~System@{\texorpdfstring{$\sim$}{\string~}System}!System@{System}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}System()}{\string~System()}}
+{\footnotesize\ttfamily virtual System\+::\texorpdfstring{$\sim$}{\string~}\+System (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\doxylink{classSystem}{System} virtual destructor. 
+
+Destructs the system, freeing its memory allocation. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classSystem_a25dff87b3fd15b008622ef9bd10ca1c0}\label{classSystem_a25dff87b3fd15b008622ef9bd10ca1c0} 
+\index{System@{System}!getName@{getName}}
+\index{getName@{getName}!System@{System}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily virtual const string System\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Getter function for the name. 
+
+Gets the current name of the system and returns it to the user.
+
+\begin{DoxyReturn}{Returns}
+The current string name, the return value is constant to assure it wont be modified in the process 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSystemimpl_aaa9f831654db8dc0699bbb2081a8af19}{Systemimpl}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_a25dff87b3fd15b008622ef9bd10ca1c0_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_a41b673faa6c199eb8e4f204639fab4f2}\label{classSystem_a41b673faa6c199eb8e4f204639fab4f2} 
+\index{System@{System}!getValue@{getValue}}
+\index{getValue@{getValue}!System@{System}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily virtual double System\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Getter function for the value. 
+
+Gets the current value of the system and returns it to the user.
+
+\begin{DoxyReturn}{Returns}
+The current double value. Can be used to evaluate the flow, and to update the system\textquotesingle{}s value 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSystemimpl_a5f4162d92c6859fcd82e9983ab87fd51}{Systemimpl}}.
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_a41b673faa6c199eb8e4f204639fab4f2_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_a3e0b183cab87e203155f7a54f27e6b20}\label{classSystem_a3e0b183cab87e203155f7a54f27e6b20} 
+\index{System@{System}!operator=@{operator=}}
+\index{operator=@{operator=}!System@{System}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classSystem}{System}} \& System\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSystem}{System}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+\doxylink{classSystem}{System}\textquotesingle{}s atribution operator overload. 
+
+Atributes one \doxylink{classSystem}{System} to another, that is, copies all of its informations (name and value) and atributes them to the left-\/side \doxylink{classSystem}{System} atributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \doxylink{classSystem}{System} to be atributed to the left-\/side of the operator \doxylink{classSystem}{System} ~\newline
+\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a \doxylink{classSystem}{System} memory adress 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSystemimpl_ad353aa9dab167dff84804eb8f0eb0370}{Systemimpl}}.
+
+\Hypertarget{classSystem_af7414b6eb1e92763c02194b57d8bea18}\label{classSystem_af7414b6eb1e92763c02194b57d8bea18} 
+\index{System@{System}!operator==@{operator==}}
+\index{operator==@{operator==}!System@{System}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily virtual bool System\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSystem}{System}} \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Overload of equality operator for \doxylink{classSystem}{System}. 
+
+Checks if two Systems are equal, considering all their atributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \doxylink{classSystem}{System} to be compared to the left-\/side of the operator \doxylink{classSystem}{System}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a boolean, true if the \doxylink{classSystem}{System} are equal, false otherwise. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSystemimpl_ae60445ca983eed672e48a5028a836de9}{Systemimpl}}.
+
+\Hypertarget{classSystem_aa10df41b213226403b10b010f726207e}\label{classSystem_aa10df41b213226403b10b010f726207e} 
+\index{System@{System}!setName@{setName}}
+\index{setName@{setName}!System@{System}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily virtual bool System\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Setter function for the name. 
+
+Sets the name of the system and returns success or failure. Important if the name is not already defined in the constructor call.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & string name to be set to the class atribute.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSystemimpl_a030df6346b95c3e4960c8db9bed5617b}{Systemimpl}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_aa10df41b213226403b10b010f726207e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystem_a9b4e310667242d2be215704a961e0ab4}\label{classSystem_a9b4e310667242d2be215704a961e0ab4} 
+\index{System@{System}!setValue@{setValue}}
+\index{setValue@{setValue}!System@{System}}
+\doxysubsubsection{\texorpdfstring{setValue()}{setValue()}}
+{\footnotesize\ttfamily virtual bool System\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Setter function for the value. 
+
+Sets the value of the system and returns success or failure. Can be used to update the \doxylink{classSystem}{System}\textquotesingle{}s value when the simulation is ran.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & double value to be set to the class atribute\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{classSystemimpl_a6bb7c72a9b7c0725b900bb26c7cf8038}{Systemimpl}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystem_a9b4e310667242d2be215704a961e0ab4_icgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Friends And Related Symbol Documentation}
+\Hypertarget{classSystem_ac5b441eba366b08b903c5a74ad333270}\label{classSystem_ac5b441eba366b08b903c5a74ad333270} 
+\index{System@{System}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!System@{System}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classSystem}{System}} \&}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+\doxylink{classSystem}{System} \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator overload. 
+
+Overloads the \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} cout operator so that the system can be printed on terminal (its name and value). Used only by the print\+Model() method, since it prints all the systems it contains.
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & system to be printed \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{system_8h}{system.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,13 @@
+<map id="LogisticalFlow" name="LogisticalFlow">
+<area shape="rect" id="Node000001" title="Logistical flow class derived from flow." alt="" coords="217,1173,439,1397"/>
+<area shape="rect" id="Node000002" href="$classFlowimpl.html" title="Represents the Flowimpl." alt="" coords="218,582,438,1123"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="331,1138,331,1173,325,1173,325,1138"/>
+<area shape="rect" id="Node000003" href="$classFlow.html" title="Represents the Flow." alt="" coords="5,5,237,500"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="214,513,237,581,232,583,209,515"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="262,218,311,287"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="288,287,286,406,291,558,291,565,286,565,285,558,281,406,283,287"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="341,218,398,287"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="370,287,350,565,345,565,364,287"/>
+<area shape="rect" id="Node000006" href="$classSystem.html" title="Represents the System." alt="" coords="423,93,625,412"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="475,413,424,567,419,565,470,411"/>
+</map>

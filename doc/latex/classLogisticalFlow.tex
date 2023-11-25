@@ -1,0 +1,181 @@
+\doxysection{Logistical\+Flow Class Reference}
+\hypertarget{classLogisticalFlow}{}\label{classLogisticalFlow}\index{LogisticalFlow@{LogisticalFlow}}
+
+
+Logistical flow class derived from flow.  
+
+
+
+
+{\ttfamily \#include $<$derived\+\_\+flows.\+h$>$}
+
+
+
+Inheritance diagram for Logistical\+Flow\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classLogisticalFlow__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Logistical\+Flow\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classLogisticalFlow__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classLogisticalFlow_a3fd4357cffc1717ace3a8466665b6440}{Logistical\+Flow}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classLogisticalFlow}{Logistical\+Flow} default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classLogisticalFlow_aa30a1a22a87504ca8f8e7b183dc9aeb1}{Logistical\+Flow}} (string \mbox{\hyperlink{classFlowimpl_a5878bb9d317390456064a951bc971369}{name}}, double \mbox{\hyperlink{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}{value}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classFlowimpl_aacaa95e66369f7b5740327cbcfbbb61e}{origin}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}Destination)
+\begin{DoxyCompactList}\small\item\em \doxylink{classLogisticalFlow}{Logistical\+Flow} complete constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classLogisticalFlow_af228f0774a7a0a6852477fe74b375836}{Logistical\+Flow}} (\mbox{\hyperlink{classFlow}{Flow}} \&flow)
+\item 
+double \mbox{\hyperlink{classLogisticalFlow_aa380b703376d79abc5de059b18540e41}{run}} ()
+\begin{DoxyCompactList}\small\item\em run method override. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classLogisticalFlow_adbc000eda5f74367dec2f13ef8afd604}{operator=}} (const \mbox{\hyperlink{classFlow}{Flow}} \&other)
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s atribution operator overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classFlowimpl}{Flowimpl}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFlowimpl_a793d28bf5022b526a1905e14a6710eb9}{Flowimpl}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlowimpl}{Flowimpl} default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlowimpl_adc25935a59cd3a159c8bc5b3b0ea6799}{Flowimpl}} (\mbox{\hyperlink{classFlow}{Flow}} \&flow)
+\begin{DoxyCompactList}\small\item\em Copy constructor for \doxylink{classFlowimpl}{Flowimpl}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlowimpl_a1788d113d73eeda63810b4724e21d79f}{Flowimpl}} (string \mbox{\hyperlink{classFlowimpl_a5878bb9d317390456064a951bc971369}{name}}, double \mbox{\hyperlink{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}{value}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classFlowimpl_aacaa95e66369f7b5740327cbcfbbb61e}{origin}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classFlowimpl_a30ca612b0937539da75f7eddede2223d}{destination}})
+\begin{DoxyCompactList}\small\item\em Complete \doxylink{classFlowimpl}{Flowimpl} constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classFlowimpl_af794ac75ed9f4c9835727aaa17852f06}{\texorpdfstring{$\sim$}{\string~}\+Flowimpl}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlowimpl}{Flowimpl} virtual destructor. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_ad89db3a649321cd0758a230866598ab0}{set\+Origin}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)
+\begin{DoxyCompactList}\small\item\em Setter function for the flow origin. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_a04c450a3c9985025ab9aa27cae315a7a}{set\+Destination}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)
+\begin{DoxyCompactList}\small\item\em Setter function for the flow destination. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_a9b13d4e2e1b257cdb1e5e30994410e48}{get\+Origin}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the flow origin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_a5a959bf832a45e1d465230da2a48cbb2}{get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the flow destination. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_ab0706b5bd830e1c8bb8b3fb6b737cda9}{set\+Name}} (string \mbox{\hyperlink{classFlowimpl_a5878bb9d317390456064a951bc971369}{name}})
+\begin{DoxyCompactList}\small\item\em Setter function for the name. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_a4dfc57ecc105bcb9e9f4a90d2b86acd6}{set\+Value}} (double \mbox{\hyperlink{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}{value}})
+\begin{DoxyCompactList}\small\item\em Setter function for the value. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classFlowimpl_af4782fd31e9a1c97af4355c4cfb83fcd}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the name. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classFlowimpl_aa518f1104fe08b1c1003aaba78756183}{get\+Value}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the value. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_ab2cd77e8a6f8ea1e348b042de25fdda0}{operator==}} (const \mbox{\hyperlink{classFlow}{Flow}} \&other) const
+\begin{DoxyCompactList}\small\item\em Overload of equality operator for \doxylink{classFlowimpl}{Flowimpl}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classFlow}{Flow}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{classFlow_a325d284a50ca3274b126b21f5c39b9af}{\texorpdfstring{$\sim$}{\string~}\+Flow}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow} virtual destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classFlowimpl}{Flowimpl}}}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classFlowimpl_a5878bb9d317390456064a951bc971369}{name}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s name. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}{value}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_aacaa95e66369f7b5740327cbcfbbb61e}{origin}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s origin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_a30ca612b0937539da75f7eddede2223d}{destination}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s destination. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Logistical flow class derived from flow. 
+
+Represents a logistical interaction beetween systems, flow is sort of inverted, taking the value from the destination \doxylink{classSystem}{System} and transfering it to the origin \doxylink{classSystem}{System}. Its only purpose is to implement the pure virutal method \doxylink{classLogisticalFlow_aa380b703376d79abc5de059b18540e41}{run()}, from flow. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classLogisticalFlow_a3fd4357cffc1717ace3a8466665b6440}\label{classLogisticalFlow_a3fd4357cffc1717ace3a8466665b6440} 
+\index{LogisticalFlow@{LogisticalFlow}!LogisticalFlow@{LogisticalFlow}}
+\index{LogisticalFlow@{LogisticalFlow}!LogisticalFlow@{LogisticalFlow}}
+\doxysubsubsection{\texorpdfstring{LogisticalFlow()}{LogisticalFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Logistical\+Flow\+::\+Logistical\+Flow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxylink{classLogisticalFlow}{Logistical\+Flow} default constructor. 
+
+Calls the flow default constructor to instance a derived class object. \Hypertarget{classLogisticalFlow_aa30a1a22a87504ca8f8e7b183dc9aeb1}\label{classLogisticalFlow_aa30a1a22a87504ca8f8e7b183dc9aeb1} 
+\index{LogisticalFlow@{LogisticalFlow}!LogisticalFlow@{LogisticalFlow}}
+\index{LogisticalFlow@{LogisticalFlow}!LogisticalFlow@{LogisticalFlow}}
+\doxysubsubsection{\texorpdfstring{LogisticalFlow()}{LogisticalFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Logistical\+Flow\+::\+Logistical\+Flow (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{double}]{value,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{origin,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{Destination }\end{DoxyParamCaption})}
+
+
+
+\doxylink{classLogisticalFlow}{Logistical\+Flow} complete constructor. 
+
+Calls the flow complete constructor to instance a derived class object. \Hypertarget{classLogisticalFlow_af228f0774a7a0a6852477fe74b375836}\label{classLogisticalFlow_af228f0774a7a0a6852477fe74b375836} 
+\index{LogisticalFlow@{LogisticalFlow}!LogisticalFlow@{LogisticalFlow}}
+\index{LogisticalFlow@{LogisticalFlow}!LogisticalFlow@{LogisticalFlow}}
+\doxysubsubsection{\texorpdfstring{LogisticalFlow()}{LogisticalFlow()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Logistical\+Flow\+::\+Logistical\+Flow (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \&}]{flow }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classLogisticalFlow_adbc000eda5f74367dec2f13ef8afd604}\label{classLogisticalFlow_adbc000eda5f74367dec2f13ef8afd604} 
+\index{LogisticalFlow@{LogisticalFlow}!operator=@{operator=}}
+\index{operator=@{operator=}!LogisticalFlow@{LogisticalFlow}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFlow}{Flow}} \& Flowimpl\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classFlow}{Flow}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s atribution operator overload. 
+
+Atributes one \doxylink{classFlowimpl}{Flowimpl} to another, that is, copies all of its informations (name, value, origin and destination) and atributes them to the left-\/side \doxylink{classFlowimpl}{Flowimpl} atributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \doxylink{classFlowimpl}{Flowimpl} to be atributed to the left-\/side of the operator \doxylink{classFlowimpl}{Flowimpl}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a \doxylink{classFlowimpl}{Flowimpl} memory adress 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classFlowimpl_adbc000eda5f74367dec2f13ef8afd604}{Flowimpl}}.
+
+\Hypertarget{classLogisticalFlow_aa380b703376d79abc5de059b18540e41}\label{classLogisticalFlow_aa380b703376d79abc5de059b18540e41} 
+\index{LogisticalFlow@{LogisticalFlow}!run@{run}}
+\index{run@{run}!LogisticalFlow@{LogisticalFlow}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily double Logistical\+Flow\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+run method override. 
+
+Takes a set value defined by a more complex math equation from the destination \doxylink{classSystem}{System} and returns it.
+
+\begin{DoxyReturn}{Returns}
+returns the value it got from the equation, used to update the Systemimpls values. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlowimpl_ae1be2a5bcb70ab70374e73fa73ed7f95}{Flowimpl}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{classLogisticalFlow_aa380b703376d79abc5de059b18540e41_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+test/derived\+\_\+flows/\mbox{\hyperlink{derived__flows_8h}{derived\+\_\+flows.\+h}}\item 
+test/derived\+\_\+flows/\mbox{\hyperlink{derived__flows_8cpp}{derived\+\_\+flows.\+cpp}}\end{DoxyCompactItemize}

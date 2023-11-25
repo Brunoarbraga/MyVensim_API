@@ -1,0 +1,5 @@
+<map id="Flow::getDestination" name="Flow::getDestination">
+<area shape="rect" id="Node000001" title="Getter function for the flow destination." alt="" coords="144,5,299,33"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a82f82eb47b4d325c61dc17750effb9d1" title="Copy constructor for Flow." alt="" coords="5,5,96,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="128,22,96,22,96,17,128,17"/>
+</map>

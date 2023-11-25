@@ -1,0 +1,5 @@
+<map id="unit_flow_getOrigin" name="unit_flow_getOrigin">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,153,33"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a34f428ea32203691a984acbe231e27ee" title="Getter function for the flow origin." alt="" coords="201,5,320,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,17,185,17,185,22,153,22"/>
+</map>

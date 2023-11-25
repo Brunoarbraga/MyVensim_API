@@ -1,0 +1,475 @@
+\doxysection{Flowimpl Class Reference}
+\hypertarget{classFlowimpl}{}\label{classFlowimpl}\index{Flowimpl@{Flowimpl}}
+
+
+Represents the \doxylink{classFlowimpl}{Flowimpl}.  
+
+
+
+
+{\ttfamily \#include $<$flowimpl.\+h$>$}
+
+
+
+Inheritance diagram for Flowimpl\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classFlowimpl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Flowimpl\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classFlowimpl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classFlowimpl_a793d28bf5022b526a1905e14a6710eb9}{Flowimpl}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlowimpl}{Flowimpl} default constructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlowimpl_adc25935a59cd3a159c8bc5b3b0ea6799}{Flowimpl}} (\mbox{\hyperlink{classFlow}{Flow}} \&flow)
+\begin{DoxyCompactList}\small\item\em Copy constructor for \doxylink{classFlowimpl}{Flowimpl}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlowimpl_a1788d113d73eeda63810b4724e21d79f}{Flowimpl}} (string \mbox{\hyperlink{classFlowimpl_a5878bb9d317390456064a951bc971369}{name}}, double \mbox{\hyperlink{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}{value}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classFlowimpl_aacaa95e66369f7b5740327cbcfbbb61e}{origin}}, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}\mbox{\hyperlink{classFlowimpl_a30ca612b0937539da75f7eddede2223d}{destination}})
+\begin{DoxyCompactList}\small\item\em Complete \doxylink{classFlowimpl}{Flowimpl} constructor. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classFlowimpl_af794ac75ed9f4c9835727aaa17852f06}{\texorpdfstring{$\sim$}{\string~}\+Flowimpl}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlowimpl}{Flowimpl} virtual destructor. \end{DoxyCompactList}\item 
+virtual double \mbox{\hyperlink{classFlowimpl_ae1be2a5bcb70ab70374e73fa73ed7f95}{run}} ()=0
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s run method. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_ad89db3a649321cd0758a230866598ab0}{set\+Origin}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)
+\begin{DoxyCompactList}\small\item\em Setter function for the flow origin. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_a04c450a3c9985025ab9aa27cae315a7a}{set\+Destination}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)
+\begin{DoxyCompactList}\small\item\em Setter function for the flow destination. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_a9b13d4e2e1b257cdb1e5e30994410e48}{get\+Origin}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the flow origin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_a5a959bf832a45e1d465230da2a48cbb2}{get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the flow destination. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_ab0706b5bd830e1c8bb8b3fb6b737cda9}{set\+Name}} (string \mbox{\hyperlink{classFlowimpl_a5878bb9d317390456064a951bc971369}{name}})
+\begin{DoxyCompactList}\small\item\em Setter function for the name. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_a4dfc57ecc105bcb9e9f4a90d2b86acd6}{set\+Value}} (double \mbox{\hyperlink{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}{value}})
+\begin{DoxyCompactList}\small\item\em Setter function for the value. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classFlowimpl_af4782fd31e9a1c97af4355c4cfb83fcd}{get\+Name}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the name. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classFlowimpl_aa518f1104fe08b1c1003aaba78756183}{get\+Value}} () const
+\begin{DoxyCompactList}\small\item\em Getter function for the value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classFlowimpl_adbc000eda5f74367dec2f13ef8afd604}{operator=}} (const \mbox{\hyperlink{classFlow}{Flow}} \&other)
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s atribution operator overload. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classFlowimpl_ab2cd77e8a6f8ea1e348b042de25fdda0}{operator==}} (const \mbox{\hyperlink{classFlow}{Flow}} \&other) const
+\begin{DoxyCompactList}\small\item\em Overload of equality operator for \doxylink{classFlowimpl}{Flowimpl}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classFlow}{Flow}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual \mbox{\hyperlink{classFlow_a325d284a50ca3274b126b21f5c39b9af}{\texorpdfstring{$\sim$}{\string~}\+Flow}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow} virtual destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{classFlowimpl_a5878bb9d317390456064a951bc971369}{name}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s name. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}{value}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_aacaa95e66369f7b5740327cbcfbbb61e}{origin}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s origin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowimpl_a30ca612b0937539da75f7eddede2223d}{destination}}
+\begin{DoxyCompactList}\small\item\em The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s destination. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the \doxylink{classFlowimpl}{Flowimpl}. 
+
+This class represents the real life interactions beetween systems, that possibly alter their values and represent a phenomena. Its the event that occurs throught time and influences the behaviour of the systems. For instance, population growth of a given nation system. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classFlowimpl_a793d28bf5022b526a1905e14a6710eb9}\label{classFlowimpl_a793d28bf5022b526a1905e14a6710eb9} 
+\index{Flowimpl@{Flowimpl}!Flowimpl@{Flowimpl}}
+\index{Flowimpl@{Flowimpl}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{Flowimpl()}{Flowimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Flowimpl\+::\+Flowimpl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxylink{classFlowimpl}{Flowimpl} default constructor. 
+
+Instances a \doxylink{classFlowimpl}{Flowimpl} object with an empty string "{}"{} name, a double 0.\+0 value, and no origin nor destination (null pointers). \Hypertarget{classFlowimpl_adc25935a59cd3a159c8bc5b3b0ea6799}\label{classFlowimpl_adc25935a59cd3a159c8bc5b3b0ea6799} 
+\index{Flowimpl@{Flowimpl}!Flowimpl@{Flowimpl}}
+\index{Flowimpl@{Flowimpl}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{Flowimpl()}{Flowimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Flowimpl\+::\+Flowimpl (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \&}]{flow }\end{DoxyParamCaption})}
+
+
+
+Copy constructor for \doxylink{classFlowimpl}{Flowimpl}. 
+
+Makes a deep copy of a given \doxylink{classFlowimpl}{Flowimpl} to the method calling \doxylink{classFlowimpl}{Flowimpl}. Copies the name, value, and sets the origin and destination to be the same \doxylink{classSystem}{System} of the parameter.
+
+
+\begin{DoxyParams}{Parameters}
+{\em flow} & \doxylink{classFlowimpl}{Flowimpl} to be copied. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=345pt]{classFlowimpl_adc25935a59cd3a159c8bc5b3b0ea6799_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlowimpl_a1788d113d73eeda63810b4724e21d79f}\label{classFlowimpl_a1788d113d73eeda63810b4724e21d79f} 
+\index{Flowimpl@{Flowimpl}!Flowimpl@{Flowimpl}}
+\index{Flowimpl@{Flowimpl}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{Flowimpl()}{Flowimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Flowimpl\+::\+Flowimpl (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{double}]{value,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{origin,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{destination }\end{DoxyParamCaption})}
+
+
+
+Complete \doxylink{classFlowimpl}{Flowimpl} constructor. 
+
+Intances a \doxylink{classFlowimpl}{Flowimpl} with all the atributes passed as parameters. All the atributes that the class \doxylink{classFlowimpl}{Flowimpl} has are going to be "{}filled"{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & string name to be atributed to the \doxylink{classFlowimpl}{Flowimpl} being instanced.\\
+\hline
+{\em value} & double value to be atributed to the \doxylink{classFlowimpl}{Flowimpl} being instanced.\\
+\hline
+{\em origin} & Pointer to the \doxylink{classSystem}{System} acting as the origin of the interaction.\\
+\hline
+{\em destination} & Pointer to the \doxylink{classSystem}{System} acting as the destination of the interaction. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classFlowimpl_af794ac75ed9f4c9835727aaa17852f06}\label{classFlowimpl_af794ac75ed9f4c9835727aaa17852f06} 
+\index{Flowimpl@{Flowimpl}!````~Flowimpl@{\texorpdfstring{$\sim$}{\string~}Flowimpl}}
+\index{````~Flowimpl@{\texorpdfstring{$\sim$}{\string~}Flowimpl}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Flowimpl()}{\string~Flowimpl()}}
+{\footnotesize\ttfamily Flowimpl\+::\texorpdfstring{$\sim$}{\string~}\+Flowimpl (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classFlowimpl}{Flowimpl} virtual destructor. 
+
+Destructs the flow, freeing its memory allocation. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classFlowimpl_a5a959bf832a45e1d465230da2a48cbb2}\label{classFlowimpl_a5a959bf832a45e1d465230da2a48cbb2} 
+\index{Flowimpl@{Flowimpl}!getDestination@{getDestination}}
+\index{getDestination@{getDestination}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{getDestination()}{getDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} Flowimpl\+::get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Getter function for the flow destination. 
+
+Gets the system pointed as Destination by the flow and returns it.
+
+\begin{DoxyReturn}{Returns}
+The current destination pointer. Can be used to update the systems values, since the value is "{}trasnfered"{} from one \doxylink{classSystem}{System} to another. For instance, if a population migrates from a place, they need to have migrated to another place, its possible to get to where they migrated with this method. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a7bb059cd3d2e5a17d930823ecf6d1993}{Flow}}.
+
+\Hypertarget{classFlowimpl_af4782fd31e9a1c97af4355c4cfb83fcd}\label{classFlowimpl_af4782fd31e9a1c97af4355c4cfb83fcd} 
+\index{Flowimpl@{Flowimpl}!getName@{getName}}
+\index{getName@{getName}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily string Flowimpl\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Getter function for the name. 
+
+Gets the current name of the \doxylink{classFlowimpl}{Flowimpl} and returns it to the user.
+
+\begin{DoxyReturn}{Returns}
+The current string name. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_aa91a8025b6dbb27ee5137c7c9ad0c564}{Flow}}.
+
+\Hypertarget{classFlowimpl_a9b13d4e2e1b257cdb1e5e30994410e48}\label{classFlowimpl_a9b13d4e2e1b257cdb1e5e30994410e48} 
+\index{Flowimpl@{Flowimpl}!getOrigin@{getOrigin}}
+\index{getOrigin@{getOrigin}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{getOrigin()}{getOrigin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} Flowimpl\+::get\+Origin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Getter function for the flow origin. 
+
+Gets the system pointed as origin by the flow and returns it.
+
+\begin{DoxyReturn}{Returns}
+The current origin pointer. Can be used to update the systems values, since the value is "{}trasnfered"{} from one \doxylink{classSystem}{System} to another. For instance, if a population migrates from a place, they need to have migrated to another place, its possible to get where they migrated from with this method. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a34f428ea32203691a984acbe231e27ee}{Flow}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{classFlowimpl_a9b13d4e2e1b257cdb1e5e30994410e48_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlowimpl_aa518f1104fe08b1c1003aaba78756183}\label{classFlowimpl_aa518f1104fe08b1c1003aaba78756183} 
+\index{Flowimpl@{Flowimpl}!getValue@{getValue}}
+\index{getValue@{getValue}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily double Flowimpl\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Getter function for the value. 
+
+Gets the current value of the flow and returns it to the user.
+
+\begin{DoxyReturn}{Returns}
+The current double value. Can be used to update the system value. For instance, if we need to subtract the population of a city due to migration, we need to know how many people left first. That can be done calling this method. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a8acd2815f580b2c0b29f7fd703b3cdc4}{Flow}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{classFlowimpl_aa518f1104fe08b1c1003aaba78756183_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlowimpl_adbc000eda5f74367dec2f13ef8afd604}\label{classFlowimpl_adbc000eda5f74367dec2f13ef8afd604} 
+\index{Flowimpl@{Flowimpl}!operator=@{operator=}}
+\index{operator=@{operator=}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classFlow}{Flow}} \& Flowimpl\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classFlow}{Flow}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s atribution operator overload. 
+
+Atributes one \doxylink{classFlowimpl}{Flowimpl} to another, that is, copies all of its informations (name, value, origin and destination) and atributes them to the left-\/side \doxylink{classFlowimpl}{Flowimpl} atributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \doxylink{classFlowimpl}{Flowimpl} to be atributed to the left-\/side of the operator \doxylink{classFlowimpl}{Flowimpl}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a \doxylink{classFlowimpl}{Flowimpl} memory adress 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a787f18fd0af6534e633712dd89da9ed5}{Flow}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{classLogisticalFlow_adbc000eda5f74367dec2f13ef8afd604}{Logistical\+Flow}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=349pt]{classFlowimpl_adbc000eda5f74367dec2f13ef8afd604_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlowimpl_ab2cd77e8a6f8ea1e348b042de25fdda0}\label{classFlowimpl_ab2cd77e8a6f8ea1e348b042de25fdda0} 
+\index{Flowimpl@{Flowimpl}!operator==@{operator==}}
+\index{operator==@{operator==}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Flowimpl\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classFlow}{Flow}} \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Overload of equality operator for \doxylink{classFlowimpl}{Flowimpl}. 
+
+Checks if two Flowimpls are equal, considering all their atributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \doxylink{classFlowimpl}{Flowimpl} to be compared to the left-\/side of the operator \doxylink{classFlowimpl}{Flowimpl}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a boolean true if the Flowimpls are equal, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a1ca12bafd7eb56ef6ceeb43d08472acc}{Flow}}.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlowimpl_ab2cd77e8a6f8ea1e348b042de25fdda0_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classFlowimpl_ae1be2a5bcb70ab70374e73fa73ed7f95}\label{classFlowimpl_ae1be2a5bcb70ab70374e73fa73ed7f95} 
+\index{Flowimpl@{Flowimpl}!run@{run}}
+\index{run@{run}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily virtual double Flowimpl\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+\doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s run method. 
+
+This method is pure virtual, which means it can only be implemented by \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s subclasses. Is used to set the flow value, using the origin or destination \doxylink{classSystem}{System}, depending on the type of flow. This value is gonna be used later to update systems values. 
+
+Implements \mbox{\hyperlink{classFlow_a1cac6068ee3ed3f03fa0708640eb2f02}{Flow}}.
+
+
+
+Implemented in \mbox{\hyperlink{classExponentialFlow_a70ef60f970078d41590bc31785ec2d2b}{Exponential\+Flow}}, \mbox{\hyperlink{classLogisticalFlow_aa380b703376d79abc5de059b18540e41}{Logistical\+Flow}}, and \mbox{\hyperlink{classComplexFlow_a86d4a74a9c3f8c962d85e559311e0dcb}{Complex\+Flow}}.
+
+\Hypertarget{classFlowimpl_a04c450a3c9985025ab9aa27cae315a7a}\label{classFlowimpl_a04c450a3c9985025ab9aa27cae315a7a} 
+\index{Flowimpl@{Flowimpl}!setDestination@{setDestination}}
+\index{setDestination@{setDestination}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{setDestination()}{setDestination()}}
+{\footnotesize\ttfamily bool Flowimpl\+::set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Setter function for the flow destination. 
+
+Sets the destination pointer of the flow and returns success or failure. Essential for correctly representing the real world interactions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & system pointer to be set as destination.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. Extremely imporant keeping track of the success because the entire simulation depends on it. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a12cba9e4e6baf4d040660387e88fcbb1}{Flow}}.
+
+\Hypertarget{classFlowimpl_ab0706b5bd830e1c8bb8b3fb6b737cda9}\label{classFlowimpl_ab0706b5bd830e1c8bb8b3fb6b737cda9} 
+\index{Flowimpl@{Flowimpl}!setName@{setName}}
+\index{setName@{setName}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily bool Flowimpl\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Setter function for the name. 
+
+Sets the name of the \doxylink{classFlowimpl}{Flowimpl} and returns success or failure. Important if the name is not already defined in the constructor call.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & string name to be set to the class atribute.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_aa6f40221e67afcb7805869014e47ebf9}{Flow}}.
+
+\Hypertarget{classFlowimpl_ad89db3a649321cd0758a230866598ab0}\label{classFlowimpl_ad89db3a649321cd0758a230866598ab0} 
+\index{Flowimpl@{Flowimpl}!setOrigin@{setOrigin}}
+\index{setOrigin@{setOrigin}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{setOrigin()}{setOrigin()}}
+{\footnotesize\ttfamily bool Flowimpl\+::set\+Origin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Setter function for the flow origin. 
+
+Sets the origin pointer of the flow and returns success or failure. Essential for correctly representing the real world interactions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & system pointer to be set as origin.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. Extremely imporant keeping track of the success because the entire simulation depends on it. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a1cf07f84e97180d4ac051d2868e68525}{Flow}}.
+
+\Hypertarget{classFlowimpl_a4dfc57ecc105bcb9e9f4a90d2b86acd6}\label{classFlowimpl_a4dfc57ecc105bcb9e9f4a90d2b86acd6} 
+\index{Flowimpl@{Flowimpl}!setValue@{setValue}}
+\index{setValue@{setValue}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{setValue()}{setValue()}}
+{\footnotesize\ttfamily bool Flowimpl\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Setter function for the value. 
+
+Sets the value of the flow and returns success or failure. Can be used to update the \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s value when the simulation is ran.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & double value to be set to the class atribute\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_aaee814589324a15806360086a3bb7bd8}{Flow}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classFlowimpl_a30ca612b0937539da75f7eddede2223d}\label{classFlowimpl_a30ca612b0937539da75f7eddede2223d} 
+\index{Flowimpl@{Flowimpl}!destination@{destination}}
+\index{destination@{destination}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{destination}{destination}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}}\texorpdfstring{$\ast$}{*} Flowimpl\+::destination\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s destination. 
+
+This atribute represents where the flow "{}ends"{}, what system uses it as a "{}receiver"{}. The end of the interaction. Linked to the flow via pointer. Its possible for the flow to have no destination. In that case the pointer is null. \Hypertarget{classFlowimpl_a5878bb9d317390456064a951bc971369}\label{classFlowimpl_a5878bb9d317390456064a951bc971369} 
+\index{Flowimpl@{Flowimpl}!name@{name}}
+\index{name@{name}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily string Flowimpl\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s name. 
+
+This represents the \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s name, is set to "{}"{} by default, and can be changed at any given time by the user. Makes the identification of interactions more intuitive, since they can be recognized on sight if given a good name, e.\+g. exponential. \Hypertarget{classFlowimpl_aacaa95e66369f7b5740327cbcfbbb61e}\label{classFlowimpl_aacaa95e66369f7b5740327cbcfbbb61e} 
+\index{Flowimpl@{Flowimpl}!origin@{origin}}
+\index{origin@{origin}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{origin}{origin}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}}\texorpdfstring{$\ast$}{*} Flowimpl\+::origin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s origin. 
+
+This atribute represents where the flow comes from, that is, what system uses it as an interaction. The start of the interaction. Linked to the flow via pointer. Its possible for the flow to have no origin. In that case the pointer is null. \Hypertarget{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29}\label{classFlowimpl_a256b97aa7df491bf3ce7ec9f38ac8f29} 
+\index{Flowimpl@{Flowimpl}!value@{value}}
+\index{value@{value}!Flowimpl@{Flowimpl}}
+\doxysubsubsection{\texorpdfstring{value}{value}}
+{\footnotesize\ttfamily double Flowimpl\+::value\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The \doxylink{classFlowimpl}{Flowimpl}\textquotesingle{}s value. 
+
+This atribute represents the Flowimpl/interaction "{}transfer"{} value, the amount that will be changed on the \doxylink{classSystem}{System}\textquotesingle{}s value when the simulation is ran. Is set to 0.\+0 by default, but can be changed at any given time. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{flowimpl_8h}{flowimpl.\+h}}\item 
+src/\mbox{\hyperlink{flowimpl_8cpp}{flowimpl.\+cpp}}\end{DoxyCompactItemize}

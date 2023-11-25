@@ -1,0 +1,11 @@
+<map id="Flowimpl::operator==" name="Flowimpl::operator==">
+<area shape="rect" id="Node000001" title="Overload of equality operator for Flowimpl." alt="" coords="5,84,172,112"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a7bb059cd3d2e5a17d930823ecf6d1993" title="Getter function for the flow destination." alt="" coords="220,5,375,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,81,219,43,238,36,240,41,221,48,125,86"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#aa91a8025b6dbb27ee5137c7c9ad0c564" title="Getter function for the name." alt="" coords="238,57,357,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="172,85,222,78,222,83,172,90"/>
+<area shape="rect" id="Node000004" href="$classFlow.html#a34f428ea32203691a984acbe231e27ee" title="Getter function for the flow origin." alt="" coords="238,109,357,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,105,222,111,222,117,172,111"/>
+<area shape="rect" id="Node000005" href="$classFlow.html#a8acd2815f580b2c0b29f7fd703b3cdc4" title="Getter function for the value." alt="" coords="239,161,356,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="126,110,221,146,240,153,239,158,219,151,125,115"/>
+</map>

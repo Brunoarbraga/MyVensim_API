@@ -1,0 +1,102 @@
+\doxysection{test/funcional/funcional\+\_\+tests.h File Reference}
+\hypertarget{funcional__tests_8h}{}\label{funcional__tests_8h}\index{test/funcional/funcional\_tests.h@{test/funcional/funcional\_tests.h}}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{funcional__tests_8h_a990a580e1a43e5934dd62de8e0a37f30}{exponential\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Exponential funtional test function. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{funcional__tests_8h_ac9df0129352dd52de9dc7d0fc69660fe}{logistical\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Logistical funtional test function. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{funcional__tests_8h_a4b249a0069fb8bd98260fbe4d47f4e0b}{complex\+Funcional\+Test}} ()
+\begin{DoxyCompactList}\small\item\em Complex funtional test function. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{funcional__tests_8h_a4b249a0069fb8bd98260fbe4d47f4e0b}\label{funcional__tests_8h_a4b249a0069fb8bd98260fbe4d47f4e0b} 
+\index{funcional\_tests.h@{funcional\_tests.h}!complexFuncionalTest@{complexFuncionalTest}}
+\index{complexFuncionalTest@{complexFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{complexFuncionalTest()}{complexFuncionalTest()}}
+{\footnotesize\ttfamily bool complex\+Funcional\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Complex funtional test function. 
+
+Given the \doxylink{classModel}{Model} class in the \doxylink{model_8h}{model.\+h} file, the \doxylink{classComplexFlow}{Complex\+Flow} class in the \doxylink{derived__flows_8h}{derived\+\_\+flows.\+h} file, and the \doxylink{classSystem}{System} class in the \doxylink{system_8h}{system.\+h} file, taking five \doxylink{classSystem}{System} parameters with values 100, 0, 100, 0 and 0, respectively, and six \doxylink{classComplexFlow}{Complex\+Flow} parameters with values 0.\+0, all of them, when ran, this test simulates a systemic structure in a 100 unts of time (0-\/100 iteration), and returns\+: 31.\+8513 as the system1 final value, 18.\+4003 as the system2 final value, 77.\+1143 as the system3 final value, 56.\+1728 as the system4 final value and 16.\+4612 as the system5 final value.
+
+Then, if the final results are correct, matching the logistical test \doxylink{classVensim}{Vensim} simulation, it prints a success message on terminal. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h_a4b249a0069fb8bd98260fbe4d47f4e0b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=281pt]{funcional__tests_8h_a4b249a0069fb8bd98260fbe4d47f4e0b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{funcional__tests_8h_a990a580e1a43e5934dd62de8e0a37f30}\label{funcional__tests_8h_a990a580e1a43e5934dd62de8e0a37f30} 
+\index{funcional\_tests.h@{funcional\_tests.h}!exponentialFuncionalTest@{exponentialFuncionalTest}}
+\index{exponentialFuncionalTest@{exponentialFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{exponentialFuncionalTest()}{exponentialFuncionalTest()}}
+{\footnotesize\ttfamily bool exponential\+Funcional\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Exponential funtional test function. 
+
+Given the \doxylink{classModel}{Model} class in the \doxylink{model_8h}{model.\+h} file, the \doxylink{classExponentialFlow}{Exponential\+Flow} class in the \doxylink{derived__flows_8h}{derived\+\_\+flows.\+h} file, and the \doxylink{classSystem}{System} class in the \doxylink{system_8h}{system.\+h} file, taking two system parameters with values 100 and 0, respectively, and one \doxylink{classExponentialFlow}{Exponential\+Flow} parameter with value 0.\+0, when ran, this test simulates a systemic structure in a 100 unts of time (0-\/100 iteration), and returns\+: 36.\+6032 as the system1 final value and 63.\+3968 as the system2 final value.
+
+Then, if the final results are correct, matching the exponential test \doxylink{classVensim}{Vensim} simulation, it prints a success message on terminal. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h_a990a580e1a43e5934dd62de8e0a37f30_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=297pt]{funcional__tests_8h_a990a580e1a43e5934dd62de8e0a37f30_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{funcional__tests_8h_ac9df0129352dd52de9dc7d0fc69660fe}\label{funcional__tests_8h_ac9df0129352dd52de9dc7d0fc69660fe} 
+\index{funcional\_tests.h@{funcional\_tests.h}!logisticalFuncionalTest@{logisticalFuncionalTest}}
+\index{logisticalFuncionalTest@{logisticalFuncionalTest}!funcional\_tests.h@{funcional\_tests.h}}
+\doxysubsubsection{\texorpdfstring{logisticalFuncionalTest()}{logisticalFuncionalTest()}}
+{\footnotesize\ttfamily bool logistical\+Funcional\+Test (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Logistical funtional test function. 
+
+Given the \doxylink{classModel}{Model} class in the \doxylink{model_8h}{model.\+h} file, the \doxylink{classLogisticalFlow}{Logistical\+Flow} class in the \doxylink{derived__flows_8h}{derived\+\_\+flows.\+h} file, and the \doxylink{classSystem}{System} class in the \doxylink{system_8h}{system.\+h} file, taking two system parameters with values 100 and 10, respectively, and one \doxylink{classLogisticalFlow}{Logistical\+Flow} parameter with value 0.\+0857143, when ran, this test simulates a systemic structure in a 100 unts of time (0-\/100 iteration), and returns\+: 88.\+2167 as the system1 final value and 21.\+7833 as the system2 final value.
+
+Then, if the final results are correct, matching the logistical test \doxylink{classVensim}{Vensim} simulation, it prints a success message on terminal. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{funcional__tests_8h_ac9df0129352dd52de9dc7d0fc69660fe_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=283pt]{funcional__tests_8h_ac9df0129352dd52de9dc7d0fc69660fe_icgraph}
+\end{center}
+\end{figure}

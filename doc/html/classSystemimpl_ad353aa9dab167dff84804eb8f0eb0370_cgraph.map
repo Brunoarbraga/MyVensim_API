@@ -1,0 +1,7 @@
+<map id="Systemimpl::operator=" name="Systemimpl::operator=">
+<area shape="rect" id="Node000001" title="Systemimpl&#39;s atribution operator overload." alt="" coords="5,32,179,60"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#a25dff87b3fd15b008622ef9bd10ca1c0" title="Getter function for the name." alt="" coords="227,5,365,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,32,211,28,212,33,180,37"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a41b673faa6c199eb8e4f204639fab4f2" title="Getter function for the value." alt="" coords="228,57,364,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,54,213,58,213,64,179,59"/>
+</map>

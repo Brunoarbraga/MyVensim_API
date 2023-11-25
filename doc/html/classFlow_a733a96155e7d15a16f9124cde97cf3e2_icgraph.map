@@ -1,0 +1,7 @@
+<map id="Flow::getOrigin" name="Flow::getOrigin">
+<area shape="rect" id="Node000001" title="Getter function for the flow origin." alt="" coords="211,32,330,60"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a82f82eb47b4d325c61dc17750effb9d1" title="Copy constructor for Flow." alt="" coords="39,5,129,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,38,129,28,130,23,196,32"/>
+<area shape="rect" id="Node000003" href="$classExponentialFlow.html#a70ef60f970078d41590bc31785ec2d2b" title="run method override." alt="" coords="5,57,163,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="196,59,163,63,162,58,195,53"/>
+</map>

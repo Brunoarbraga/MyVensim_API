@@ -1,0 +1,7 @@
+<map id="Flowimpl::getValue" name="Flowimpl::getValue">
+<area shape="rect" id="Node000001" title="Getter function for the value." alt="" coords="196,32,342,60"/>
+<area shape="rect" id="Node000002" href="$classLogisticalFlow.html#aa380b703376d79abc5de059b18540e41" title="run method override." alt="" coords="5,5,148,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,36,148,32,148,26,181,31"/>
+<area shape="rect" id="Node000003" href="$classComplexFlow.html#a86d4a74a9c3f8c962d85e559311e0dcb" title="run method override." alt="" coords="7,57,146,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,60,146,65,146,59,180,55"/>
+</map>

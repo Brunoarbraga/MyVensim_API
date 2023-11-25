@@ -1,0 +1,5 @@
+<map id="unit_flow_getName" name="unit_flow_getName">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,153,33"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#aa91a8025b6dbb27ee5137c7c9ad0c564" title="Getter function for the name." alt="" coords="201,5,320,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,17,185,17,185,22,153,22"/>
+</map>
