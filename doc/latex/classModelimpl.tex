@@ -33,14 +33,18 @@ Collaboration diagram for Modelimpl\+:\nopagebreak
 typedef vector$<$ \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{systemit}}
 \begin{DoxyCompactList}\small\item\em Definition of the system\+Vector iterator. \end{DoxyCompactList}\item 
 typedef vector$<$ \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModelimpl_a0d8d98ca98c8d1c54c4058f3131f72ce}{flowit}}
-\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\item 
+typedef vector$<$ \mbox{\hyperlink{classModel}{Model}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModelimpl_a800c8a37af499c222d0415ec55b83aa9}{modelit}}
+\end{DoxyCompactItemize}
 \doxysubsection*{Public Types inherited from \mbox{\hyperlink{classModel}{Model}}}
 \begin{DoxyCompactItemize}
 \item 
 typedef vector$<$ \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_aec9327022b2b96224e336796ce31b264}{systemit}}
 \begin{DoxyCompactList}\small\item\em Definition of the system\+Vector iterator. \end{DoxyCompactList}\item 
 typedef vector$<$ \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_af288837298a2a6ec561a7c6ee03f4440}{flowit}}
-\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\item 
+typedef vector$<$ \mbox{\hyperlink{classModel}{Model}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_a04f6f04fd530185de24df069dc0bc42c}{modelit}}
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -71,6 +75,10 @@ virtual \mbox{\hyperlink{classModelimpl_acc90cb69f03062e203bbba4b2f474c34}{\texo
 const string \mbox{\hyperlink{classModelimpl_a0cb3f9620c78070b7f4167fde88d7a98}{get\+Name}} () const
 \item 
 bool \mbox{\hyperlink{classModelimpl_a6143a88404c19156897ebcb02568e6d0}{set\+Name}} (string \mbox{\hyperlink{classModelimpl_a909d75d8b58a496beaed57433056fd2a}{name}})
+\item 
+\mbox{\hyperlink{classModelimpl_a800c8a37af499c222d0415ec55b83aa9}{modelit}} \mbox{\hyperlink{classModelimpl_a317c94953f8bd4ae673e989c522ae115}{model\+\_\+begin}} ()
+\item 
+\mbox{\hyperlink{classModelimpl_a800c8a37af499c222d0415ec55b83aa9}{modelit}} \mbox{\hyperlink{classModelimpl_abfde43550ffa39b9ea934da937780802}{model\+\_\+end}} ()
 \item 
 \mbox{\hyperlink{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}{systemit}} \mbox{\hyperlink{classModelimpl_aad645808949f744e33f347590eeddee9}{system\+\_\+begin}} ()
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System} iterator begin. \end{DoxyCompactList}\item 
@@ -173,7 +181,13 @@ Can be ran to simulate real world systemic structures through the systems stored
 
 Definition of the flow\+Vector iterator. 
 
-Its better to use iterators instead of specific data structure containers, since those are of programmers choice of implementation, meaning that if we use a vector here, and the programmer using the API decides to use another data structure, the API wont work as exprected. \Hypertarget{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}\label{classModelimpl_a69002bff6e98c3aa6cb91271c55691de} 
+Its better to use iterators instead of specific data structure containers, since those are of programmers choice of implementation, meaning that if we use a vector here, and the programmer using the API decides to use another data structure, the API wont work as exprected. \Hypertarget{classModelimpl_a800c8a37af499c222d0415ec55b83aa9}\label{classModelimpl_a800c8a37af499c222d0415ec55b83aa9} 
+\index{Modelimpl@{Modelimpl}!modelit@{modelit}}
+\index{modelit@{modelit}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{modelit}{modelit}}
+{\footnotesize\ttfamily typedef vector$<$\mbox{\hyperlink{classModel}{Model}}\texorpdfstring{$\ast$}{*}$>$\+::iterator \mbox{\hyperlink{classModelimpl_a800c8a37af499c222d0415ec55b83aa9}{Modelimpl\+::modelit}}}
+
+\Hypertarget{classModelimpl_a69002bff6e98c3aa6cb91271c55691de}\label{classModelimpl_a69002bff6e98c3aa6cb91271c55691de} 
 \index{Modelimpl@{Modelimpl}!systemit@{systemit}}
 \index{systemit@{systemit}!Modelimpl@{Modelimpl}}
 \doxysubsubsection{\texorpdfstring{systemit}{systemit}}
@@ -309,7 +323,14 @@ Intances a \doxylink{classModelimpl}{Modelimpl} with all the atributes passed as
 
 \doxylink{classModelimpl}{Modelimpl} virtual destructor. 
 
-Destructs the model, freeing its memory allocation. 
+Destructs the model, freeing its memory allocation. Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_acc90cb69f03062e203bbba4b2f474c34_cgraph}
+\end{center}
+\end{figure}
+
 
 \doxysubsection{Member Function Documentation}
 \Hypertarget{classModelimpl_a703ac2d7c4099c99863160376dbc35ff}\label{classModelimpl_a703ac2d7c4099c99863160376dbc35ff} 
@@ -589,6 +610,40 @@ Here is the caller graph for this function\+:\nopagebreak
 
 Implements \mbox{\hyperlink{classModel_a447cb8c73eb6377246147dc64eba63ce}{Model}}.
 
+\Hypertarget{classModelimpl_a317c94953f8bd4ae673e989c522ae115}\label{classModelimpl_a317c94953f8bd4ae673e989c522ae115} 
+\index{Modelimpl@{Modelimpl}!model\_begin@{model\_begin}}
+\index{model\_begin@{model\_begin}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{model\_begin()}{model\_begin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModelimpl_a800c8a37af499c222d0415ec55b83aa9}{Modelimpl\+::modelit}} Modelimpl\+::model\+\_\+begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a51272edd052f283bd48479e38548cc01}{Model}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_a317c94953f8bd4ae673e989c522ae115_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classModelimpl_abfde43550ffa39b9ea934da937780802}\label{classModelimpl_abfde43550ffa39b9ea934da937780802} 
+\index{Modelimpl@{Modelimpl}!model\_end@{model\_end}}
+\index{model\_end@{model\_end}!Modelimpl@{Modelimpl}}
+\doxysubsubsection{\texorpdfstring{model\_end()}{model\_end()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classModelimpl_a800c8a37af499c222d0415ec55b83aa9}{Modelimpl\+::modelit}} Modelimpl\+::model\+\_\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classModel_a2c6be95a0cfe2561651a87ef7d7fa6cb}{Model}}.
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classModelimpl_abfde43550ffa39b9ea934da937780802_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classModelimpl_a885c1f6137082152e16f9c5e6c7a0306}\label{classModelimpl_a885c1f6137082152e16f9c5e6c7a0306} 
 \index{Modelimpl@{Modelimpl}!operator=@{operator=}}
 \index{operator=@{operator=}!Modelimpl@{Modelimpl}}

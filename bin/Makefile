@@ -5,21 +5,21 @@ all : funcional_tests unit_tests clean
 
 
 
-funcional_tests: src.so funcional_tests.o ../test/funcional/main.cpp
-	@g++ src.so funcional_tests.o ../test/funcional/main.cpp -o funcional_tests -Wall
+funcional_tests: src.so funcional_test.so ../test/funcional/main.cpp
+	@g++ src.so funcional_test.so ../test/funcional/main.cpp -o funcional_tests -Wall
 
 
 unit_tests: src.so unit_test.so ../test/unit/main.cpp
 	g++  src.so unit_test.so ../test/unit/main.cpp  -o unit_tests -Wall
 	
-
+	
 
 
 
 
 #-------------------------------------------------------------------------
 # Building the .so file for the funcional test files
-funcional_test.so: funcional_tests.o
+funcional_test.so: funcional_tests.o derived_flows.o
 	g++ -shared -fPIC -o $@ $^
 
 funcional_tests.o: ../test/funcional/funcional_tests.cpp
@@ -38,7 +38,7 @@ funcional_tests.o: ../test/funcional/funcional_tests.cpp
 
 #-------------------------------------------------------------------------
 # Building the .so file for the source files
-src.so: flow.o model.o system.o derived_flows.o
+src.so: flow.o model.o system.o
 	g++ -shared -fPIC -o $@ $^
 
 
@@ -66,7 +66,7 @@ derived_flows.o: ../test/derived_flows/derived_flows.cpp
 
 #-------------------------------------------------------------------------
 # Building the .so file for the unit test files
-unit_test.so: unit_test.o unit_flow.o unit_system.o unit_model.o
+unit_test.so: unit_test.o unit_flow.o unit_system.o unit_model.o derived_flows.o
 	g++ -shared -fPIC -o $@ $^
 
 

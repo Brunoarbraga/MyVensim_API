@@ -1,6 +1,7 @@
 var classModelimpl =
 [
     [ "flowit", "classModelimpl.html#a0d8d98ca98c8d1c54c4058f3131f72ce", null ],
+    [ "modelit", "classModelimpl.html#a800c8a37af499c222d0415ec55b83aa9", null ],
     [ "systemit", "classModelimpl.html#a69002bff6e98c3aa6cb91271c55691de", null ],
     [ "Modelimpl", "classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f", null ],
     [ "Modelimpl", "classModelimpl.html#ad10c783a3dd9e877a678ee6f452ca021", null ],
@@ -25,6 +26,8 @@ var classModelimpl =
     [ "flow_begin", "classModelimpl.html#a833e8e152d27043a11c0ddd37c957582", null ],
     [ "flow_end", "classModelimpl.html#a02f3f9801481a8487ab534c52516d3ea", null ],
     [ "getName", "classModelimpl.html#a0cb3f9620c78070b7f4167fde88d7a98", null ],
+    [ "model_begin", "classModelimpl.html#a317c94953f8bd4ae673e989c522ae115", null ],
+    [ "model_end", "classModelimpl.html#abfde43550ffa39b9ea934da937780802", null ],
     [ "operator=", "classModelimpl.html#a885c1f6137082152e16f9c5e6c7a0306", null ],
     [ "printModel", "classModelimpl.html#afcfe6ae4a7407f0c64f731d57a98a58d", null ],
     [ "remove", "classModelimpl.html#af0b28b93ec3dab9a821311f4d1e697e1", null ],

@@ -13,21 +13,16 @@ bool exponentialFuncionalTest(){
     System &pop2 = m1.createSystem("pop2", 0); 
     Flow &f1 = m1.createFlow<ExponentialFlow>("ExponentialFlow", 0.0, &pop1, &pop2);
 
+    f1.getValue();
+
   
     m1.run(1,100);
 
-    //cout << (pop1.getValue() - 36.6032)*1000 << endl;
 
     assert(trunc(fabs(pop1.getValue() - 36.6032)*1000) < 1);
     assert(trunc(fabs(pop2.getValue() - 63.3968)*1000) < 1);
 
     cout << "Passed 100 iterations exponential test" << endl;
-
-
-    delete(&f1);
-    delete(&pop1);
-    delete(&pop2);
-    delete(&m1);
 
     return true;
 }
@@ -39,17 +34,15 @@ bool logisticalFuncionalTest(){
     System &p2 = m2.createSystem("p2", 10);
     Flow &f1 = m2.createFlow<LogisticalFlow>("LogisticalFlow", 0.0857143, &p1, &p2); 
 
+    f1.getValue();
+
+
     m2.run(1,100);
 
     assert(trunc(fabs(p1.getValue() - 88.2167)*1000) < 1);
     assert(trunc(fabs(p2.getValue() - 21.7833)*1000) < 1);
 
     cout << "Passed 100 iterations logistical test" << endl;
-
-    delete(&f1);
-    delete(&p1);
-    delete(&p2);
-    delete(&m2);
 
     return true;
     
@@ -73,6 +66,9 @@ bool complexFuncionalTest(){
     Flow &t = m3.createFlow<ComplexFlow>("t", 0.0, &Q2, &Q3);
     Flow &r = m3.createFlow<ComplexFlow>("r", 0.0, &Q2, &Q5);
 
+    v.getValue(), u.getValue(), g.getValue(), f.getValue(), t.getValue(), r.getValue();
+
+
     m3.run(1, 100);
 
     assert(trunc(fabs(Q1.getValue() - 31.8513)*1000) < 1);
@@ -83,21 +79,6 @@ bool complexFuncionalTest(){
 
     cout << "Passed 100 iterations complex test" << endl;
     
-
-    delete(&v);
-    delete(&u);
-    delete(&g);
-    delete(&f);
-    delete(&t);
-    delete(&r);
-
-    delete(&Q1);
-    delete(&Q2);
-    delete(&Q3);
-    delete(&Q4);
-    delete(&Q5);
-
-    delete(&m3);
 
     return true;
 

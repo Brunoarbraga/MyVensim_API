@@ -5,7 +5,7 @@ var indexSectionsWithContent =
   2: "dfmsuv",
   3: "acefglmoprsu~",
   4: "dfmnosv",
-  5: "fs",
+  5: "fms",
   6: "o",
   7: "m"
 };

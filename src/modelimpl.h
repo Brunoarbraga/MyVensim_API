@@ -182,6 +182,11 @@ class Modelimpl : public Model {
          */
         typedef vector<Flow*>::iterator flowit;
 
+        typedef vector<Model*>::iterator modelit;
+
+        modelit model_begin();
+        modelit model_end();
+
         /**
          * @brief System iterator begin.
          *

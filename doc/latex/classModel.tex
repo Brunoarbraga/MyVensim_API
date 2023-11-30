@@ -33,7 +33,9 @@ Collaboration diagram for Model\+:\nopagebreak
 typedef vector$<$ \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_aec9327022b2b96224e336796ce31b264}{systemit}}
 \begin{DoxyCompactList}\small\item\em Definition of the system\+Vector iterator. \end{DoxyCompactList}\item 
 typedef vector$<$ \mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_af288837298a2a6ec561a7c6ee03f4440}{flowit}}
-\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Definition of the flow\+Vector iterator. \end{DoxyCompactList}\item 
+typedef vector$<$ \mbox{\hyperlink{classModel}{Model}} \texorpdfstring{$\ast$}{*} $>$\+::iterator \mbox{\hyperlink{classModel_a04f6f04fd530185de24df069dc0bc42c}{modelit}}
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -58,6 +60,10 @@ virtual \mbox{\hyperlink{classModel_af032d8433c87a0a3a431faf6563a1f03}{\texorpdf
 virtual const string \mbox{\hyperlink{classModel_a447cb8c73eb6377246147dc64eba63ce}{get\+Name}} () const =0
 \item 
 virtual bool \mbox{\hyperlink{classModel_a1f7cfcf8692da752803b0ee94df7da8e}{set\+Name}} (string name)=0
+\item 
+virtual \mbox{\hyperlink{classModel_a04f6f04fd530185de24df069dc0bc42c}{modelit}} \mbox{\hyperlink{classModel_a51272edd052f283bd48479e38548cc01}{model\+\_\+begin}} ()=0
+\item 
+virtual \mbox{\hyperlink{classModel_a04f6f04fd530185de24df069dc0bc42c}{modelit}} \mbox{\hyperlink{classModel_a2c6be95a0cfe2561651a87ef7d7fa6cb}{model\+\_\+end}} ()=0
 \item 
 virtual \mbox{\hyperlink{classModel_aec9327022b2b96224e336796ce31b264}{systemit}} \mbox{\hyperlink{classModel_af7ade11b6b9306b58b01fcabab9ad170}{system\+\_\+begin}} ()=0
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System} iterator begin. \end{DoxyCompactList}\item 
@@ -115,7 +121,13 @@ Can be ran to simulate real world systemic structures through the systems stored
 
 Definition of the flow\+Vector iterator. 
 
-Its better to use iterators instead of specific data structure containers, since those are of programmers choice of implementation, meaning that if we use a vector here, and the programmer using the API decides to use another data structure, the API wont work as exprected. \Hypertarget{classModel_aec9327022b2b96224e336796ce31b264}\label{classModel_aec9327022b2b96224e336796ce31b264} 
+Its better to use iterators instead of specific data structure containers, since those are of programmers choice of implementation, meaning that if we use a vector here, and the programmer using the API decides to use another data structure, the API wont work as exprected. \Hypertarget{classModel_a04f6f04fd530185de24df069dc0bc42c}\label{classModel_a04f6f04fd530185de24df069dc0bc42c} 
+\index{Model@{Model}!modelit@{modelit}}
+\index{modelit@{modelit}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{modelit}{modelit}}
+{\footnotesize\ttfamily typedef vector$<$\mbox{\hyperlink{classModel}{Model}}\texorpdfstring{$\ast$}{*}$>$\+::iterator \mbox{\hyperlink{classModel_a04f6f04fd530185de24df069dc0bc42c}{Model\+::modelit}}}
+
+\Hypertarget{classModel_aec9327022b2b96224e336796ce31b264}\label{classModel_aec9327022b2b96224e336796ce31b264} 
 \index{Model@{Model}!systemit@{systemit}}
 \index{systemit@{systemit}!Model@{Model}}
 \doxysubsubsection{\texorpdfstring{systemit}{systemit}}
@@ -442,6 +454,26 @@ Here is the caller graph for this function\+:\nopagebreak
 \includegraphics[width=350pt]{classModel_a447cb8c73eb6377246147dc64eba63ce_icgraph}
 \end{center}
 \end{figure}
+\Hypertarget{classModel_a51272edd052f283bd48479e38548cc01}\label{classModel_a51272edd052f283bd48479e38548cc01} 
+\index{Model@{Model}!model\_begin@{model\_begin}}
+\index{model\_begin@{model\_begin}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{model\_begin()}{model\_begin()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classModel_a04f6f04fd530185de24df069dc0bc42c}{modelit}} Model\+::model\+\_\+begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModelimpl_a317c94953f8bd4ae673e989c522ae115}{Modelimpl}}.
+
+\Hypertarget{classModel_a2c6be95a0cfe2561651a87ef7d7fa6cb}\label{classModel_a2c6be95a0cfe2561651a87ef7d7fa6cb} 
+\index{Model@{Model}!model\_end@{model\_end}}
+\index{model\_end@{model\_end}!Model@{Model}}
+\doxysubsubsection{\texorpdfstring{model\_end()}{model\_end()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{classModel_a04f6f04fd530185de24df069dc0bc42c}{modelit}} Model\+::model\+\_\+end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{classModelimpl_abfde43550ffa39b9ea934da937780802}{Modelimpl}}.
+
 \Hypertarget{classModel_aaa3e9d78bd6271df07af271018c8eabb}\label{classModel_aaa3e9d78bd6271df07af271018c8eabb} 
 \index{Model@{Model}!printModel@{printModel}}
 \index{printModel@{printModel}!Model@{Model}}

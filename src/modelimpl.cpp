@@ -128,7 +128,24 @@ Modelimpl::Modelimpl(string name, System* systems, Flow* flows) : name(name){
     systemVector.push_back(systems);
     flowVector.push_back(flows);
 }
-Modelimpl::~Modelimpl(){}
+Modelimpl::~Modelimpl(){
+
+    for(systemit it = system_begin(); it < system_end(); it++)
+        delete *it;
+
+    for(flowit it = flow_begin(); it < flow_end(); it++)
+        delete *it;
+    
+
+    for(modelit it = model_begin(); it < model_end(); it++)
+        if(*it == this){
+            modelVector.erase(it);
+            break;
+        }
+        
+}
+
+
 Modelimpl::Modelimpl(Model &model){
     
      name = model.getName();
@@ -289,3 +306,11 @@ Modelimpl::flowit Modelimpl::flow_end(){
     return flowVector.end();
 }
 
+Modelimpl::modelit Modelimpl::model_begin(){
+    return modelVector.begin();
+}
+
+Modelimpl::modelit Modelimpl::model_end(){
+    return modelVector.end();
+
+}

@@ -82,6 +82,10 @@ class Model {
          */
         typedef vector<Flow*>::iterator flowit;
 
+        typedef vector<Model*>::iterator modelit;
+        virtual modelit model_begin() = 0;
+        virtual modelit model_end() = 0;
+
         /**
          * @brief System iterator begin.
          *

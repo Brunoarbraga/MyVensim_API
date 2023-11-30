@@ -11,9 +11,6 @@ void unit_flow_default_constructor(){
     assert(f1.getValue() == 0.0);
     cout << "Flow default constructor unit test passed" << endl;
 
-    delete(&f1);
-    delete(&m1);
-
 }
 
 void unit_flow_copy_constructor(){
@@ -30,9 +27,6 @@ void unit_flow_copy_constructor(){
     assert(f2.getDestination() == f1.getDestination());
 
     cout << "Flow copy constructor unit test passed" << endl;
-
-    delete(&f1);
-    delete(&m1);
 
 }
 
@@ -51,10 +45,6 @@ void unit_flow_complete_constructor(){
 
     cout << "Flow complete constructor unit test passed" << endl;
 
-    delete(&s1);
-    delete(&s2);
-    delete(&f3);
-    delete(&m1);
 
 }  
 
@@ -69,8 +59,6 @@ void unit_flow_getValue(){
     assert(value == 100);
     cout << "Flow getValue() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&m1);
 
 }
 void unit_flow_setValue(){
@@ -82,8 +70,6 @@ void unit_flow_setValue(){
     assert(f1.getValue() == 50);
     cout << "Flow setValue() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&m1);
 
 }
 
@@ -96,8 +82,6 @@ void unit_flow_getName(){
     assert(name == "flow1");
     cout << "Flow getName() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&m1);
 
 }
 void unit_flow_setName(){
@@ -109,8 +93,6 @@ void unit_flow_setName(){
     assert(f1.getName() == "flow1");
     cout << "Flow setName() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&m1);
 
 }
 void unit_flow_setOrigin(){
@@ -123,9 +105,6 @@ void unit_flow_setOrigin(){
     assert((f1.getOrigin()) == &s1);
     cout << "Flow setOrigin() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&s1);
-    delete(&m1);
 
 }
 void unit_flow_getOrigin(){
@@ -138,10 +117,6 @@ void unit_flow_getOrigin(){
     assert(s1 == s2);
     cout << "Flow getOrigin() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&s1);
-    delete(&s2);
-    delete(&m1);
     
 }
 void unit_flow_setDestination(){
@@ -154,9 +129,6 @@ void unit_flow_setDestination(){
     assert((f1.getDestination()) == &s1);
     cout << "Flow setDestination() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&s1);
-    delete(&m1);
 
 }
 void unit_flow_getDestination(){
@@ -169,10 +141,6 @@ void unit_flow_getDestination(){
     assert(s1 == s2);
     cout << "Flow getDestination() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&s1);
-    delete(&s2);
-    delete(&m1);
 
 }
 void unit_flow_atribution_operator(){
@@ -189,10 +157,7 @@ void unit_flow_atribution_operator(){
     assert((f2.getDestination()) == &s2);
     cout << "Flow atribution operator unit test passed" << endl;
 
-    delete(&f1);
-    delete(&s1);
-    delete(&s2);
-    delete(&m1);
+
 }
 void unit_flow_equals_operator(){
 
@@ -202,9 +167,6 @@ void unit_flow_equals_operator(){
     assert(f1 == f2);
     cout << "Flow equals operator unit test passed" << endl;
 
-    delete(&f1);
-    delete(&f2);
-    delete(&m1);
 }
 
 void run_unit_tests_flow(){

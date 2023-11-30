@@ -12,7 +12,6 @@ void unit_model_default_constructor(){
     assert(m1.getName() == "");
     cout << "Model default constructor unit test passed" << endl;
 
-    delete(&m1);
 
 }
 
@@ -52,7 +51,6 @@ void unit_model_copy_constructor(){
 
     cout << "Model copy constructor unit test passed" << endl;
 
-    delete(&m1);
 
 }
 
@@ -62,7 +60,6 @@ void unit_model_name_constructor(){
     assert(m3.getName() == "model3");
     cout << "Model name constructor unit test passed" << endl;
 
-    delete(&m3);
 
 }
 
@@ -76,9 +73,6 @@ void unit_model_system_constructor(){
     assert(*it == &s1);
     cout << "Model Systemimpl constructor unit test passed" << endl;
 
-    delete(&s1);
-    delete(&m4);
-    delete(&m1);
 
 }
 
@@ -92,9 +86,6 @@ void unit_model_flow_constructor(){
     assert(*it2 == &f1);
     cout << "Model Flow constructor unit test passed" << endl;
 
-    delete(&f1);
-    delete(&m5);
-    delete(&m1);
 
 }
 
@@ -112,10 +103,6 @@ void unit_model_complete_constructor(){
     assert(*it4 == &f2);
     cout << "Model complete constructor unit test passed" << endl;
 
-    delete(&s2);
-    delete(&f2);
-    delete(&m6);
-    delete(&m1);
 
 
 }
@@ -137,9 +124,6 @@ void unit_model_add(){
 
     cout << "Model add() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&s1);
-    delete(&m1);
 
 }
 
@@ -162,9 +146,6 @@ void unit_model_remove(){
 
     cout << "Model remove() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&s1);
-    delete(&m1);
 
 }
 
@@ -179,9 +160,6 @@ void unit_model_system_begin(){
     assert(*(m1.system_begin()) == &s1);
     assert(*(m1.system_begin()) != &s2);
 
-    delete(&s1);
-    delete(&s2);
-    delete(&m1);
 
     cout << "Model system_begin() unit test passed" << endl;
 }
@@ -192,6 +170,9 @@ void unit_model_system_end(){
 
     System &s1 = m1.createSystem("system1");
     System &s2 = m1.createSystem("system2");
+
+    s1.getValue();
+    s2.getValue();
 
 
     Model::systemit it = m1.system_begin();
@@ -208,10 +189,6 @@ void unit_model_system_end(){
     Model &m2 = Model::createModel();
     assert(m2.system_begin() == m2.system_end());
 
-    delete(&s1);
-    delete(&s2);
-    delete(&m1);
-    delete(&m2);
 
     cout << "Model system_end() unit test passed" << endl;
 }
@@ -229,9 +206,6 @@ void unit_model_flow_begin(){
 
     cout << "Model flow_begin() unit test passed" << endl;
 
-    delete(&f1);
-    delete(&f2);
-    delete(&m1);
 
 }
 
@@ -241,6 +215,9 @@ void unit_model_flow_end(){
 
     Flow &f1 = m1.createFlow<ExponentialFlow>("f1", 0.0, nullptr, nullptr);
     Flow &f2 = m1.createFlow<ExponentialFlow>("f2", 10, nullptr, nullptr);
+
+    f1.getValue();
+    f2.getValue();
 
     Model::flowit it = m1.flow_begin();
     Model::flowit end = m1.flow_end();
@@ -256,10 +233,6 @@ void unit_model_flow_end(){
     Model &m2 = Model::createModel("model2");
     assert(m2.flow_begin() == m2.flow_end());
 
-    delete(&f1);
-    delete(&f2);
-    delete(&m1);
-    delete(&m2);
 
     cout << "Model flow_end() unit test passed" << endl;
 }
