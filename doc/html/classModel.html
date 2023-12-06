@@ -99,6 +99,7 @@ $(document).ready(function(){initNavTree('classModel.html',''); initResizable();
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classModel-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Model Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
@@ -113,9 +114,9 @@ Inheritance diagram for Model:</div>
 <div class="dyncontent">
 <div class="center"><img src="classModel__inherit__graph.png" border="0" usemap="#aModel_inherit__map" alt="Inheritance graph"/></div>
 <map name="aModel_inherit__map" id="aModel_inherit__map">
-<area shape="rect" title="Represents the model." alt="" coords="5,5,264,641"/>
-<area shape="rect" href="classModelimpl.html" title="Represents the model." alt="" coords="17,689,253,1428"/>
-<area shape="poly" title=" " alt="" coords="137,656,137,690,132,690,132,656"/>
+<area shape="rect" title="Represents the model." alt="" coords="5,5,264,719"/>
+<area shape="rect" href="classModelimpl.html" title="Represents the model." alt="" coords="17,767,253,1548"/>
+<area shape="poly" title=" " alt="" coords="137,734,137,767,132,767,132,734"/>
 </map>
 </div>
 <div class="dynheader">
@@ -123,7 +124,7 @@ Collaboration diagram for Model:</div>
 <div class="dyncontent">
 <div class="center"><img src="classModel__coll__graph.png" border="0" usemap="#aModel_coll__map" alt="Collaboration graph"/></div>
 <map name="aModel_coll__map" id="aModel_coll__map">
-<area shape="rect" title="Represents the model." alt="" coords="5,5,264,641"/>
+<area shape="rect" title="Represents the model." alt="" coords="5,5,264,719"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -181,12 +182,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9e08ff136d6a2f0099dcf720146cf078" id="r_a9e08ff136d6a2f0099dcf720146cf078"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classModel.html#af288837298a2a6ec561a7c6ee03f4440">flowit</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a9e08ff136d6a2f0099dcf720146cf078">flow_end</a> ()=0</td></tr>
 <tr class="memdesc:a9e08ff136d6a2f0099dcf720146cf078"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classFlow.html" title="Represents the Flow.">Flow</a> iterator end.  <br /></td></tr>
 <tr class="separator:a9e08ff136d6a2f0099dcf720146cf078"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cfac518d3f6ec84e858568175a28f20" id="r_a7cfac518d3f6ec84e858568175a28f20"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a7cfac518d3f6ec84e858568175a28f20">add</a> (<a class="el" href="classFlow.html">Flow</a> *flow)=0</td></tr>
-<tr class="memdesc:a7cfac518d3f6ec84e858568175a28f20"><td class="mdescLeft">&#160;</td><td class="mdescRight">add function for the model.  <br /></td></tr>
-<tr class="separator:a7cfac518d3f6ec84e858568175a28f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e0e020c71a3f663705f23cfc1f3424a" id="r_a5e0e020c71a3f663705f23cfc1f3424a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a5e0e020c71a3f663705f23cfc1f3424a">add</a> (<a class="el" href="classSystem.html">System</a> *system)=0</td></tr>
-<tr class="memdesc:a5e0e020c71a3f663705f23cfc1f3424a"><td class="mdescLeft">&#160;</td><td class="mdescRight">add function for the model.  <br /></td></tr>
-<tr class="separator:a5e0e020c71a3f663705f23cfc1f3424a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a557c5d21498fef17011904a4dc1aeafb" id="r_a557c5d21498fef17011904a4dc1aeafb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a557c5d21498fef17011904a4dc1aeafb">remove</a> (<a class="el" href="classFlow.html">Flow</a> *flow)=0</td></tr>
 <tr class="separator:a557c5d21498fef17011904a4dc1aeafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a731ced071d257b3c469337dec4c37656" id="r_a731ced071d257b3c469337dec4c37656"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a731ced071d257b3c469337dec4c37656">remove</a> (<a class="el" href="classSystem.html">System</a> *system)=0</td></tr>
@@ -212,6 +207,15 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:adb559e6fdef87f6138dc010c3d2eaebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b1fdba0e8140f455f9e3836884a47bd" id="r_a2b1fdba0e8140f455f9e3836884a47bd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classModel.html">Model</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a2b1fdba0e8140f455f9e3836884a47bd">createModel</a> (<a class="el" href="classModel.html">Model</a> &amp;copiedModel)</td></tr>
 <tr class="separator:a2b1fdba0e8140f455f9e3836884a47bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a7cfac518d3f6ec84e858568175a28f20" id="r_a7cfac518d3f6ec84e858568175a28f20"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a7cfac518d3f6ec84e858568175a28f20">add</a> (<a class="el" href="classFlow.html">Flow</a> *flow)=0</td></tr>
+<tr class="memdesc:a7cfac518d3f6ec84e858568175a28f20"><td class="mdescLeft">&#160;</td><td class="mdescRight">add function for the model.  <br /></td></tr>
+<tr class="separator:a7cfac518d3f6ec84e858568175a28f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0e020c71a3f663705f23cfc1f3424a" id="r_a5e0e020c71a3f663705f23cfc1f3424a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a5e0e020c71a3f663705f23cfc1f3424a">add</a> (<a class="el" href="classSystem.html">System</a> *system)=0</td></tr>
+<tr class="memdesc:a5e0e020c71a3f663705f23cfc1f3424a"><td class="mdescLeft">&#160;</td><td class="mdescRight">add function for the model.  <br /></td></tr>
+<tr class="separator:a5e0e020c71a3f663705f23cfc1f3424a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents the model. </p>
@@ -313,7 +317,7 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -437,7 +441,7 @@ Here is the caller graph for this function:</div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

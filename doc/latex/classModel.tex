@@ -11,7 +11,8 @@ Represents the model.
 
 
 
-Inheritance diagram for Model\+:\nopagebreak
+Inheritance diagram for Model\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -20,7 +21,8 @@ Inheritance diagram for Model\+:\nopagebreak
 \end{figure}
 
 
-Collaboration diagram for Model\+:\nopagebreak
+Collaboration diagram for Model\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -73,10 +75,6 @@ virtual \mbox{\hyperlink{classModel_af288837298a2a6ec561a7c6ee03f4440}{flowit}} 
 \begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow} iterator begin. \end{DoxyCompactList}\item 
 virtual \mbox{\hyperlink{classModel_af288837298a2a6ec561a7c6ee03f4440}{flowit}} \mbox{\hyperlink{classModel_a9e08ff136d6a2f0099dcf720146cf078}{flow\+\_\+end}} ()=0
 \begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow} iterator end. \end{DoxyCompactList}\item 
-virtual bool \mbox{\hyperlink{classModel_a7cfac518d3f6ec84e858568175a28f20}{add}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flow)=0
-\begin{DoxyCompactList}\small\item\em add function for the model. \end{DoxyCompactList}\item 
-virtual bool \mbox{\hyperlink{classModel_a5e0e020c71a3f663705f23cfc1f3424a}{add}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)=0
-\begin{DoxyCompactList}\small\item\em add function for the model. \end{DoxyCompactList}\item 
 virtual bool \mbox{\hyperlink{classModel_a557c5d21498fef17011904a4dc1aeafb}{remove}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flow)=0
 \item 
 virtual bool \mbox{\hyperlink{classModel_a731ced071d257b3c469337dec4c37656}{remove}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)=0
@@ -100,6 +98,13 @@ static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_adb55
 \item 
 static \mbox{\hyperlink{classModel}{Model}} \& \mbox{\hyperlink{classModel_a2b1fdba0e8140f455f9e3836884a47bd}{create\+Model}} (\mbox{\hyperlink{classModel}{Model}} \&copied\+Model)
 \end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{classModel_a7cfac518d3f6ec84e858568175a28f20}{add}} (\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}flow)=0
+\begin{DoxyCompactList}\small\item\em add function for the model. \end{DoxyCompactList}\item 
+virtual bool \mbox{\hyperlink{classModel_a5e0e020c71a3f663705f23cfc1f3424a}{add}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}system)=0
+\begin{DoxyCompactList}\small\item\em add function for the model. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
@@ -153,7 +158,7 @@ Its better to use iterators instead of specific data structure containers, since
 \index{Model@{Model}!add@{add}}
 \index{add@{add}!Model@{Model}}
 \doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
-{\footnotesize\ttfamily virtual bool Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flow }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+{\footnotesize\ttfamily virtual bool Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \texorpdfstring{$\ast$}{*}}]{flow }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
 
 
 
@@ -184,7 +189,7 @@ Here is the caller graph for this function\+:\nopagebreak
 \index{Model@{Model}!add@{add}}
 \index{add@{add}!Model@{Model}}
 \doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
-{\footnotesize\ttfamily virtual bool Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+{\footnotesize\ttfamily virtual bool Model\+::add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}
 
 
 

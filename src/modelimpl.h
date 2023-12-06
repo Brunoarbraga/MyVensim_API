@@ -68,6 +68,34 @@ class Modelimpl : public Model {
          */
         Modelimpl& operator=(const Modelimpl& other);
 
+        /**
+         * @brief add function for the model.
+         *
+         * Overloaded function to add a Flow to the Modelimpl. Adds it to the flowVector model atribute
+         * via the push_back() method. 
+         * 
+         * @param flow flow to be added to the model, can be any of the flow derived classes 
+         * 
+         * @return reutrns a boolean value, true if the addition was successful, false otherwise.
+         * Used to verify the integrity of the function call before moving on with the model simulation.
+         * 
+         */
+        bool add(Flow* flow);
+ 
+        /**
+         * @brief add function for the model.
+         *
+         * Overloaded function to add a System to the Modelimpl. Adds it to the systemVector model atribute
+         * via the push_back() method. 
+         * 
+         * @param system System to be added to the Modelimpl.
+         * 
+         * @return reutrns a boolean value, true if the addition was successful, false otherwise. 
+         * Used to verify the integrity of the function call before moving on with the model simulation.
+         * 
+         */            
+        bool add(System* system);
+
     public:
 
 
@@ -219,33 +247,7 @@ class Modelimpl : public Model {
          */
         flowit flow_end();        
 
-        /**
-         * @brief add function for the model.
-         *
-         * Overloaded function to add a Flow to the Modelimpl. Adds it to the flowVector model atribute
-         * via the push_back() method. 
-         * 
-         * @param flow flow to be added to the model, can be any of the flow derived classes 
-         * 
-         * @return reutrns a boolean value, true if the addition was successful, false otherwise.
-         * Used to verify the integrity of the function call before moving on with the model simulation.
-         * 
-         */
-        bool add(Flow* flow);
- 
-        /**
-         * @brief add function for the model.
-         *
-         * Overloaded function to add a System to the Modelimpl. Adds it to the systemVector model atribute
-         * via the push_back() method. 
-         * 
-         * @param system System to be added to the Modelimpl.
-         * 
-         * @return reutrns a boolean value, true if the addition was successful, false otherwise. 
-         * Used to verify the integrity of the function call before moving on with the model simulation.
-         * 
-         */            
-        bool add(System* system);
+        
 
 
         bool remove(Flow* flow);
