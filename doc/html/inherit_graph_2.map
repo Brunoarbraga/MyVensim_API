@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classSystem.html" title="Represents the System." alt="" coords="5,5,76,33"/>
-<area shape="rect" id="Node000001" href="$classSystemimpl.html" title="Represents the Systemimpl." alt="" coords="124,5,223,33"/>
-<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="91,17,123,17,123,22,91,22"/>
+<area shape="rect" id="Node000000" href="$classHandle.html" title=" " alt="" coords="5,5,172,33"/>
+<area shape="rect" id="Node000001" href="$classModelHandle.html" title=" " alt="" coords="220,32,327,60"/>
+<area shape="poly" id="edge9_Node000000_Node000001" title=" " alt="" coords="187,31,220,35,219,41,187,36"/>
+<area shape="rect" id="Node000002" href="$classModel.html" title="Represents the model." alt="" coords="58,57,119,85"/>
+<area shape="poly" id="edge10_Node000002_Node000001" title=" " alt="" coords="134,62,219,51,220,56,135,68"/>
 </map>

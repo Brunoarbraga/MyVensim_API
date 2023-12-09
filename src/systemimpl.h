@@ -1,6 +1,7 @@
 #ifndef SYSTEMIMPL_H
 #define SYSTEMIMPL_H
 #include "system.h"
+#include "handleBodySemDebug.h"
 
 
 /**
@@ -12,7 +13,7 @@
  * Systemimpls can exist independently from any other structure in the simulation.
  * 
  */
-class Systemimpl : public System {
+class Systemimpl : public Body {
     protected:
         // Como foi decidido que não há necessidade de sistemas possuitem subsistemas nessa sprint
         // Os atributos abaixo foram removidos
@@ -174,7 +175,7 @@ class Systemimpl : public System {
          * @return returns a Systemimpl memory adress
          * 
          */
-        System& operator=(const System& other);
+        Systemimpl& operator=(const Systemimpl& other);
 
         /**
          * @brief Overload of equality operator for Systemimpl.
@@ -188,5 +189,55 @@ class Systemimpl : public System {
          */
         bool operator==(const System& other) const;
 };
+
+class SystemHandle : public System , public Handle<Systemimpl>{
+    public:
+
+        virtual ~SystemHandle(){}
+
+        SystemHandle(){
+            pImpl_->setName("");
+            pImpl_->setValue(0.0);
+        }
+
+        SystemHandle(double value){
+            pImpl_->setName("");
+            pImpl_->setValue(value);
+        }
+
+        SystemHandle(string name){
+            pImpl_->setName(name);
+            pImpl_->setValue(0.0);
+        }
+
+        SystemHandle(double value, string name){
+            pImpl_->setName(name);
+            pImpl_->setValue(value);
+        }
+
+        SystemHandle(System &system){
+            pImpl_->setName(system.getName());
+            pImpl_->setValue(system.getValue());
+        }
+
+
+        bool setValue(double value){
+            return pImpl_->setValue(value);
+        }
+        double getValue() const{
+            return pImpl_->getValue();
+        }
+
+
+        bool setName(string name){
+            return pImpl_->setName(name);
+        }
+        const string getName() const{
+            return pImpl_->getName();
+        }
+
+        bool operator==(const System& other) const{return pImpl_->operator==(other);}
+
+};   
 
 #endif

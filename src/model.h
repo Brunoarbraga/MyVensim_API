@@ -68,21 +68,21 @@ class Model {
         
         template <typename T>
         Flow& createFlow(string name, double value, System* origin, System* destination){
-            Flow* flow = new T(name, value, origin, destination);
+            Flow* flow = new FlowHandle<T>(name, value, origin, destination);
             add(flow);
             return *flow;
         }
 
         template <typename T>
         Flow& createFlow(){
-            Flow* flow = new T();
+            Flow* flow = new FlowHandle<T>();
             add(flow);
             return *flow;
         }
         
         template <typename T>
         Flow& createFlow(Flow& f){
-            Flow* flow = new T(f);
+            Flow* flow = new FlowHandle<T>(f);
             add(flow);
             return *flow;
         }

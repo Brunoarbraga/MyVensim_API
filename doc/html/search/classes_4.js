@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['model_0',['Model',['../classModel.html',1,'']]],
-  ['modelimpl_1',['Modelimpl',['../classModelimpl.html',1,'']]]
+  ['handle_0',['Handle',['../classHandle.html',1,'']]],
+  ['handle_3c_20modelimpl_20_3e_1',['Handle&lt; Modelimpl &gt;',['../classHandle.html',1,'']]],
+  ['handle_3c_20systemimpl_20_3e_2',['Handle&lt; Systemimpl &gt;',['../classHandle.html',1,'']]]
 ];

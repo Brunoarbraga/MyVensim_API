@@ -1,0 +1,7 @@
+<map id="FlowHandle&lt; T &gt;" name="FlowHandle&lt; T &gt;">
+<area shape="rect" id="Node000001" title=" " alt="" coords="147,509,333,1068"/>
+<area shape="rect" id="Node000002" href="$classFlow.html" title="Represents the Flow." alt="" coords="5,5,237,461"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,475,183,509,178,510,170,476"/>
+<area shape="rect" id="Node000003" href="$classHandle.html" title="The classes Handle and Body implements the &quot;bridge&quot; design pattern (also known as &quot;handle/body idiom&quot;..." alt="" coords="261,158,459,309"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="343,324,303,510,298,509,338,323"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="Modelimpl" name="Modelimpl">
-<area shape="rect" id="Node000001" title="Represents the model." alt="" coords="17,767,253,1548"/>
-<area shape="rect" id="Node000002" href="$classModel.html" title="Represents the model." alt="" coords="5,5,264,719"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,734,137,767,132,767,132,734"/>
+<area shape="rect" id="Node000001" title="Represents the model." alt="" coords="5,268,241,1007"/>
+<area shape="rect" id="Node000002" href="$classBody.html" title="The class Implementation was implemented based on the class teCounted writed by Ricardo Cartaxo and G..." alt="" coords="32,5,215,220"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,235,126,268,121,268,121,235"/>
 </map>

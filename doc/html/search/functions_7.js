@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['operator_3c_3c_0',['operator&lt;&lt;',['../systemimpl_8cpp.html#acddf4fdfa40ee36f7e99fc7b6aff2ebd',1,'systemimpl.cpp']]],
-  ['operator_3d_1',['operator=',['../classFlow.html#a787f18fd0af6534e633712dd89da9ed5',1,'Flow::operator=()'],['../classFlowimpl.html#adbc000eda5f74367dec2f13ef8afd604',1,'Flowimpl::operator=()'],['../classModelimpl.html#a885c1f6137082152e16f9c5e6c7a0306',1,'Modelimpl::operator=()'],['../classSystem.html#a3e0b183cab87e203155f7a54f27e6b20',1,'System::operator=()'],['../classSystemimpl.html#ad353aa9dab167dff84804eb8f0eb0370',1,'Systemimpl::operator=()'],['../classExponentialFlow.html#adbc000eda5f74367dec2f13ef8afd604',1,'ExponentialFlow::operator=()'],['../classLogisticalFlow.html#adbc000eda5f74367dec2f13ef8afd604',1,'LogisticalFlow::operator=()'],['../classComplexFlow.html#adbc000eda5f74367dec2f13ef8afd604',1,'ComplexFlow::operator=()']]],
-  ['operator_3d_3d_2',['operator==',['../classFlow.html#a1ca12bafd7eb56ef6ceeb43d08472acc',1,'Flow::operator==()'],['../classFlowimpl.html#ab2cd77e8a6f8ea1e348b042de25fdda0',1,'Flowimpl::operator==()'],['../classSystem.html#af7414b6eb1e92763c02194b57d8bea18',1,'System::operator==()'],['../classSystemimpl.html#ae60445ca983eed672e48a5028a836de9',1,'Systemimpl::operator==()']]]
+  ['handle_0',['handle',['../classHandle.html#a6a72028918adf79c0ff8d9996e5e4107',1,'Handle::Handle()'],['../classHandle.html#af304e7014a2e600e235140d246783f85',1,'Handle::Handle(const Handle &amp;hd)']]]
 ];

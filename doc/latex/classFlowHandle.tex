@@ -1,0 +1,355 @@
+\doxysection{Flow\+Handle\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classFlowHandle}{}\label{classFlowHandle}\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+
+
+{\ttfamily \#include $<$flowimpl.\+h$>$}
+
+
+
+Inheritance diagram for Flow\+Handle\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classFlowHandle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Flow\+Handle\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classFlowHandle__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classFlowHandle_abb0aa8c5126b68219d113fd692a47e28}{\texorpdfstring{$\sim$}{\string~}\+Flow\+Handle}} ()
+\item 
+\mbox{\hyperlink{classFlowHandle_a9660537c3378be39b9ffbb5d29785505}{Flow\+Handle}} ()
+\item 
+\mbox{\hyperlink{classFlowHandle_a2cd32ce3ebc9ef1585d2ae920049a756}{Flow\+Handle}} (string name, double value, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}origin, \mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}destination)
+\item 
+\mbox{\hyperlink{classFlowHandle_aeac565fee26340431061cb764ab96975}{Flow\+Handle}} (\mbox{\hyperlink{classFlow}{Flow}} \&\mbox{\hyperlink{classHandle}{flow}})
+\item 
+double \mbox{\hyperlink{classFlowHandle_a002ee57d9946593d96b7010d05e3ecc0}{run}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow}\textquotesingle{}s run method. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle_a155d5be1a2978cc532321dbdfeda46a3}{set\+Origin}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}origin)
+\begin{DoxyCompactList}\small\item\em Setter function for the flow origin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle_ada168fa19acb8ec63a4425fafa67373a}{set\+Destination}} (\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}destination)
+\begin{DoxyCompactList}\small\item\em Setter function for the flow destination. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle_afc2e32309dc39e9616b13ea0a9434383}{set\+Name}} (string name)
+\begin{DoxyCompactList}\small\item\em Setter function for the name. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle_a1fc0631e282634cd6bc4a9b9cee6bb9f}{set\+Value}} (double value)
+\begin{DoxyCompactList}\small\item\em Setter function for the value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowHandle_a1ab19fe8ef94bdab433dad44735488bc}{get\+Origin}} () \mbox{\hyperlink{classHandle}{const}}
+\begin{DoxyCompactList}\small\item\em Getter function for the flow origin. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowHandle_a6dda7ad64155d198c4bb9d7a81333c21}{get\+Destination}} () \mbox{\hyperlink{classHandle}{const}}
+\begin{DoxyCompactList}\small\item\em Getter function for the flow destination. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classFlowHandle_a8c148bb1f6a456da9f58daaaed4d587f}{get\+Name}} () \mbox{\hyperlink{classHandle}{const}}
+\begin{DoxyCompactList}\small\item\em Getter function for the name. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classFlowHandle_acad589da6a82c9fc0c332783bac8e4ff}{get\+Value}} () \mbox{\hyperlink{classHandle}{const}}
+\begin{DoxyCompactList}\small\item\em Getter function for the value. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classFlowHandle_a98bbb44bee2e3509136aec16beb31f7d}{operator=}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classFlow}{Flow}} \&\mbox{\hyperlink{classHandle}{other}})
+\item 
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle_ade374b17f3c3c224d5728f74d8ce0be0}{operator==}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classFlow}{Flow}} \&\mbox{\hyperlink{classHandle}{other}}) \mbox{\hyperlink{classHandle}{const}}
+\begin{DoxyCompactList}\small\item\em Overload of equality operator for \doxylink{classFlow}{Flow}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classFlow}{Flow}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classFlow_a325d284a50ca3274b126b21f5c39b9af}{\texorpdfstring{$\sim$}{\string~}\+Flow}} ()
+\begin{DoxyCompactList}\small\item\em \doxylink{classFlow}{Flow} virtual destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classHandle}{Handle$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHandle_a6a72028918adf79c0ff8d9996e5e4107}{Handle}} ()
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classHandle_addd59fdf43baa517a06d44e1125b5ab1}{\texorpdfstring{$\sim$}{\string~}\+Handle}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle_af304e7014a2e600e235140d246783f85}{Handle}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classHandle}{Handle}} \&\mbox{\hyperlink{classHandle}{hd}})
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$ \& \mbox{\hyperlink{classHandle_a52e146e2a1427c8e7d3a692e9378185a}{operator=}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classHandle}{Handle}} \&\mbox{\hyperlink{classHandle}{hd}})
+\begin{DoxyCompactList}\small\item\em assignment operator \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classHandle}{Handle$<$ T $>$}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHandle}{T}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHandle_a16021e57596d7369dfa1a9fadc35c06f}{p\+Impl\+\_\+}}
+\begin{DoxyCompactList}\small\item\em referência para a implementação \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classFlowHandle_abb0aa8c5126b68219d113fd692a47e28}\label{classFlowHandle_abb0aa8c5126b68219d113fd692a47e28} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!````~FlowHandle@{\texorpdfstring{$\sim$}{\string~}FlowHandle}}
+\index{````~FlowHandle@{\texorpdfstring{$\sim$}{\string~}FlowHandle}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}FlowHandle()}{\string~FlowHandle()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::\texorpdfstring{$\sim$}{\string~}\mbox{\hyperlink{classFlowHandle}{Flow\+Handle}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+\Hypertarget{classFlowHandle_a9660537c3378be39b9ffbb5d29785505}\label{classFlowHandle_a9660537c3378be39b9ffbb5d29785505} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!FlowHandle@{FlowHandle}}
+\index{FlowHandle@{FlowHandle}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{FlowHandle()}{FlowHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classFlowHandle}{\+::\+Flow\+Handle}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classFlowHandle_a2cd32ce3ebc9ef1585d2ae920049a756}\label{classFlowHandle_a2cd32ce3ebc9ef1585d2ae920049a756} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!FlowHandle@{FlowHandle}}
+\index{FlowHandle@{FlowHandle}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{FlowHandle()}{FlowHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classFlowHandle}{\+::\+Flow\+Handle}} (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{double}]{value,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{origin,  }\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{destination }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classFlowHandle_aeac565fee26340431061cb764ab96975}\label{classFlowHandle_aeac565fee26340431061cb764ab96975} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!FlowHandle@{FlowHandle}}
+\index{FlowHandle@{FlowHandle}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{FlowHandle()}{FlowHandle()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classFlowHandle}{\+::\+Flow\+Handle}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classFlow}{Flow}} \&}]{flow }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFlowHandle_aeac565fee26340431061cb764ab96975_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classFlowHandle_a6dda7ad64155d198c4bb9d7a81333c21}\label{classFlowHandle_a6dda7ad64155d198c4bb9d7a81333c21} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!getDestination@{getDestination}}
+\index{getDestination@{getDestination}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getDestination()}{getDestination()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Getter function for the flow destination. 
+
+Gets the system pointed as Destination by the flow and returns it.
+
+\begin{DoxyReturn}{Returns}
+The current destination pointer. Can be used to update the systems values, since the value is "{}trasnfered"{} from one \doxylink{classSystem}{System} to another. For instance, if a population migrates from a place, they need to have migrated to another place, its possible to get to where they migrated with this method. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a7bb059cd3d2e5a17d930823ecf6d1993}{Flow}}.
+
+\Hypertarget{classFlowHandle_a8c148bb1f6a456da9f58daaaed4d587f}\label{classFlowHandle_a8c148bb1f6a456da9f58daaaed4d587f} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!getName@{getName}}
+\index{getName@{getName}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+string \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Getter function for the name. 
+
+Gets the current name of the \doxylink{classFlow}{Flow} and returns it to the user.
+
+\begin{DoxyReturn}{Returns}
+The current string name. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_aa91a8025b6dbb27ee5137c7c9ad0c564}{Flow}}.
+
+\Hypertarget{classFlowHandle_a1ab19fe8ef94bdab433dad44735488bc}\label{classFlowHandle_a1ab19fe8ef94bdab433dad44735488bc} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!getOrigin@{getOrigin}}
+\index{getOrigin@{getOrigin}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getOrigin()}{getOrigin()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::get\+Origin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Getter function for the flow origin. 
+
+Gets the system pointed as origin by the flow and returns it.
+
+\begin{DoxyReturn}{Returns}
+The current origin pointer. Can be used to update the systems values, since the value is "{}trasnfered"{} from one \doxylink{classSystem}{System} to another. For instance, if a population migrates from a place, they need to have migrated to another place, its possible to get where they migrated from with this method. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a34f428ea32203691a984acbe231e27ee}{Flow}}.
+
+\Hypertarget{classFlowHandle_acad589da6a82c9fc0c332783bac8e4ff}\label{classFlowHandle_acad589da6a82c9fc0c332783bac8e4ff} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!getValue@{getValue}}
+\index{getValue@{getValue}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+double \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Getter function for the value. 
+
+Gets the current value of the flow and returns it to the user.
+
+\begin{DoxyReturn}{Returns}
+The current double value. Can be used to update the system value. For instance, if we need to subtract the population of a city due to migration, we need to know how many people left first. That can be done calling this method. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a8acd2815f580b2c0b29f7fd703b3cdc4}{Flow}}.
+
+\Hypertarget{classFlowHandle_a98bbb44bee2e3509136aec16beb31f7d}\label{classFlowHandle_a98bbb44bee2e3509136aec16beb31f7d} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classFlow}{Flow}} \& \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classHandle}{\+::operator}}= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classFlow}{Flow}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classFlowHandle_ade374b17f3c3c224d5728f74d8ce0be0}\label{classFlowHandle_ade374b17f3c3c224d5728f74d8ce0be0} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classHandle}{\+::operator}}== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classFlow}{Flow}} \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Overload of equality operator for \doxylink{classFlow}{Flow}. 
+
+Checks if two Flows are equal, considering all their atributes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \doxylink{classFlow}{Flow} to be compared to the left-\/side of the operator \doxylink{classFlow}{Flow}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns a boolean true if the Flows are equal, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a1ca12bafd7eb56ef6ceeb43d08472acc}{Flow}}.
+
+\Hypertarget{classFlowHandle_a002ee57d9946593d96b7010d05e3ecc0}\label{classFlowHandle_a002ee57d9946593d96b7010d05e3ecc0} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!run@{run}}
+\index{run@{run}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+double \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::run (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\doxylink{classFlow}{Flow}\textquotesingle{}s run method. 
+
+This method is pure virtual, which means it can only be implemented by \doxylink{classFlow}{Flow}\textquotesingle{}s subclasses. Is used to set the flow value, using the origin or destination \doxylink{classSystem}{System}, depending on the type of flow. This value is gonna be used later to update systems values. 
+
+Implements \mbox{\hyperlink{classFlow_a1cac6068ee3ed3f03fa0708640eb2f02}{Flow}}.
+
+\Hypertarget{classFlowHandle_ada168fa19acb8ec63a4425fafa67373a}\label{classFlowHandle_ada168fa19acb8ec63a4425fafa67373a} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!setDestination@{setDestination}}
+\index{setDestination@{setDestination}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setDestination()}{setDestination()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Setter function for the flow destination. 
+
+Sets the destination pointer of the flow and returns success or failure. Essential for correctly representing the real world interactions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & system pointer to be set as destination.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. Extremely imporant keeping track of the success because the entire simulation depends on it. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a12cba9e4e6baf4d040660387e88fcbb1}{Flow}}.
+
+\Hypertarget{classFlowHandle_afc2e32309dc39e9616b13ea0a9434383}\label{classFlowHandle_afc2e32309dc39e9616b13ea0a9434383} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!setName@{setName}}
+\index{setName@{setName}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Setter function for the name. 
+
+Sets the name of the \doxylink{classFlow}{Flow} and returns success or failure. Important if the name is not already defined in the constructor call.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & string name to be set to the class atribute.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_aa6f40221e67afcb7805869014e47ebf9}{Flow}}.
+
+\Hypertarget{classFlowHandle_a155d5be1a2978cc532321dbdfeda46a3}\label{classFlowHandle_a155d5be1a2978cc532321dbdfeda46a3} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!setOrigin@{setOrigin}}
+\index{setOrigin@{setOrigin}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setOrigin()}{setOrigin()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::set\+Origin (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \texorpdfstring{$\ast$}{*}}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Setter function for the flow origin. 
+
+Sets the origin pointer of the flow and returns success or failure. Essential for correctly representing the real world interactions.
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & system pointer to be set as origin.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. Extremely imporant keeping track of the success because the entire simulation depends on it. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_a1cf07f84e97180d4ac051d2868e68525}{Flow}}.
+
+\Hypertarget{classFlowHandle_a1fc0631e282634cd6bc4a9b9cee6bb9f}\label{classFlowHandle_a1fc0631e282634cd6bc4a9b9cee6bb9f} 
+\index{FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}!setValue@{setValue}}
+\index{setValue@{setValue}!FlowHandle$<$ T $>$@{FlowHandle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{setValue()}{setValue()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{typename}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classFlowHandle}{Flow\+Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Setter function for the value. 
+
+Sets the value of the flow and returns success or failure. Can be used to update the \doxylink{classFlow}{Flow}\textquotesingle{}s value when the simulation is ran.
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & double value to be set to the class atribute\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+returns boolean true if successful, false otherwise. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classFlow_aaee814589324a15806360086a3bb7bd8}{Flow}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{flowimpl_8h}{flowimpl.\+h}}\end{DoxyCompactItemize}

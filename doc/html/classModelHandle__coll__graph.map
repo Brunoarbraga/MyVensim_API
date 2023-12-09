@@ -1,0 +1,21 @@
+<map id="ModelHandle" name="ModelHandle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="129,1887,328,2291"/>
+<area shape="rect" id="Node000002" href="$classModel.html" title="Represents the model." alt="" coords="83,1124,342,1838"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,1852,226,1887,221,1887,220,1853"/>
+<area shape="rect" id="Node000003" href="$classHandle.html" title=" " alt="" coords="366,1406,601,1556"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="457,1572,412,1699,356,1839,330,1896,325,1894,352,1837,407,1697,452,1570"/>
+<area shape="rect" id="Node000004" href="$classModelimpl.html" title="Represents the model." alt="" coords="365,419,601,1059"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="486,1059,486,1389,481,1389,481,1059"/>
+<area shape="rect" id="Node000005" href="$classBody.html" title="The class Implementation was implemented based on the class teCounted writed by Ricardo Cartaxo and G..." alt="" coords="5,140,188,354"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="192,364,368,587,363,591,187,367"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="82,5,111,75"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="99,75,99,123,94,123,94,75"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="212,212,387,282"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="314,281,362,407,357,409,309,283"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="411,212,555,282"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="486,282,486,402,481,402,481,282"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="579,212,705,282"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="634,282,594,404,589,402,629,281"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="729,212,779,282"/>
+<area shape="poly" id="edge9_Node000004_Node000010" title=" " alt="" coords="747,282,719,355,668,454,613,548,608,546,663,451,714,353,742,281"/>
+</map>

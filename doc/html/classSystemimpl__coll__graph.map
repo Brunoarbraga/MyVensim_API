@@ -1,9 +1,11 @@
 <map id="Systemimpl" name="Systemimpl">
-<area shape="rect" id="Node000001" title="Represents the Systemimpl." alt="" coords="171,389,351,849"/>
-<area shape="rect" id="Node000002" href="$classSystem.html" title="Represents the System." alt="" coords="5,5,208,324"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,338,186,388,181,390,163,339"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="233,130,290,199"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="264,199,264,372,259,372,259,199"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="318,130,367,199"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="341,200,316,365,315,373,309,372,311,365,336,199"/>
+<area shape="rect" id="Node000001" title="Represents the Systemimpl." alt="" coords="135,419,347,879"/>
+<area shape="rect" id="Node000002" href="$classBody.html" title="The class Implementation was implemented based on the class teCounted writed by Ricardo Cartaxo and G..." alt="" coords="5,140,188,354"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="142,367,161,419,156,420,137,369"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="82,5,111,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="99,75,99,123,94,123,94,75"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="212,212,269,282"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,281,243,403,238,403,238,281"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="297,212,347,282"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="318,282,295,396,294,403,289,402,290,395,313,281"/>
 </map>

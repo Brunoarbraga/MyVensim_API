@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['vensim_0',['Vensim',['../classVensim.html',1,'']]],
-  ['vensimimpl_1',['Vensimimpl',['../classVensimimpl.html',1,'']]]
+  ['model_0',['Model',['../classModel.html',1,'']]],
+  ['modelhandle_1',['ModelHandle',['../classModelHandle.html',1,'']]],
+  ['modelimpl_2',['Modelimpl',['../classModelimpl.html',1,'']]]
 ];

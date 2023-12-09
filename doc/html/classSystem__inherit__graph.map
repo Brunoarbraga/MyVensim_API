@@ -1,5 +1,5 @@
 <map id="System" name="System">
-<area shape="rect" id="Node000001" title="Represents the System." alt="" coords="5,5,208,324"/>
-<area shape="rect" id="Node000002" href="$classSystemimpl.html" title="Represents the Systemimpl." alt="" coords="17,372,197,853"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,339,109,372,104,372,104,339"/>
+<area shape="rect" id="Node000001" title="Represents the System." alt="" coords="5,5,200,285"/>
+<area shape="rect" id="Node000002" href="$classSystemHandle.html" title=" " alt="" coords="9,333,197,755"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,300,105,334,100,334,100,300"/>
 </map>

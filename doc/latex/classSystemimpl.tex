@@ -11,7 +11,8 @@ Represents the \doxylink{classSystemimpl}{Systemimpl}.
 
 
 
-Inheritance diagram for Systemimpl\+:\nopagebreak
+Inheritance diagram for Systemimpl\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -20,7 +21,8 @@ Inheritance diagram for Systemimpl\+:\nopagebreak
 \end{figure}
 
 
-Collaboration diagram for Systemimpl\+:\nopagebreak
+Collaboration diagram for Systemimpl\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -32,7 +34,7 @@ Collaboration diagram for Systemimpl\+:\nopagebreak
 \item 
 \mbox{\hyperlink{classSystemimpl_a8958d720cd2fc27189c20d80b9029751}{Systemimpl}} ()
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystemimpl}{Systemimpl} default constructor. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classSystemimpl_a2d0041d167b0729afb559fe5a4066eb3}{Systemimpl}} (\mbox{\hyperlink{classSystem}{System}} \&system)
+\mbox{\hyperlink{classSystemimpl_a2d0041d167b0729afb559fe5a4066eb3}{Systemimpl}} (\mbox{\hyperlink{classSystem}{System}} \&\mbox{\hyperlink{classHandle}{system}})
 \begin{DoxyCompactList}\small\item\em Copy constructor for \doxylink{classSystemimpl}{Systemimpl}. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classSystemimpl_a3894ded90ca30a5259ce9dbd25b4845f}{Systemimpl}} (double \mbox{\hyperlink{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c}{value}})
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystemimpl}{Systemimpl} constructor override with value parameter. \end{DoxyCompactList}\item 
@@ -40,25 +42,33 @@ Collaboration diagram for Systemimpl\+:\nopagebreak
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystemimpl}{Systemimpl} constructor override with name parameter. \end{DoxyCompactList}\item 
 \mbox{\hyperlink{classSystemimpl_a50d69aaa90bac5193a01005e212bac79}{Systemimpl}} (double \mbox{\hyperlink{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c}{value}}, string \mbox{\hyperlink{classSystemimpl_a8e93e5e3acf2a5e4fbbecdb3ff2c8d00}{name}})
 \begin{DoxyCompactList}\small\item\em Complete \doxylink{classSystemimpl}{Systemimpl} constructor. \end{DoxyCompactList}\item 
-virtual \mbox{\hyperlink{classSystemimpl_a7fc779facdfcf6579b16531735abf093}{\texorpdfstring{$\sim$}{\string~}\+Systemimpl}} ()
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classSystemimpl_a7fc779facdfcf6579b16531735abf093}{\texorpdfstring{$\sim$}{\string~}\+Systemimpl}} ()
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystemimpl}{Systemimpl} virtual destructor. \end{DoxyCompactList}\item 
-double \mbox{\hyperlink{classSystemimpl_a5f4162d92c6859fcd82e9983ab87fd51}{get\+Value}} () const
+double \mbox{\hyperlink{classSystemimpl_a5f4162d92c6859fcd82e9983ab87fd51}{get\+Value}} () \mbox{\hyperlink{classHandle}{const}}
 \begin{DoxyCompactList}\small\item\em Getter function for the value. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{classSystemimpl_a6bb7c72a9b7c0725b900bb26c7cf8038}{set\+Value}} (double \mbox{\hyperlink{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c}{value}})
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classSystemimpl_a6bb7c72a9b7c0725b900bb26c7cf8038}{set\+Value}} (double \mbox{\hyperlink{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c}{value}})
 \begin{DoxyCompactList}\small\item\em Setter function for the value. \end{DoxyCompactList}\item 
-const string \mbox{\hyperlink{classSystemimpl_aaa9f831654db8dc0699bbb2081a8af19}{get\+Name}} () const
+\mbox{\hyperlink{classHandle}{const}} string \mbox{\hyperlink{classSystemimpl_aaa9f831654db8dc0699bbb2081a8af19}{get\+Name}} () \mbox{\hyperlink{classHandle}{const}}
 \begin{DoxyCompactList}\small\item\em Getter function for the name. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{classSystemimpl_a030df6346b95c3e4960c8db9bed5617b}{set\+Name}} (string \mbox{\hyperlink{classSystemimpl_a8e93e5e3acf2a5e4fbbecdb3ff2c8d00}{name}})
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classSystemimpl_a030df6346b95c3e4960c8db9bed5617b}{set\+Name}} (string \mbox{\hyperlink{classSystemimpl_a8e93e5e3acf2a5e4fbbecdb3ff2c8d00}{name}})
 \begin{DoxyCompactList}\small\item\em Setter function for the name. \end{DoxyCompactList}\item 
-\mbox{\hyperlink{classSystem}{System}} \& \mbox{\hyperlink{classSystemimpl_ad353aa9dab167dff84804eb8f0eb0370}{operator=}} (const \mbox{\hyperlink{classSystem}{System}} \&other)
+\mbox{\hyperlink{classSystemimpl}{Systemimpl}} \& \mbox{\hyperlink{classSystemimpl_a200ad9f3a8e6051bd9d08caaf8389cdd}{operator=}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classSystemimpl}{Systemimpl}} \&\mbox{\hyperlink{classHandle}{other}})
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystemimpl}{Systemimpl}\textquotesingle{}s atribution operator overload. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{classSystemimpl_ae60445ca983eed672e48a5028a836de9}{operator==}} (const \mbox{\hyperlink{classSystem}{System}} \&other) const
+\mbox{\hyperlink{classHandle}{bool}} \mbox{\hyperlink{classSystemimpl_ae60445ca983eed672e48a5028a836de9}{operator==}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classSystem}{System}} \&\mbox{\hyperlink{classHandle}{other}}) \mbox{\hyperlink{classHandle}{const}}
 \begin{DoxyCompactList}\small\item\em Overload of equality operator for \doxylink{classSystemimpl}{Systemimpl}. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classSystem}{System}}}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classBody}{Body}}}
 \begin{DoxyCompactItemize}
 \item 
-virtual \mbox{\hyperlink{classSystem_a2fc0f34023977cab9b628aa9f734d88c}{\texorpdfstring{$\sim$}{\string~}\+System}} ()
-\begin{DoxyCompactList}\small\item\em \doxylink{classSystem}{System} virtual destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\mbox{\hyperlink{classBody_a7727b0d8c998bbc2942e4c802e31e2eb}{Body}} ()
+\begin{DoxyCompactList}\small\item\em Constructor\+: zero references when the object is being built. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{void}} \mbox{\hyperlink{classBody_a5d53322c76a6952d096cb7564ac86db1}{attach}} ()
+\begin{DoxyCompactList}\small\item\em Increases the number of references to this object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{void}} \mbox{\hyperlink{classBody_ad481d0c8368db318795c9a0a8fdd3717}{detach}} ()
+\item 
+int \mbox{\hyperlink{classBody_a59ae961812625b8636071ba61b1a75fc}{ref\+Count}} ()
+\begin{DoxyCompactList}\small\item\em Returns the number of references to this object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classBody_a9b15e54cf881ac0ca64790ca1d50110e}{\texorpdfstring{$\sim$}{\string~}\+Body}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -69,14 +79,14 @@ string \mbox{\hyperlink{classSystemimpl_a8e93e5e3acf2a5e4fbbecdb3ff2c8d00}{name}
 \doxysubsubsection*{Friends}
 \begin{DoxyCompactItemize}
 \item 
-ostream \& \mbox{\hyperlink{classSystemimpl_acddf4fdfa40ee36f7e99fc7b6aff2ebd}{operator$<$$<$}} (ostream \&os, const \mbox{\hyperlink{classSystemimpl}{Systemimpl}} \&system)
+\mbox{\hyperlink{classHandle}{ostream}} \& \mbox{\hyperlink{classSystemimpl_acddf4fdfa40ee36f7e99fc7b6aff2ebd}{operator$<$$<$}} (\mbox{\hyperlink{classHandle}{ostream}} \&\mbox{\hyperlink{classHandle}{os}}, \mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classSystemimpl}{Systemimpl}} \&\mbox{\hyperlink{classHandle}{system}})
 \begin{DoxyCompactList}\small\item\em \doxylink{classSystemimpl}{Systemimpl} \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} operator overload. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
 Represents the \doxylink{classSystemimpl}{Systemimpl}. 
 
-This class represents the real life systems and its phenomena, storing its energy (value), that could be altered through the course of time in the simulation. e.\+g. Respiratory system, cardiovascular system.
+This class represents the real life systems and its phenomena, storing its energy (value), that could be altered through the course of time in the simulation. \doxylink{classHandle_a6a72028918adf79c0ff8d9996e5e4107}{e.\+g}. Respiratory system, cardiovascular system.
 
 Systemimpls can exist independently from any other structure in the simulation. 
 
@@ -91,7 +101,7 @@ Systemimpls can exist independently from any other structure in the simulation.
 
 \doxylink{classSystemimpl}{Systemimpl} default constructor. 
 
-Instances a \doxylink{classSystemimpl}{Systemimpl} object with an empty string "{}"{} name atribute and double 0.\+0 value, if no parameter is passed. \Hypertarget{classSystemimpl_a2d0041d167b0729afb559fe5a4066eb3}\label{classSystemimpl_a2d0041d167b0729afb559fe5a4066eb3} 
+Instances a \doxylink{classSystemimpl}{Systemimpl} object with an empty string "{}"{} name atribute and double \doxylink{classHandle_a6a72028918adf79c0ff8d9996e5e4107}{0.\+0} value, if no parameter is passed. \Hypertarget{classSystemimpl_a2d0041d167b0729afb559fe5a4066eb3}\label{classSystemimpl_a2d0041d167b0729afb559fe5a4066eb3} 
 \index{Systemimpl@{Systemimpl}!Systemimpl@{Systemimpl}}
 \index{Systemimpl@{Systemimpl}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{Systemimpl()}{Systemimpl()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
@@ -108,13 +118,6 @@ Makes a deep copy of a given \doxylink{classSystemimpl}{Systemimpl} to the metho
 {\em system} & \doxylink{classSystemimpl}{Systemimpl} to be copied. \\
 \hline
 \end{DoxyParams}
-Here is the call graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{classSystemimpl_a2d0041d167b0729afb559fe5a4066eb3_cgraph}
-\end{center}
-\end{figure}
 \Hypertarget{classSystemimpl_a3894ded90ca30a5259ce9dbd25b4845f}\label{classSystemimpl_a3894ded90ca30a5259ce9dbd25b4845f} 
 \index{Systemimpl@{Systemimpl}!Systemimpl@{Systemimpl}}
 \index{Systemimpl@{Systemimpl}!Systemimpl@{Systemimpl}}
@@ -142,7 +145,7 @@ Intances a \doxylink{classSystemimpl}{Systemimpl} atributing the double paramete
 
 \doxylink{classSystemimpl}{Systemimpl} constructor override with name parameter. 
 
-Intances a \doxylink{classSystemimpl}{Systemimpl} atributing the string parameter given to the \doxylink{classSystemimpl}{Systemimpl} name atribute. Since no value is given, sets it as 0.\+0 by default.
+Intances a \doxylink{classSystemimpl}{Systemimpl} atributing the string parameter given to the \doxylink{classSystemimpl}{Systemimpl} name atribute. Since no value is given, sets it as \doxylink{classHandle_a6a72028918adf79c0ff8d9996e5e4107}{0.\+0} by default.
 
 
 \begin{DoxyParams}{Parameters}
@@ -185,7 +188,7 @@ Destructs the system, freeing its memory allocation.
 \index{Systemimpl@{Systemimpl}!getName@{getName}}
 \index{getName@{getName}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{getName()}{getName()}}
-{\footnotesize\ttfamily const string Systemimpl\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHandle}{const}} string Systemimpl\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
 
 
@@ -196,15 +199,19 @@ Gets the current name of the system and returns it to the user.
 \begin{DoxyReturn}{Returns}
 The current string name, the return value is constant to assure it wont be modified in the process 
 \end{DoxyReturn}
-
-
-Implements \mbox{\hyperlink{classSystem_a25dff87b3fd15b008622ef9bd10ca1c0}{System}}.
-
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystemimpl_aaa9f831654db8dc0699bbb2081a8af19_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classSystemimpl_a5f4162d92c6859fcd82e9983ab87fd51}\label{classSystemimpl_a5f4162d92c6859fcd82e9983ab87fd51} 
 \index{Systemimpl@{Systemimpl}!getValue@{getValue}}
 \index{getValue@{getValue}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{getValue()}{getValue()}}
-{\footnotesize\ttfamily double Systemimpl\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily double Systemimpl\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
 
 
 
@@ -215,15 +222,19 @@ Gets the current value of the system and returns it to the user.
 \begin{DoxyReturn}{Returns}
 The current double value. Can be used to evaluate the flow, and to update the system\textquotesingle{}s value 
 \end{DoxyReturn}
-
-
-Implements \mbox{\hyperlink{classSystem_a41b673faa6c199eb8e4f204639fab4f2}{System}}.
-
-\Hypertarget{classSystemimpl_ad353aa9dab167dff84804eb8f0eb0370}\label{classSystemimpl_ad353aa9dab167dff84804eb8f0eb0370} 
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystemimpl_a5f4162d92c6859fcd82e9983ab87fd51_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{classSystemimpl_a200ad9f3a8e6051bd9d08caaf8389cdd}\label{classSystemimpl_a200ad9f3a8e6051bd9d08caaf8389cdd} 
 \index{Systemimpl@{Systemimpl}!operator=@{operator=}}
 \index{operator=@{operator=}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
-{\footnotesize\ttfamily \mbox{\hyperlink{classSystem}{System}} \& Systemimpl\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSystem}{System}} \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classSystemimpl}{Systemimpl}} \& Systemimpl\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classSystemimpl}{Systemimpl}} \&}]{other }\end{DoxyParamCaption})}
 
 
 
@@ -240,22 +251,11 @@ Atributes one \doxylink{classSystemimpl}{Systemimpl} to another, that is, copies
 \begin{DoxyReturn}{Returns}
 returns a \doxylink{classSystemimpl}{Systemimpl} memory adress 
 \end{DoxyReturn}
-
-
-Implements \mbox{\hyperlink{classSystem_a3e0b183cab87e203155f7a54f27e6b20}{System}}.
-
-Here is the call graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{classSystemimpl_ad353aa9dab167dff84804eb8f0eb0370_cgraph}
-\end{center}
-\end{figure}
 \Hypertarget{classSystemimpl_ae60445ca983eed672e48a5028a836de9}\label{classSystemimpl_ae60445ca983eed672e48a5028a836de9} 
 \index{Systemimpl@{Systemimpl}!operator==@{operator==}}
 \index{operator==@{operator==}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
-{\footnotesize\ttfamily bool Systemimpl\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classSystem}{System}} \&}]{other }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHandle}{bool}} Systemimpl\+::operator== (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classSystem}{System}} \&}]{other }\end{DoxyParamCaption}) const}
 
 
 
@@ -271,22 +271,11 @@ Checks if two Systemimpls are equal, considering all their atributes.
 \begin{DoxyReturn}{Returns}
 returns a boolean, true if the \doxylink{classSystemimpl}{Systemimpl} are equal, false otherwise. 
 \end{DoxyReturn}
-
-
-Implements \mbox{\hyperlink{classSystem_af7414b6eb1e92763c02194b57d8bea18}{System}}.
-
-Here is the call graph for this function\+:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=350pt]{classSystemimpl_ae60445ca983eed672e48a5028a836de9_cgraph}
-\end{center}
-\end{figure}
 \Hypertarget{classSystemimpl_a030df6346b95c3e4960c8db9bed5617b}\label{classSystemimpl_a030df6346b95c3e4960c8db9bed5617b} 
 \index{Systemimpl@{Systemimpl}!setName@{setName}}
 \index{setName@{setName}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{setName()}{setName()}}
-{\footnotesize\ttfamily bool Systemimpl\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHandle}{bool}} Systemimpl\+::set\+Name (\begin{DoxyParamCaption}\item[{string}]{name }\end{DoxyParamCaption})}
 
 
 
@@ -302,15 +291,19 @@ Sets the name of the system and returns success or failure. Important if the nam
 \begin{DoxyReturn}{Returns}
 returns boolean true if successful, false otherwise. 
 \end{DoxyReturn}
-
-
-Implements \mbox{\hyperlink{classSystem_aa10df41b213226403b10b010f726207e}{System}}.
-
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystemimpl_a030df6346b95c3e4960c8db9bed5617b_icgraph}
+\end{center}
+\end{figure}
 \Hypertarget{classSystemimpl_a6bb7c72a9b7c0725b900bb26c7cf8038}\label{classSystemimpl_a6bb7c72a9b7c0725b900bb26c7cf8038} 
 \index{Systemimpl@{Systemimpl}!setValue@{setValue}}
 \index{setValue@{setValue}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{setValue()}{setValue()}}
-{\footnotesize\ttfamily bool Systemimpl\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHandle}{bool}} Systemimpl\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{value }\end{DoxyParamCaption})}
 
 
 
@@ -326,10 +319,14 @@ Sets the value of the system and returns success or failure. Can be used to upda
 \begin{DoxyReturn}{Returns}
 returns boolean true if successful, false otherwise. 
 \end{DoxyReturn}
-
-
-Implements \mbox{\hyperlink{classSystem_a9b4e310667242d2be215704a961e0ab4}{System}}.
-
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classSystemimpl_a6bb7c72a9b7c0725b900bb26c7cf8038_icgraph}
+\end{center}
+\end{figure}
 
 
 \doxysubsection{Friends And Related Symbol Documentation}
@@ -337,7 +334,7 @@ Implements \mbox{\hyperlink{classSystem_a9b4e310667242d2be215704a961e0ab4}{Syste
 \index{Systemimpl@{Systemimpl}!operator$<$$<$@{operator$<$$<$}}
 \index{operator$<$$<$@{operator$<$$<$}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
-{\footnotesize\ttfamily ostream \& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{os,  }\item[{const \mbox{\hyperlink{classSystemimpl}{Systemimpl}} \&}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classHandle}{ostream}} \& \mbox{\hyperlink{classHandle}{operator}}$<$$<$ (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHandle}{ostream}} \&}]{os,  }\item[{\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classSystemimpl}{Systemimpl}} \&}]{system }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
 
 
 
@@ -363,7 +360,7 @@ Overloads the \texorpdfstring{$<$}{<}\texorpdfstring{$<$}{<} cout operator so th
 
 The \doxylink{classSystemimpl}{Systemimpl}\textquotesingle{}s name. 
 
-This represents the \doxylink{classSystemimpl}{Systemimpl}\textquotesingle{}s name, is set to "{}"{} by default, and can be changed at any given time by the user. Very imporant for identification, since it usually defines its usage, e.\+g. "{}respiratory system"{} \Hypertarget{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c}\label{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c} 
+This represents the \doxylink{classSystemimpl}{Systemimpl}\textquotesingle{}s name, is set to "{}"{} by default, and can be changed at any given time by the user. Very imporant for identification, since it usually defines its usage, \doxylink{classHandle_a6a72028918adf79c0ff8d9996e5e4107}{e.\+g}. "{}respiratory system"{} \Hypertarget{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c}\label{classSystemimpl_a47fb178f4a02fca7ec92c3979a75ca3c} 
 \index{Systemimpl@{Systemimpl}!value@{value}}
 \index{value@{value}!Systemimpl@{Systemimpl}}
 \doxysubsubsection{\texorpdfstring{value}{value}}
@@ -373,7 +370,7 @@ This represents the \doxylink{classSystemimpl}{Systemimpl}\textquotesingle{}s na
 
 The \doxylink{classSystemimpl}{Systemimpl}\textquotesingle{}s value. 
 
-This atribute represents the Systemimpls energy/matter, the value it holds in the real world. Is set to 0.\+0 by default, but can be changed at any given time 
+This atribute represents the Systemimpls energy/matter, the value it holds in the real world. Is set to \doxylink{classHandle_a6a72028918adf79c0ff8d9996e5e4107}{0.\+0} by default, but can be changed at any given time 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 

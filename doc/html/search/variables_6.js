@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['value_0',['value',['../classFlowimpl.html#a256b97aa7df491bf3ce7ec9f38ac8f29',1,'Flowimpl::value'],['../classSystemimpl.html#a47fb178f4a02fca7ec92c3979a75ca3c',1,'Systemimpl::value']]]
+  ['refcount_5f_0',['refCount_',['../classBody.html#a70b46681762de310d6a3fba89ba2d721',1,'Body']]]
 ];

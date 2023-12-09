@@ -1,5 +1,5 @@
 <map id="Systemimpl" name="Systemimpl">
-<area shape="rect" id="Node000001" title="Represents the Systemimpl." alt="" coords="17,372,197,853"/>
-<area shape="rect" id="Node000002" href="$classSystem.html" title="Represents the System." alt="" coords="5,5,208,324"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,339,109,372,104,372,104,339"/>
+<area shape="rect" id="Node000001" title="Represents the Systemimpl." alt="" coords="5,268,217,749"/>
+<area shape="rect" id="Node000002" href="$classBody.html" title="The class Implementation was implemented based on the class teCounted writed by Ricardo Cartaxo and G..." alt="" coords="20,5,203,220"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,235,114,268,109,268,109,235"/>
 </map>

@@ -1,0 +1,29 @@
+<map id="ModelHandle::ModelHandle" name="ModelHandle::ModelHandle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,161,207,189"/>
+<area shape="rect" id="Node000002" href="$classModelHandle.html#a7cf362d2803c03768a6797e9a1aa79d8" title="add function for the model." alt="" coords="282,5,422,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,159,173,103,211,71,253,44,268,37,270,41,256,48,214,75,176,107,121,163"/>
+<area shape="rect" id="Node000004" href="$classModelHandle.html#a985860357e0b6863542e9ce6071c9bd8" title="Flow iterator begin." alt="" coords="259,57,445,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="130,158,185,127,254,95,276,87,278,93,256,100,188,132,132,163"/>
+<area shape="rect" id="Node000006" href="$classModelHandle.html#a319f095469d3d5aa5fbeefe5f09bd358" title="Flow iterator end." alt="" coords="265,109,439,137"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="175,158,267,138,268,143,176,163"/>
+<area shape="rect" id="Node000008" href="$classModel.html#a447cb8c73eb6377246147dc64eba63ce" title=" " alt="" coords="287,161,417,189"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="207,173,271,173,271,178,207,178"/>
+<area shape="rect" id="Node000009" href="$classModelHandle.html#ac5b47b6aba39fd6d0a4c590e07a2d2be" title=" " alt="" coords="265,213,439,241"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="176,187,268,207,267,212,175,192"/>
+<area shape="rect" id="Node000011" href="$classModelHandle.html#af0dd53ac43894c09687c47708e1b1673" title="System iterator begin." alt="" coords="270,265,434,310"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="134,187,189,218,256,250,270,256,268,261,254,255,187,222,131,192"/>
+<area shape="rect" id="Node000013" href="$classModelHandle.html#a4f7d6625aff95e2b6a4f1e53b97f0aa0" title="System iterator end." alt="" coords="255,333,449,361"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="119,188,173,251,212,288,256,320,266,325,264,329,253,324,209,292,169,255,115,191"/>
+<area shape="rect" id="Node000003" href="$classModelimpl.html#a703ac2d7c4099c99863160376dbc35ff" title="add function for the model." alt="" coords="531,5,653,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="422,17,515,17,515,22,422,22"/>
+<area shape="rect" id="Node000005" href="$classModelimpl.html#a833e8e152d27043a11c0ddd37c957582" title="Flow iterator begin." alt="" coords="508,57,676,85"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="445,69,492,69,492,74,445,74"/>
+<area shape="rect" id="Node000007" href="$classModelimpl.html#a02f3f9801481a8487ab534c52516d3ea" title="Flow iterator end." alt="" coords="514,109,670,137"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="439,121,498,121,498,126,439,126"/>
+<area shape="rect" id="Node000010" href="$classModelimpl.html#a6143a88404c19156897ebcb02568e6d0" title=" " alt="" coords="513,213,670,241"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="439,225,497,225,497,230,439,230"/>
+<area shape="rect" id="Node000012" href="$classModelimpl.html#aad645808949f744e33f347590eeddee9" title="System iterator begin." alt="" coords="497,273,686,301"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="434,285,482,285,482,290,434,290"/>
+<area shape="rect" id="Node000014" href="$classModelimpl.html#a7a3e12f11303547f15c06b35efe15137" title="System iterator end." alt="" coords="503,333,680,361"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="450,345,487,345,487,350,450,350"/>
+</map>

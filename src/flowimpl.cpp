@@ -45,21 +45,7 @@ double Flowimpl::getValue() const{
     return value;
 }
 
-// Sobrecarga do operador de atribuição
-Flow& Flowimpl::operator=(const Flow& other) {
 
-    if (this == &other) {
-        return *this; 
-    }
-   
-    name = other.getName();
-    value = other.getValue();
-    origin = other.getOrigin();
-    destination = other.getDestination();
-
-    return *this;
-
-}
 
 // Sobrecarga do operador de igualdade
 bool Flowimpl::operator==(const Flow& other) const{

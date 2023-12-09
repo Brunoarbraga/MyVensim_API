@@ -1,7 +1,11 @@
 <map id="Modelimpl::system_begin" name="Modelimpl::system_begin">
-<area shape="rect" id="Node000001" title="System iterator begin." alt="" coords="232,32,421,60"/>
-<area shape="rect" id="Node000002" href="$classModelimpl.html#ad10c783a3dd9e877a678ee6f452ca021" title="Copy constructor for Modelimpl." alt="" coords="11,5,178,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,36,178,31,179,26,216,30"/>
-<area shape="rect" id="Node000003" href="$classModelimpl.html#acc90cb69f03062e203bbba4b2f474c34" title="Modelimpl virtual destructor." alt="" coords="5,57,184,85"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,61,184,64,184,59,216,55"/>
+<area shape="rect" id="Node000001" title="System iterator begin." alt="" coords="481,65,670,93"/>
+<area shape="rect" id="Node000002" href="$classModelimpl.html#ad10c783a3dd9e877a678ee6f452ca021" title="Copy constructor for Modelimpl." alt="" coords="260,5,428,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="504,64,400,36,401,31,506,58"/>
+<area shape="rect" id="Node000003" href="$classModelHandle.html#af0dd53ac43894c09687c47708e1b1673" title="System iterator begin." alt="" coords="262,57,426,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="466,82,426,82,426,77,466,77"/>
+<area shape="rect" id="Node000005" href="$classModelimpl.html#acc90cb69f03062e203bbba4b2f474c34" title="Modelimpl virtual destructor." alt="" coords="255,125,433,153"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="506,100,401,127,400,122,504,95"/>
+<area shape="rect" id="Node000004" href="$classModelHandle.html#aff07be25f2e12a0b415812a5e083afcc" title=" " alt="" coords="5,65,207,93"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="247,82,207,82,207,77,247,77"/>
 </map>

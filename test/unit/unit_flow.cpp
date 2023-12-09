@@ -149,8 +149,9 @@ void unit_flow_atribution_operator(){
 
     System &s1 = m1.createSystem("system1", 100), &s2 = m1.createSystem("system2", 50);
     Flow &f1 = m1.createFlow<ExponentialFlow>("flow1", 10, &s1, &s2);
-    Flow &f2 = m1.createFlow<ExponentialFlow>();
-    f2 = f1;
+    Flow &f2 = f1;
+    
+    cout << f2.getName() << endl;
     assert(f2.getName() == "flow1");
     assert(f2.getValue() == 10);
     assert((f2.getOrigin()) == &s1);

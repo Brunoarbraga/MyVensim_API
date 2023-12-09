@@ -2,6 +2,7 @@
 #define MODELIMPL_H
 
 #include "model.h"
+#include "handleBodySemDebug.h"
 
 
 /**
@@ -14,7 +15,7 @@
  * keeping track of the time and values while doing it.
  * 
  */
-class Modelimpl : public Model {
+class Modelimpl : public Body {
 
     protected:
 
@@ -68,33 +69,6 @@ class Modelimpl : public Model {
          */
         Modelimpl& operator=(const Modelimpl& other);
 
-        /**
-         * @brief add function for the model.
-         *
-         * Overloaded function to add a Flow to the Modelimpl. Adds it to the flowVector model atribute
-         * via the push_back() method. 
-         * 
-         * @param flow flow to be added to the model, can be any of the flow derived classes 
-         * 
-         * @return reutrns a boolean value, true if the addition was successful, false otherwise.
-         * Used to verify the integrity of the function call before moving on with the model simulation.
-         * 
-         */
-        bool add(Flow* flow);
- 
-        /**
-         * @brief add function for the model.
-         *
-         * Overloaded function to add a System to the Modelimpl. Adds it to the systemVector model atribute
-         * via the push_back() method. 
-         * 
-         * @param system System to be added to the Modelimpl.
-         * 
-         * @return reutrns a boolean value, true if the addition was successful, false otherwise. 
-         * Used to verify the integrity of the function call before moving on with the model simulation.
-         * 
-         */            
-        bool add(System* system);
 
     public:
 
@@ -248,7 +222,33 @@ class Modelimpl : public Model {
         flowit flow_end();        
 
         
-
+        /**
+         * @brief add function for the model.
+         *
+         * Overloaded function to add a Flow to the Modelimpl. Adds it to the flowVector model atribute
+         * via the push_back() method. 
+         * 
+         * @param flow flow to be added to the model, can be any of the flow derived classes 
+         * 
+         * @return reutrns a boolean value, true if the addition was successful, false otherwise.
+         * Used to verify the integrity of the function call before moving on with the model simulation.
+         * 
+         */
+        bool add(Flow* flow);
+ 
+        /**
+         * @brief add function for the model.
+         *
+         * Overloaded function to add a System to the Modelimpl. Adds it to the systemVector model atribute
+         * via the push_back() method. 
+         * 
+         * @param system System to be added to the Modelimpl.
+         * 
+         * @return reutrns a boolean value, true if the addition was successful, false otherwise. 
+         * Used to verify the integrity of the function call before moving on with the model simulation.
+         * 
+         */            
+        bool add(System* system);
 
         bool remove(Flow* flow);
         bool remove(System* system);
@@ -289,6 +289,107 @@ class Modelimpl : public Model {
          * @return returns a boolean, true if the Models are equal, false otherwise.
          * 
          */
+};
+
+class ModelHandle : public Model , public Handle<Modelimpl>{
+    
+    public:
+
+        ModelHandle(){
+            pImpl_->setName("");
+        }
+
+        ModelHandle(string name){
+            pImpl_->setName(name);
+        }
+
+        ModelHandle(System* systems){
+            pImpl_->setName(""); 
+            pImpl_->add(systems);
+        }
+
+        ModelHandle(Flow* flows){
+            pImpl_->setName("");
+            pImpl_->add(flows);
+        }
+
+        ModelHandle(string name, System* systems, Flow* flows){
+            pImpl_->setName(name);
+            pImpl_->add(systems);
+            pImpl_->add(flows);
+        }
+
+        ModelHandle(Model& model){
+            
+            this->setName(model.getName());
+
+            for(systemit it = system_begin(); it < system_end(); it++){
+                add(*it);
+            }
+
+
+            for(flowit it = flow_begin(); it < flow_end(); it++){
+                add(*it);
+            }
+
+        }
+
+        ~ModelHandle(){}
+
+        const string getName() const{
+            return pImpl_->getName();
+        }
+
+        bool setName(string name){
+            return pImpl_->setName(name);
+        }
+
+        systemit system_begin(){return pImpl_->system_begin();}
+        systemit system_end(){return pImpl_->system_end();}
+
+        flowit flow_begin(){return pImpl_->flow_begin();}
+        flowit flow_end(){return pImpl_->flow_end();}
+
+        modelit model_begin(){return pImpl_->model_begin();}
+        modelit model_end(){return pImpl_->model_end();}
+
+        bool remove(Flow* flow){
+            return pImpl_->remove(flow);
+        }
+
+        bool remove(System* system){
+            return pImpl_->remove(system);
+        }
+
+        bool run(int start_time, int end_time){
+            return pImpl_->run(start_time, end_time);
+        }
+
+        void printModel(){
+            return pImpl_->printModel();
+        }
+
+        bool add(Flow* flow){
+            return pImpl_->add(flow);
+        }
+
+        bool add(System* system){
+            return pImpl_->add(system);
+        }
+
+        Model& createModel(){return pImpl_->createModel();}
+        Model& createModel(string name){return pImpl_->createModel(name);}
+        Model& createModel(System* systems){return pImpl_->createModel(systems);}
+        Model& createModel(Flow* flows){return pImpl_->createModel(flows);}
+        Model& createModel(string name, System* systems, Flow* flows){return pImpl_->createModel(name, systems, flows);}
+        Model& createModel(Model& copiedModel){return pImpl_->createModel(copiedModel);}
+
+        System& createSystem(){return pImpl_->createSystem();}
+        System& createSystem(string name){return pImpl_->createSystem(name);}
+        System& createSystem(double value){return pImpl_->createSystem(value);}
+        System& createSystem(string name, double value){return pImpl_->createSystem(name, value);}
+        System& createSystem(System& system){return pImpl_->createSystem(system);}
+
 };
 
 #endif

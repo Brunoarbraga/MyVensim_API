@@ -35,7 +35,7 @@ ostream& operator<<(ostream& os, const Systemimpl& system) {
 }
 
 // Sobrecarga operador de atribuição
-System& Systemimpl::operator=(const System& other) {
+Systemimpl& Systemimpl::operator=(const Systemimpl& other) {
     
     if (this == &other) {
         return *this; 

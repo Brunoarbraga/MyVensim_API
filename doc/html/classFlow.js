@@ -5,7 +5,6 @@ var classFlow =
     [ "getName", "classFlow.html#aa91a8025b6dbb27ee5137c7c9ad0c564", null ],
     [ "getOrigin", "classFlow.html#a34f428ea32203691a984acbe231e27ee", null ],
     [ "getValue", "classFlow.html#a8acd2815f580b2c0b29f7fd703b3cdc4", null ],
-    [ "operator=", "classFlow.html#a787f18fd0af6534e633712dd89da9ed5", null ],
     [ "operator==", "classFlow.html#a1ca12bafd7eb56ef6ceeb43d08472acc", null ],
     [ "run", "classFlow.html#a1cac6068ee3ed3f03fa0708640eb2f02", null ],
     [ "setDestination", "classFlow.html#a12cba9e4e6baf4d040660387e88fcbb1", null ],

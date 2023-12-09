@@ -1,15 +1,7 @@
 <map id="unit_system_setName" name="unit_system_setName">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,173,112"/>
-<area shape="rect" id="Node000002" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="225,5,376,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,81,220,43,240,36,242,41,222,48,126,86"/>
-<area shape="rect" id="Node000005" href="$classModel.html#a2df458ec7720eb0e23da74db8b06ffdc" title=" " alt="" coords="221,57,380,85"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="172,85,205,81,205,86,173,90"/>
-<area shape="rect" id="Node000006" href="$classSystem.html#a25dff87b3fd15b008622ef9bd10ca1c0" title="Getter function for the name." alt="" coords="231,109,370,137"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="173,105,216,110,215,116,172,110"/>
-<area shape="rect" id="Node000007" href="$classSystem.html#aa10df41b213226403b10b010f726207e" title="Setter function for the name." alt="" coords="232,161,369,189"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="127,110,222,146,242,153,240,158,220,151,125,115"/>
-<area shape="rect" id="Node000003" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="428,5,607,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="376,17,413,17,413,22,376,22"/>
-<area shape="rect" id="Node000004" href="$classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f" title="Modelimpl default constructor." alt="" coords="655,5,823,33"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="608,17,640,17,640,22,608,22"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,173,33"/>
+<area shape="rect" id="Node000002" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="221,5,371,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,17,205,17,205,22,173,22"/>
+<area shape="rect" id="Node000003" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="419,5,598,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="371,17,403,17,403,22,371,22"/>
 </map>

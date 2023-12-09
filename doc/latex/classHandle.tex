@@ -1,0 +1,121 @@
+\doxysection{Handle\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{classHandle}{}\label{classHandle}\index{Handle$<$ T $>$@{Handle$<$ T $>$}}
+
+
+The classes \doxylink{classHandle}{Handle} and \doxylink{classBody}{Body} implements the "{}bridge"{} design pattern (also known as "{}handle/body idiom"{}).  
+
+
+
+
+{\ttfamily \#include $<$handle\+Body\+Sem\+Debug.\+h$>$}
+
+
+
+Inheritance diagram for Handle\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=550pt]{classHandle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Handle\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=228pt]{classHandle__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHandle_a6a72028918adf79c0ff8d9996e5e4107}{Handle}} ()
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classHandle_addd59fdf43baa517a06d44e1125b5ab1}{\texorpdfstring{$\sim$}{\string~}\+Handle}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle_af304e7014a2e600e235140d246783f85}{Handle}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classHandle}{Handle}} \&\mbox{\hyperlink{classHandle}{hd}})
+\begin{DoxyCompactList}\small\item\em copy constructor \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$ \& \mbox{\hyperlink{classHandle_a52e146e2a1427c8e7d3a692e9378185a}{operator=}} (\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classHandle}{Handle}} \&\mbox{\hyperlink{classHandle}{hd}})
+\begin{DoxyCompactList}\small\item\em assignment operator \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classHandle}{T}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHandle_a16021e57596d7369dfa1a9fadc35c06f}{p\+Impl\+\_\+}}
+\begin{DoxyCompactList}\small\item\em referência para a implementação \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+class Handle$<$ T $>$}
+The classes \doxylink{classHandle}{Handle} and \doxylink{classBody}{Body} implements the "{}bridge"{} design pattern (also known as "{}handle/body idiom"{}). 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classHandle_a6a72028918adf79c0ff8d9996e5e4107}\label{classHandle_a6a72028918adf79c0ff8d9996e5e4107} 
+\index{Handle$<$ T $>$@{Handle$<$ T $>$}!Handle@{Handle}}
+\index{Handle@{Handle}!Handle$<$ T $>$@{Handle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Handle()}{Handle()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{class}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classHandle}{\+::\+Handle}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructor 
+
+\Hypertarget{classHandle_addd59fdf43baa517a06d44e1125b5ab1}\label{classHandle_addd59fdf43baa517a06d44e1125b5ab1} 
+\index{Handle$<$ T $>$@{Handle$<$ T $>$}!````~Handle@{\texorpdfstring{$\sim$}{\string~}Handle}}
+\index{````~Handle@{\texorpdfstring{$\sim$}{\string~}Handle}!Handle$<$ T $>$@{Handle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Handle()}{\string~Handle()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{class}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{virtual}} \mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::\texorpdfstring{$\sim$}{\string~}\mbox{\hyperlink{classHandle}{Handle}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Destructor. 
+
+\Hypertarget{classHandle_af304e7014a2e600e235140d246783f85}\label{classHandle_af304e7014a2e600e235140d246783f85} 
+\index{Handle$<$ T $>$@{Handle$<$ T $>$}!Handle@{Handle}}
+\index{Handle@{Handle}!Handle$<$ T $>$@{Handle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Handle()}{Handle()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{class}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classHandle}{\+::\+Handle}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$ \&}]{hd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+copy constructor 
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classHandle_a52e146e2a1427c8e7d3a692e9378185a}\label{classHandle_a52e146e2a1427c8e7d3a692e9378185a} 
+\index{Handle$<$ T $>$@{Handle$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!Handle$<$ T $>$@{Handle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{class}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$ \& \mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\mbox{\hyperlink{classHandle}{\+::operator}}= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classHandle}{const}} \mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$ \&}]{hd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+assignment operator 
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classHandle_a16021e57596d7369dfa1a9fadc35c06f}\label{classHandle_a16021e57596d7369dfa1a9fadc35c06f} 
+\index{Handle$<$ T $>$@{Handle$<$ T $>$}!pImpl\_@{pImpl\_}}
+\index{pImpl\_@{pImpl\_}!Handle$<$ T $>$@{Handle$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{pImpl\_}{pImpl\_}}
+{\footnotesize\ttfamily template$<$\mbox{\hyperlink{classHandle}{class}} \mbox{\hyperlink{classHandle}{T}} $>$ \\
+\mbox{\hyperlink{classHandle}{T}}\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classHandle}{Handle}}$<$ \mbox{\hyperlink{classHandle}{T}} $>$\+::p\+Impl\+\_\+\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+referência para a implementação 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{handleBodySemDebug_8h}{handle\+Body\+Sem\+Debug.\+h}}\end{DoxyCompactItemize}

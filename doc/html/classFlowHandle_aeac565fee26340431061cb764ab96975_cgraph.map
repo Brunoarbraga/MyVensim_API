@@ -1,0 +1,11 @@
+<map id="FlowHandle::FlowHandle" name="FlowHandle::FlowHandle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,84,189,112"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a7bb059cd3d2e5a17d930823ecf6d1993" title="Getter function for the flow destination." alt="" coords="237,5,392,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,81,236,43,256,36,257,41,238,48,137,86"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#aa91a8025b6dbb27ee5137c7c9ad0c564" title="Getter function for the name." alt="" coords="255,57,374,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,84,239,78,240,83,189,89"/>
+<area shape="rect" id="Node000004" href="$classFlow.html#a34f428ea32203691a984acbe231e27ee" title="Getter function for the flow origin." alt="" coords="255,109,374,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,106,240,112,239,117,188,111"/>
+<area shape="rect" id="Node000005" href="$classFlow.html#a8acd2815f580b2c0b29f7fd703b3cdc4" title="Getter function for the value." alt="" coords="256,161,373,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="138,110,238,146,258,153,256,158,236,151,136,115"/>
+</map>

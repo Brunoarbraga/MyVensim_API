@@ -1,17 +1,7 @@
 <map id="unit_model_system_end" name="unit_model_system_end">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,109,186,137"/>
-<area shape="rect" id="Node000002" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="239,5,389,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,107,169,76,233,43,250,36,252,41,235,48,172,81,120,111"/>
-<area shape="rect" id="Node000005" href="$classModel.html#a2df458ec7720eb0e23da74db8b06ffdc" title=" " alt="" coords="234,57,394,85"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="156,106,237,87,238,92,158,111"/>
-<area shape="rect" id="Node000006" href="$classSystem.html#a41b673faa6c199eb8e4f204639fab4f2" title="Getter function for the value." alt="" coords="246,109,382,137"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="186,121,231,121,231,126,186,126"/>
-<area shape="rect" id="Node000007" href="$classModel.html#af7ade11b6b9306b58b01fcabab9ad170" title="System iterator begin." alt="" coords="234,161,394,189"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="158,135,238,155,237,160,156,140"/>
-<area shape="rect" id="Node000008" href="$classModel.html#a97c5163b874568297620b1daeb1298ea" title="System iterator end." alt="" coords="240,213,388,241"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="120,135,172,166,235,198,252,205,250,210,233,203,169,170,118,140"/>
-<area shape="rect" id="Node000003" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="442,5,621,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="389,17,426,17,426,22,389,22"/>
-<area shape="rect" id="Node000004" href="$classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f" title="Modelimpl default constructor." alt="" coords="669,5,837,33"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="622,17,654,17,654,22,622,22"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,186,33"/>
+<area shape="rect" id="Node000002" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="234,5,384,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,17,218,17,218,22,186,22"/>
+<area shape="rect" id="Node000003" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="432,5,611,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="384,17,416,17,416,22,384,22"/>
 </map>

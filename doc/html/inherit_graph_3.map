@@ -1,5 +1,7 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classVensim.html" title=" " alt="" coords="5,5,75,33"/>
-<area shape="rect" id="Node000001" href="$classVensimimpl.html" title=" " alt="" coords="123,5,221,33"/>
-<area shape="poly" id="edge7_Node000000_Node000001" title=" " alt="" coords="90,17,122,17,122,22,90,22"/>
+<area shape="rect" id="Node000000" href="$classHandle.html" title=" " alt="" coords="5,5,181,33"/>
+<area shape="rect" id="Node000001" href="$classSystemHandle.html" title=" " alt="" coords="229,32,345,60"/>
+<area shape="poly" id="edge11_Node000000_Node000001" title=" " alt="" coords="196,31,229,35,228,40,196,36"/>
+<area shape="rect" id="Node000002" href="$classSystem.html" title="Represents the System." alt="" coords="58,57,128,85"/>
+<area shape="poly" id="edge12_Node000002_Node000001" title=" " alt="" coords="143,62,228,51,228,56,144,67"/>
 </map>

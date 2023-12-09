@@ -142,19 +142,6 @@ class Flow {
         virtual double getValue() const = 0;
 
         /**
-         * @brief Flow's atribution operator overload.
-         *
-         * Atributes one Flow to another, that is, copies all of its informations (name, value, origin and destination)
-         * and atributes them to the left-side Flow atributes.
-         * 
-         * @param other Flow to be atributed to the left-side of the operator Flow 
-         * 
-         * @return returns a Flow memory adress
-         * 
-         */
-        virtual Flow& operator=(const Flow& other) = 0;
-
-        /**
          * @brief Overload of equality operator for Flow.
          *
          * Checks if two Flows are equal, considering all their atributes.

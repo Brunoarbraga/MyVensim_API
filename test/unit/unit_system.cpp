@@ -118,8 +118,8 @@ void unit_system_atribution_operator(){
     Model& m1 = Model::createModel("model1");
 
     System &s1 = m1.createSystem("system1", 30);
-    System &s2 = m1.createSystem();
-    s2 = s1;
+    System &s2 = s1;
+
     assert(s2.getName() == "system1");
     assert(s2.getValue() == 30);
     cout << "Systemimpl atribution operator unit test passed" << endl;

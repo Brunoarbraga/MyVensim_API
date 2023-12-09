@@ -15,7 +15,6 @@ class ExponentialFlow : public Flowimpl {
 
     public:
 
-        using Flowimpl::operator=;
 
         /**
          * @brief ExponentialFlow default constructor.
@@ -61,8 +60,6 @@ class LogisticalFlow : public Flowimpl {
 
     public:
 
-        using Flowimpl::operator=;
-
         /**
          * @brief LogisticalFlow default constructor.
          *
@@ -106,8 +103,6 @@ class LogisticalFlow : public Flowimpl {
 class ComplexFlow : public Flowimpl {
 
     public:
-
-        using Flowimpl::operator=;
 
         /**
          * @brief ComplexFlow default constructor.

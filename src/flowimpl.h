@@ -3,6 +3,7 @@
 
 
 #include "flow.h"
+#include "handleBodySemDebug.h"
 
 /**
  * @brief Represents the Flowimpl.
@@ -13,7 +14,7 @@
  * population growth of a given nation system.
  * 
  */
-class Flowimpl : public Flow {
+class Flowimpl : public Body {
 
     protected:
 
@@ -224,19 +225,6 @@ class Flowimpl : public Flow {
         double getValue() const;
 
         /**
-         * @brief Flowimpl's atribution operator overload.
-         *
-         * Atributes one Flowimpl to another, that is, copies all of its informations (name, value, origin and destination)
-         * and atributes them to the left-side Flowimpl atributes.
-         * 
-         * @param other Flowimpl to be atributed to the left-side of the operator Flowimpl 
-         * 
-         * @return returns a Flowimpl memory adress
-         * 
-         */
-        Flow& operator=(const Flow& other);
-
-        /**
          * @brief Overload of equality operator for Flowimpl.
          *
          * Checks if two Flowimpls are equal, considering all their atributes.
@@ -249,6 +237,75 @@ class Flowimpl : public Flow {
         bool operator==(const Flow& other) const;
 
         
+};
+
+template <typename T>
+class FlowHandle : public Flow , public Handle<T>{
+    public:
+
+        virtual ~FlowHandle(){}
+
+        FlowHandle(){
+            Handle<T>::pImpl_->setName("");
+            Handle<T>::pImpl_->setValue(0.0);
+            Handle<T>::pImpl_->setOrigin(nullptr);
+            Handle<T>::pImpl_->setDestination(nullptr);
+
+        }
+        FlowHandle(string name, double value, System* origin, System* destination){
+            Handle<T>::pImpl_->setName(name);
+            Handle<T>::pImpl_->setValue(value);
+            Handle<T>::pImpl_->setOrigin(origin);
+            Handle<T>::pImpl_->setDestination(destination);
+        }
+        FlowHandle(Flow& flow){
+            Handle<T>::pImpl_->setName(flow.getName());
+            Handle<T>::pImpl_->setValue(flow.getValue());
+            Handle<T>::pImpl_->setOrigin(flow.getOrigin());
+            Handle<T>::pImpl_->setDestination(flow.getDestination());
+        }
+        
+
+        double run(){
+            return Handle<T>::pImpl_->run();
+        }
+
+
+        bool setOrigin(System* origin){
+            return Handle<T>::pImpl_->setOrigin(origin);
+        }
+        bool setDestination(System* destination){
+            return Handle<T>::pImpl_->setDestination(destination);
+        }
+        bool setName(string name){
+            return Handle<T>::pImpl_->setName(name);
+        }
+        bool setValue(double value){
+            return Handle<T>::pImpl_->setValue(value);
+        }
+
+
+        System* getOrigin() const{
+            return Handle<T>::pImpl_->getOrigin();
+        }
+        System* getDestination() const{
+            return Handle<T>::pImpl_->getDestination();
+        }
+        string getName() const{
+            return Handle<T>::pImpl_->getName();
+        }
+        double getValue() const{
+            return Handle<T>::pImpl_->getValue();
+        }
+
+        Flow& operator=(const Flow& other){
+            return Handle<T>::pImpl->operator=(other);
+        }
+
+        bool operator==(const Flow& other) const{
+            return Handle<T>::pImpl_->operator==(other);
+        }
+
 };
 
 

@@ -1,21 +1,7 @@
 <map id="logisticalFuncionalTest" name="logisticalFuncionalTest">
-<area shape="rect" id="Node000001" title="Logistical funtional test function." alt="" coords="5,136,174,164"/>
-<area shape="rect" id="Node000002" href="$classModel.html#ac4fae3f8be03e46d81eeb4d6b2e6c99b" title=" " alt="" coords="231,5,372,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,133,153,90,186,65,220,44,234,37,236,42,223,48,189,70,156,94,107,137"/>
-<area shape="rect" id="Node000004" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="226,57,377,85"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="125,133,221,95,241,88,243,93,223,100,127,138"/>
-<area shape="rect" id="Node000007" href="$classModel.html#a2df458ec7720eb0e23da74db8b06ffdc" title=" " alt="" coords="222,109,381,137"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="174,137,206,132,206,138,174,142"/>
-<area shape="rect" id="Node000008" href="$classFlow.html#a8acd2815f580b2c0b29f7fd703b3cdc4" title="Getter function for the value." alt="" coords="243,161,360,189"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="174,157,228,164,228,169,174,163"/>
-<area shape="rect" id="Node000009" href="$classSystem.html#a41b673faa6c199eb8e4f204639fab4f2" title="Getter function for the value." alt="" coords="234,213,369,241"/>
-<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="128,162,223,198,243,205,241,210,221,203,126,167"/>
-<area shape="rect" id="Node000010" href="$classModel.html#aa2c58d924e023fe497cefbc6547dbea6" title="Run function for the model." alt="" coords="256,265,347,293"/>
-<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="107,162,157,205,223,250,243,259,241,264,220,255,153,209,104,166"/>
-<area shape="rect" id="Node000003" href="$classModel.html#a7cfac518d3f6ec84e858568175a28f20" title="add function for the model." alt="" coords="472,5,565,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,17,456,17,456,22,372,22"/>
-<area shape="rect" id="Node000005" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="429,57,608,85"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="377,69,414,69,414,74,377,74"/>
-<area shape="rect" id="Node000006" href="$classModelimpl.html#a04c11f4a55a7f8d29f4aa7939e146d4f" title="Modelimpl default constructor." alt="" coords="656,57,824,85"/>
-<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="609,69,641,69,641,74,609,74"/>
+<area shape="rect" id="Node000001" title="Logistical funtional test function." alt="" coords="5,5,174,33"/>
+<area shape="rect" id="Node000002" href="$classModel.html#a51a6961eef61a054605c3b781410d753" title=" " alt="" coords="222,5,372,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,17,206,17,206,22,174,22"/>
+<area shape="rect" id="Node000003" href="$classModelimpl.html#a10be44f13a078279fe45c605dc5ce599" title=" " alt="" coords="420,5,599,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,17,404,17,404,22,372,22"/>
 </map>

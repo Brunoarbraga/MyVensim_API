@@ -1,0 +1,7 @@
+<map id="SystemHandle::SystemHandle" name="SystemHandle::SystemHandle">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,32,225,60"/>
+<area shape="rect" id="Node000002" href="$classSystemimpl.html#a030df6346b95c3e4960c8db9bed5617b" title="Setter function for the name." alt="" coords="273,5,439,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="225,31,257,27,257,33,226,36"/>
+<area shape="rect" id="Node000003" href="$classSystemimpl.html#a6bb7c72a9b7c0725b900bb26c7cf8038" title="Setter function for the value." alt="" coords="274,57,438,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="226,55,259,58,258,64,225,60"/>
+</map>

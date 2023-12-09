@@ -86,19 +86,6 @@ class System {
         friend ostream& operator<<(ostream& os, const System& system);
 
         /**
-         * @brief System's atribution operator overload.
-         *
-         * Atributes one System to another, that is, copies all of its informations (name and value)
-         * and atributes them to the left-side System atributes.
-         * 
-         * @param other System to be atributed to the left-side of the operator System  
-         * 
-         * @return returns a System memory adress
-         * 
-         */
-        virtual System& operator=(const System& other) = 0;
-
-        /**
          * @brief Overload of equality operator for System.
          *
          * Checks if two Systems are equal, considering all their atributes.

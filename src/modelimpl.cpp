@@ -11,7 +11,7 @@ Model& Model::createModel(){
 }
 
 Model& Modelimpl::createModel(){
-    Model *model = new Modelimpl();
+    Model *model = new ModelHandle();
     modelVector.push_back(model);
     return *model;
 }
@@ -23,7 +23,7 @@ Model& Model::createModel(string name){
 }
 
 Model& Modelimpl::createModel(string name){
-    Model *model = new Modelimpl(name);
+    Model *model = new ModelHandle(name);
     modelVector.push_back(model);
     return *model;
 }
@@ -35,7 +35,7 @@ Model& Model::createModel(System* systems){
 }
 
 Model& Modelimpl::createModel(System* systems){
-    Model *model = new Modelimpl(systems);
+    Model *model = new ModelHandle(systems);
     modelVector.push_back(model);
     return *model;
 }
@@ -47,7 +47,7 @@ Model& Model::createModel(Flow* flows){
 }
 
 Model& Modelimpl::createModel(Flow* flows){
-    Model *model = new Modelimpl(flows);
+    Model *model = new ModelHandle(flows);
     modelVector.push_back(model);
     return *model;
 }
@@ -59,7 +59,7 @@ Model& Model::createModel(string name, System* systems, Flow* flows){
 }
 
 Model& Modelimpl::createModel(string name, System* systems, Flow* flows){
-    Model *model = new Modelimpl(name, systems, flows);
+    Model *model = new ModelHandle(name, systems, flows);
     modelVector.push_back(model);
     return *model;
 }
@@ -71,7 +71,7 @@ Model& Model::createModel(Model& copiedModel){
 }
 
 Model& Modelimpl::createModel(Model& copiedModel){
-    Model *model = new Modelimpl(copiedModel);
+    Model *model = new ModelHandle(copiedModel);
     modelVector.push_back(model);
     return *model;
 }
@@ -82,31 +82,31 @@ Model& Modelimpl::createModel(Model& copiedModel){
 
 
 System& Modelimpl::createSystem(string name, double value){
-    System *system = new Systemimpl(value, name);
+    System *system = new SystemHandle(value, name);
     add(system);
     return *system;
 }
 
 System& Modelimpl::createSystem(){
-    System *system = new Systemimpl();
+    System *system = new SystemHandle();
     add(system);
     return *system;
 }
 
 System& Modelimpl::createSystem(string name){
-    System *system = new Systemimpl(name);
+    System *system = new SystemHandle(name);
     add(system);
     return *system;
 }
 
 System& Modelimpl::createSystem(double value){
-    System *system = new Systemimpl(value);
+    System *system = new SystemHandle(value);
     add(system);
     return *system;
 }
 
 System& Modelimpl::createSystem(System& s){
-    System *system = new Systemimpl(s);
+    System *system = new SystemHandle(s);
     add(system);
     return *system;
 }
@@ -135,20 +135,13 @@ Modelimpl::~Modelimpl(){
 
     for(flowit it = flow_begin(); it < flow_end(); it++)
         delete *it;
-    
-
-    for(modelit it = model_begin(); it < model_end(); it++)
-        if(*it == this){
-            modelVector.erase(it);
-            break;
-        }
         
 }
 
 
 Modelimpl::Modelimpl(Model &model){
     
-     name = model.getName();
+    name = model.getName();
 
     for(systemit it = system_begin(); it < system_end(); it++){
         add(*it);
