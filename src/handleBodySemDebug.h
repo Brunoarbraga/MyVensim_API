@@ -2,12 +2,18 @@
  \file Bridge.h
  \brief The classes Handle and Body implements "bridge" design pattern (also known as 
 	"handle/body idiom").The class Body was implemented based on the class teCounted
-	writed by Ricardo Cartaxo and Gilberto Câmara and founded in the geographic library TerraLib.
+	writed by Ricardo Cartaxo and Gilberto Cï¿½mara and founded in the geographic library TerraLib.
  \author Prof. Tiago Garcia de Senna Carneiro - UFOP, MG, Brazil
 */
 
 #if ! defined( HANDLE_BODY )
 #define HANDLE_BODY
+
+
+extern int numHandleCreated;
+extern int numHandleDeleted;
+extern int numBodyCreated;
+extern int numBodyDeleted;
 
 /** 
  * \brief
@@ -26,10 +32,11 @@ public:
 	Handle<T>( ){  
 		pImpl_ = new T; 
         pImpl_->attach();  
+		numHandleCreated++;
 	}
 	
 	/// Destructor
-	virtual ~Handle<T>(){ pImpl_->detach(); 	}
+	virtual ~Handle<T>(){ pImpl_->detach(); numHandleDeleted++; 	}
 
 	/// copy constructor 
 	Handle<T>( const Handle& hd ):pImpl_( hd.pImpl_ ) { pImpl_->attach();  }
@@ -46,7 +53,7 @@ public:
 	}
 protected:
 
-	/// referência para a implementação
+	/// referï¿½ncia para a implementaï¿½ï¿½o
 	T *pImpl_; 
 };
 
@@ -54,14 +61,14 @@ protected:
  * \brief
  * 
  * The class Implementation was implemented based on the class teCounted writed by Ricardo Cartaxo 
- * and Gilberto Câmara and founded in the geographic library TerraLib.
+ * and Gilberto Cï¿½mara and founded in the geographic library TerraLib.
  */
 
 class Body
 {	
 public:
 	/// Constructor: zero references when the object is being built
-	Body(): refCount_ ( 0 ){  }
+	Body(): refCount_ ( 0 ){numBodyCreated++;  }
 	
 
 	/// Increases the number of references to this object
@@ -79,7 +86,7 @@ public:
 	int refCount(){ return refCount_; }
 
 	/// Destructor
-	virtual ~Body(){}
+	virtual ~Body(){numBodyDeleted++;}
 
 private:
 
