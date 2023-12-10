@@ -208,6 +208,12 @@ bool Modelimpl::remove(Flow* flow){
 
 }
 
+bool Modelimpl::deleteModel(Model::modelit model){
+    modelVector.erase(model);
+    return true;
+}
+
+
 bool Modelimpl::run(int startTime, int endTime){
 
     System* origin_system;

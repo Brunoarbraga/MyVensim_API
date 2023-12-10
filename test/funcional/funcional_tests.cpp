@@ -6,6 +6,11 @@
 #include <cassert>
 #include <cmath>
 
+int numHandleCreated = 0;
+int numHandleDeleted = 0;
+int numBodyCreated = 0;
+int numBodyDeleted = 0;
+
 bool exponentialFuncionalTest(){
     
     Model& m1 = Model::createModel("model1");
@@ -21,6 +26,9 @@ bool exponentialFuncionalTest(){
     assert(trunc(fabs(pop2.getValue() - 63.3968)*1000) < 1);
 
     cout << "Passed 100 iterations exponential test" << endl;
+
+    delete(&m1);
+
 
     return true;
 }
@@ -38,6 +46,9 @@ bool logisticalFuncionalTest(){
     assert(trunc(fabs(p2.getValue() - 21.7833)*1000) < 1);
 
     cout << "Passed 100 iterations logistical test" << endl;
+
+    delete(&m2);
+
 
     return true;
     
@@ -71,6 +82,9 @@ bool complexFuncionalTest(){
     assert(trunc(fabs(Q5.getValue() - 16.4612)*1000) < 1);
 
     cout << "Passed 100 iterations complex test" << endl;
+
+    delete(&m3);
+
     
 
     return true;

@@ -11,6 +11,9 @@ using namespace std;
 int main(){
 
     cout << "--------------------------------" << endl;
+    run_unit_tests_HandleBody();
+
+    cout << "--------------------------------" << endl;
     run_unit_tests_flow();
 
     cout << "--------------------------------" << endl;
@@ -18,9 +21,6 @@ int main(){
 
     cout << "--------------------------------" << endl;
     run_unit_tests_model();
-
-    cout << "--------------------------------" << endl;
-    run_unit_tests_HandleBody();
 
     cout << "--------------------------------" << endl;
     

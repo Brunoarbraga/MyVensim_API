@@ -253,6 +253,8 @@ class Modelimpl : public Body {
         bool remove(Flow* flow);
         bool remove(System* system);
 
+        bool deleteModel(Model::modelit model);
+
 
         /**
          * @brief Run function for the model.
@@ -334,7 +336,16 @@ class ModelHandle : public Model , public Handle<Modelimpl>{
 
         }
 
-        ~ModelHandle(){}
+        ~ModelHandle(){
+
+            for(Model::modelit it = model_begin(); it < model_end(); it++){
+                if(*it == this){
+                    pImpl_->deleteModel(it);
+                    break;
+                } 
+            }
+        
+        }
 
         const string getName() const{
             return pImpl_->getName();

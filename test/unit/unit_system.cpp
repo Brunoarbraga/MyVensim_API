@@ -9,7 +9,10 @@ void unit_system_default_constructor(){
 
     System &s1 = m1.createSystem();
     assert(s1.getValue() == 0);
-    cout << "Systemimpl default constructor unit test passed" << endl;    
+    cout << "Systemimpl default constructor unit test passed" << endl;   
+
+    delete(&m1);
+
 
 
 }
@@ -25,6 +28,9 @@ void unit_system_copy_constructor(){
     assert(s2 == s1);
     cout << "Systemimpl copy constructor unit test passed" << endl;
 
+    delete(&m1);
+
+
 
 }
 
@@ -35,6 +41,9 @@ void unit_system_value_constructor(){
     System &s3 = m1.createSystem(10);
     assert(s3.getValue() == 10);
     cout << "Systemimpl value constructor unit test passed" << endl;
+
+    delete(&m1);
+
 
 
 }
@@ -48,6 +57,9 @@ void unit_system_name_constructor(){
     assert(s4.getName() == "system4");
     cout << "Systemimpl name constructor unit test passed" << endl;
 
+    delete(&m1);
+
+
 
 }
 
@@ -60,6 +72,9 @@ void unit_system_complete_constructor(){
     assert(s5.getName() == "system5");
     
     cout << "Systemimpl complete constructor unit test passed" << endl;
+
+    delete(&m1);
+
 
 
 }
@@ -75,6 +90,9 @@ void unit_system_getValue(){
     assert(value == 100);
     cout << "Systemimpl getValue() unit test passed" << endl;
 
+    delete(&m1);
+
+
 }
 
 void unit_system_setValue(){
@@ -85,6 +103,8 @@ void unit_system_setValue(){
     s1.setValue(50);
     assert(s1.getValue() == 50);
     cout << "Systemimpl setValue() unit test passed" << endl;
+
+    delete(&m1);
 
 
 }
@@ -98,6 +118,9 @@ void unit_system_getName(){
     assert(name == "system1");
     cout << "Systemimpl getName() unit test passed" << endl;
 
+    delete(&m1);
+
+
 
 }
 
@@ -109,6 +132,9 @@ void unit_system_setName(){
     s1.setName("system1");
     assert(s1.getName() == "system1");
     cout << "Systemimpl setName() unit test passed" << endl;
+
+    delete(&m1);
+
 
 
 }
@@ -124,6 +150,9 @@ void unit_system_atribution_operator(){
     assert(s2.getValue() == 30);
     cout << "Systemimpl atribution operator unit test passed" << endl;
 
+    delete(&m1);
+
+
 
 }
 
@@ -134,6 +163,9 @@ void unit_system_equals_operator(){
     System &s1 = m1.createSystem("system", 10), &s2 = m1.createSystem("system", 10);
     assert(s1 == s2);
     cout << "Systemimpl equals operator unit test passed" << endl;
+
+    delete(&m1);
+
 
 }
 

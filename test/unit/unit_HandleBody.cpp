@@ -1,12 +1,14 @@
 #include "../../src/model.h"
 #include "../../src/systemimpl.h"
+#include <cassert>
+
+int numHandleCreated = 0;
+int numHandleDeleted = 0;
+int numBodyCreated = 0;
+int numBodyDeleted = 0;
 
 void unit_HandleBody(){
     
-    int numHandleCreated = 0;
-	int numHandleDeleted = 0;
-	int numBodyCreated = 0;
-	int numBodyDeleted = 0;
 
     // Apenas a implementacao da classe "Flux" precisa ser conhecida na
     // fase de "cria��o de objetos", pois o usu�rio precisa implementar 
@@ -29,14 +31,15 @@ void unit_HandleBody(){
     System* s1 = &m.createSystem("populacao",10.0);
     System* s2 = &m.createSystem("Teste", 7.90)   ;
     cout << "s1: " << s1->getName() << ", s2: " <<  s2->getName() << endl;
-    //s1 = s2;
-    *s1 = *s2;
+    s1 = s2;
+    //*s1 = *s2;
     cout << "s1: " << s1->getName() << ", s2: " <<  s2->getName() << endl;    
     cout << "s1: " << s1 << ", s2: " <<  s2 << endl;    
     
     
     // Fa�a o teste COM e SEM as chaves abaixo
 
+{
     // USANDO OBJETOS HANDLES (DELEGA��O)
     SystemHandle s3(7, "Tiago"), s4(8, "Antonio");
     cout << "s3: " << s3.getName() << ", s2: " <<  s4.getName() << endl;
@@ -44,11 +47,23 @@ void unit_HandleBody(){
     cout << "s3: " << s4.getName() << ", s2: " <<  s4.getName() << endl;        
 	s3 = s3;
 	cout << "s3: " << s4.getName() << ", s2: " <<  s4.getName() << endl;        
-   
+}
+
     
+    //m.run(0,30);
     // imprime relatorio
-    //cout << s1.getValue() << endl;
-    cout << s1->getValue() << endl;
+    //cout << s1->getValue() << endl;
+
+    assert(numHandleCreated == 6);
+    assert(numBodyCreated == 6);
+
+    delete(&m);
+
+    assert(numHandleDeleted == 6);
+    assert(numBodyDeleted == 6);
+   
+
+    
     cout << "Created handles: "  << numHandleCreated << endl;
     cout << "Deleted handles: "  << numHandleDeleted << endl;    
     cout << "Created bodies: "  << numBodyCreated << endl;

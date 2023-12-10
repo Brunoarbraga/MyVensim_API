@@ -12,6 +12,7 @@ void unit_model_default_constructor(){
     assert(m1.getName() == "");
     cout << "Model default constructor unit test passed" << endl;
 
+    delete(&m1);
 
 }
 
@@ -51,6 +52,10 @@ void unit_model_copy_constructor(){
 
     cout << "Model copy constructor unit test passed" << endl;
 
+    delete(&m1);
+    delete(&m2);
+
+
 
 }
 
@@ -59,6 +64,8 @@ void unit_model_name_constructor(){
     Model &m3 = Model::createModel("model3");
     assert(m3.getName() == "model3");
     cout << "Model name constructor unit test passed" << endl;
+
+    delete(&m3);
 
 
 }
@@ -73,6 +80,10 @@ void unit_model_system_constructor(){
     assert(*it == &s1);
     cout << "Model Systemimpl constructor unit test passed" << endl;
 
+    m4.remove(&s1);
+
+    delete(&m1);
+    delete(&m4);    
 
 }
 
@@ -86,6 +97,9 @@ void unit_model_flow_constructor(){
     assert(*it2 == &f1);
     cout << "Model Flow constructor unit test passed" << endl;
 
+    m5.remove(&f1);
+    delete(&m1);
+    delete(&m5);
 
 }
 
@@ -103,6 +117,11 @@ void unit_model_complete_constructor(){
     assert(*it4 == &f2);
     cout << "Model complete constructor unit test passed" << endl;
 
+    m6.remove(&s2);
+    m6.remove(&f2);
+
+    delete(&m6);
+    delete(&m1);
 
 
 }
@@ -123,6 +142,8 @@ void unit_model_add(){
     assert(*flow_it == &f1);
 
     cout << "Model add() unit test passed" << endl;
+
+    delete(&m1);
 
 
 }
@@ -146,6 +167,8 @@ void unit_model_remove(){
 
     cout << "Model remove() unit test passed" << endl;
 
+    delete(&m1);
+
 
 }
 
@@ -162,6 +185,9 @@ void unit_model_system_begin(){
 
 
     cout << "Model system_begin() unit test passed" << endl;
+
+    delete(&m1);
+
 }
 
 void unit_model_system_end(){
@@ -191,6 +217,10 @@ void unit_model_system_end(){
 
 
     cout << "Model system_end() unit test passed" << endl;
+
+    delete(&m1);
+    delete(&m2);
+
 }
 
 void unit_model_flow_begin(){
@@ -205,6 +235,8 @@ void unit_model_flow_begin(){
     assert(*(m1.flow_begin()) != &f2);
 
     cout << "Model flow_begin() unit test passed" << endl;
+
+    delete(&m1);
 
 
 }
@@ -235,6 +267,10 @@ void unit_model_flow_end(){
 
 
     cout << "Model flow_end() unit test passed" << endl;
+
+    delete(&m1);
+    delete(&m2);
+
 }
 
 void unit_model_run(){
@@ -245,6 +281,8 @@ void unit_model_run(){
     // we just have to check if the method returns true, given that the function
     // only returns true if thats the case, a guard we put inside of it.
     assert((m1.run(50,100)) == true);
+
+    delete(&m1);
 
 }
 
